@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# shellcheck shell=bash
+# NOTE: works on macOS system bash 3.2 as well as brew-installed bash 5+.
+# Avoid heredocs inside $(...) command substitution — bash 3.2 has a parser
+# bug there. Use `mktemp` + files instead.
 # =============================================================================
 # publish.sh — one-command release for Nepali Calendar
 #
@@ -125,25 +129,32 @@ else
 fi
 git push origin "$TAG" 2>/dev/null || c_info "Tag push skipped (already on remote)"
 
-RELEASE_NOTES=$(cat <<EOF
-## Nepali Calendar $VERSION
+# Write release notes to a temp file. macOS's system bash is 3.2, which has
+# a known parser bug with heredocs inside $(...) command substitution — avoid
+# by going through a file and passing --notes-file to gh.
+NOTES_FILE=$(mktemp -t nepali-calendar-release-notes)
+trap 'rm -f "$NOTES_FILE"' EXIT
+
+# Use a quoted heredoc ('EOF') so bash doesn't try to interpret backticks or
+# expand placeholders; sed substitutes them afterwards.
+cat > "$NOTES_FILE" <<'NOTES'
+## Nepali Calendar __VERSION__
 
 macOS menu-bar app showing today's Nepali (BS) date, with calendar grid,
 events, tithi, holidays, and daily rashifal.
 
 ### Install
 
-\`\`\`
-brew tap $GH_USER/tap
-brew install --cask nepali-calendar
-\`\`\`
+    brew tap __GH_USER__/tap
+    brew install --cask nepali-calendar
 
 ### First launch
 
 Right-click the app in /Applications and choose **Open** once to bypass
 Gatekeeper (the binary is ad-hoc signed; a Developer ID build is coming).
-EOF
-)
+NOTES
+/usr/bin/sed -i '' "s/__VERSION__/$VERSION/g" "$NOTES_FILE"
+/usr/bin/sed -i '' "s|__GH_USER__|$GH_USER|g" "$NOTES_FILE"
 
 if gh release view "$TAG" --repo "$GH_USER/$APP_REPO" >/dev/null 2>&1; then
     c_info "Release $TAG exists — re-uploading asset"
@@ -152,7 +163,7 @@ else
     gh release create "$TAG" "$ZIP" \
         --repo "$GH_USER/$APP_REPO" \
         --title "Nepali Calendar $VERSION" \
-        --notes "$RELEASE_NOTES"
+        --notes-file "$NOTES_FILE"
 fi
 c_done "Release $TAG published with NepaliCalendar.zip"
 
