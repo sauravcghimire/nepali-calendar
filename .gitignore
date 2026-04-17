@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Build output from scripts/build-app.sh
+build/
+
+# Xcode junk (in case someone opens the package in Xcode)
+*.xcodeproj/
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# The homebrew-tap lives in its own repo, don't track it here.
+homebrew-tap/

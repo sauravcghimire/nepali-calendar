@@ -1,0 +1,3654 @@
+{
+  "bsYear": 2083,
+  "months": {
+    "1": {
+      "1": {
+        "events": [
+          "नयाँ वर्ष",
+          "मेष संक्रान्ति",
+          "नयाँ वर्ष २०८३"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 14
+      },
+      "2": {
+        "events": [
+          "विश्व कला दिवस",
+          "अन्तर्राष्ट्रिय आरोग्य दिवस",
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 15
+      },
+      "3": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 16
+      },
+      "4": {
+        "events": [
+          "मातातीर्थ औंसी",
+          "आमाको मुख हेर्ने दिन"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 17
+      },
+      "5": {
+        "events": [
+          "ललितपुर मत्स्यन्द्रनाथ रथारोहण",
+          "विश्व सम्पदा दिवस",
+          "दक्षिण एशियाली ज्योतिष महासंघ स्थापना दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 18
+      },
+      "6": {
+        "events": [
+          "परशुराम जयन्ती"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 19
+      },
+      "7": {
+        "events": [
+          "अक्षय तृतीया व्रत",
+          "शिव पार्वती विवाह महोत्सव",
+          "राष्ट्रिय याक दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 20
+      },
+      "8": {
+        "events": [
+          "मंगलचौथी व्रत",
+          "छन्द दिवस",
+          "आद्यगुरु शंकराचार्य जयन्ती",
+          "श्री मच्छिन्द्रनाथ रथ यात्रा प्रारम्भ"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 21
+      },
+      "9": {
+        "events": [
+          "रामानुजाचार्य जयन्ती",
+          "विश्व पृथ्वी दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 22
+      },
+      "10": {
+        "events": [
+          "गङ्गा सप्तमी व्रत",
+          "विश्व पुस्तक तथा प्रतिलिपि अधिकार दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 23
+      },
+      "11": {
+        "events": [
+          "लोकतन्त्र दिवस",
+          "गोरखकाली पूजा",
+          "विश्व खोप सप्ताह"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 24
+      },
+      "12": {
+        "events": [
+          "सीता जयन्ती व्रत",
+          "विश्व औलो दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 25
+      },
+      "13": {
+        "events": [
+          "विश्व बौद्धिक सम्पत्ति दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 26
+      },
+      "14": {
+        "events": [
+          "मोहिनी एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 27
+      },
+      "15": {
+        "events": [
+          "काममा सुरक्षा र स्वास्थ्यको लागि विश्व दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 28
+      },
+      "16": {
+        "events": [
+          "प्रदोष व्रत",
+          "अन्तर्राष्ट्रिय नृत्य दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 29
+      },
+      "17": {
+        "events": [
+          "नृसिंह जयन्ती"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 4,
+        "adDay": 30
+      },
+      "18": {
+        "events": [
+          "बुद्ध जयन्ती",
+          "उभौली पर्व",
+          "चण्डेश्वरी जात्रा",
+          "चण्डी पूर्णिमा",
+          "गोरखनाथ जयन्ती",
+          "कुर्म जयन्ती",
+          "वैसाख स्नान समाप्ति",
+          "अन्तर्राष्ट्रिय  श्रमिक दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 1
+      },
+      "19": {
+        "events": [],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 2
+      },
+      "20": {
+        "events": [
+          "विश्व प्रेस स्वतन्त्रता दिवस",
+          "विश्व हाँसाे दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 3
+      },
+      "21": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 4
+      },
+      "22": {
+        "events": [
+          "मंगलचौथी व्रत"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 5
+      },
+      "23": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 6
+      },
+      "24": {
+        "events": [
+          "किराँत समाज सुधार दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 7
+      },
+      "25": {
+        "events": [
+          "विश्व रेडक्रस दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 8
+      },
+      "26": {
+        "events": [
+          "कानून दिवस",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 9
+      },
+      "27": {
+        "events": [],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 10
+      },
+      "28": {
+        "events": [
+          "महिला ज्योतिष संघ स्थापना दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 11
+      },
+      "29": {
+        "events": [
+          "अन्तर्राष्ट्रिय नर्स दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 12
+      },
+      "30": {
+        "events": [
+          "अपरा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 13
+      },
+      "31": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 14
+      }
+    },
+    "2": {
+      "1": {
+        "events": [
+          "वृष संक्रान्ति",
+          "सिथि चःह्रे",
+          "अन्तर्राष्ट्रिय परिवार दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 15
+      },
+      "2": {
+        "events": [
+          "बटसावित्री व्रत",
+          "शनि जयन्ती"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 16
+      },
+      "3": {
+        "events": [
+          "गोसाइकुण्ड स्नान आरम्भ",
+          "अधिकमास आरम्भ",
+          "मत्स्यनारायण मेला शुरू",
+          "विश्व दूरसञ्चार दिवस",
+          "विश्व उच्च रक्तचाप दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 17
+      },
+      "4": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 18
+      },
+      "5": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 19
+      },
+      "6": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 20
+      },
+      "7": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 21
+      },
+      "8": {
+        "events": [
+          "अन्तर्राष्ट्रिय जैविक विविधता दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 22
+      },
+      "9": {
+        "events": [],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 23
+      },
+      "10": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 24
+      },
+      "11": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 25
+      },
+      "12": {
+        "events": [
+          "गङ्गादशहरा व्रत",
+          "गोसाइकुण्ड स्नान समाप्ति"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 26
+      },
+      "13": {
+        "events": [
+          "पद्मिनी एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 27
+      },
+      "14": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 28
+      },
+      "15": {
+        "events": [
+          "गणतन्त्र दिवस",
+          "सगरमाथा दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 29
+      },
+      "16": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 30
+      },
+      "17": {
+        "events": [
+          "विश्व सुर्तीजन्य पदार्थ विरुद्धको दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 5,
+        "adDay": 31
+      },
+      "18": {
+        "events": [
+          "विश्व बुवाआमा दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 1
+      },
+      "19": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 2
+      },
+      "20": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 3
+      },
+      "21": {
+        "events": [
+          "निर्दोष बालबालिका माथि अत्याचार विरुद्धको दिवस",
+          "जातीय भेदभाव तथा छुवाछुत उन्मुलन राष्ट्रिय दिवस"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 4
+      },
+      "22": {
+        "events": [
+          "विश्व वातावरण दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 5
+      },
+      "23": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 6
+      },
+      "24": {
+        "events": [
+          "रविसप्तमी व्रत"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 7
+      },
+      "25": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 8
+      },
+      "26": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 9
+      },
+      "27": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 10
+      },
+      "28": {
+        "events": [
+          "परमा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 11
+      },
+      "29": {
+        "events": [
+          "प्रदोष व्रत",
+          "विश्व बालश्रम विरुद्ध दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 12
+      },
+      "30": {
+        "events": [],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 13
+      },
+      "31": {
+        "events": [
+          "विश्व रक्तदाता दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 14
+      }
+    },
+    "3": {
+      "1": {
+        "events": [
+          "अधिकमास समाप्ति",
+          "मिथुन संक्रान्ति",
+          "सोमबारे औंसी",
+          "मत्स्यनारायण मेला समाप्ति",
+          "विश्व अग्रज दुर्व्यवहार जागरुकता दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 15
+      },
+      "2": {
+        "events": [
+          "अन्तर्राष्ट्रिय परिवार रेमिटेयान्स दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 16
+      },
+      "3": {
+        "events": [
+          "विश्व खडेरी विरुद्ध संघर्ष दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 17
+      },
+      "4": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 18
+      },
+      "5": {
+        "events": [
+          "द्वन्द्वमा यौन हिंसा उन्मूलनको लागि अन्तर्राष्ट्रिय दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 19
+      },
+      "6": {
+        "events": [
+          "सिथि नख:",
+          "कुमारषष्ठी",
+          "विश्व शरणार्थी दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 20
+      },
+      "7": {
+        "events": [
+          "रवी सप्तमी व्रत",
+          "अन्तर्राष्ट्रिय बुवा दिवस",
+          "विश्व योग दिवस",
+          "संगीत दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 21
+      },
+      "8": {
+        "events": [
+          "गोरखकाली पूजा",
+          "वायु अष्टमी"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 22
+      },
+      "9": {
+        "events": [
+          "अन्तर्राष्ट्रिय  एकल महिला दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 23
+      },
+      "10": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 24
+      },
+      "11": {
+        "events": [
+          "निर्जला एकादशी व्रत",
+          "तुलसीको दल राख्ने दिन",
+          "भूमी पूजा"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 25
+      },
+      "12": {
+        "events": [
+          "अन्तर्राष्ट्रिय  लागू पदार्थ तथा अवैध तस्करी विरुद्ध दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 26
+      },
+      "13": {
+        "events": [
+          "शनि प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 27
+      },
+      "14": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 28
+      },
+      "15": {
+        "events": [
+          "दहीचिउरा खाने दिन",
+          "राष्ट्रिय धान दिवस",
+          "ज्या: पुन्हि",
+          "कवीर जयन्ती"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 29
+      },
+      "16": {
+        "events": [],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 6,
+        "adDay": 30
+      },
+      "17": {
+        "events": [],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 1
+      },
+      "18": {
+        "events": [
+          "विश्व खेलकुद पत्रकार दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 2
+      },
+      "19": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 3
+      },
+      "20": {
+        "events": [
+          "अन्तर्राष्ट्रिय सहकारी दिवस"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 4
+      },
+      "21": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 5
+      },
+      "22": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 6
+      },
+      "23": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 7
+      },
+      "24": {
+        "events": [
+          "बुधाष्टमी व्रत"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 8
+      },
+      "25": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 9
+      },
+      "26": {
+        "events": [
+          "योगिनी एकादशी व्रत (स्मार्तहरूको)"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 10
+      },
+      "27": {
+        "events": [
+          "योगिनी एकादशी व्रत (वैष्णवहरूको)",
+          "विश्व जनसंख्या दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 11
+      },
+      "28": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 12
+      },
+      "29": {
+        "events": [
+          "भानु जयन्ती"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 13
+      },
+      "30": {
+        "events": [],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 14
+      },
+      "31": {
+        "events": [
+          "विश्व युवा दक्षता दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 15
+      },
+      "32": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 16
+      }
+    },
+    "4": {
+      "1": {
+        "events": [
+          "साउने सङ्क्रान्ति",
+          "थारु गुरिया पर्व",
+          "लुतो फाल्ने दिन",
+          "दक्षिणायन आरम्भ"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 17
+      },
+      "2": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 18
+      },
+      "3": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 19
+      },
+      "4": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 20
+      },
+      "5": {
+        "events": [
+          "सूर्य पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 21
+      },
+      "6": {
+        "events": [
+          "बुधाष्टमी व्रत",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 22
+      },
+      "7": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 23
+      },
+      "8": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 24
+      },
+      "9": {
+        "events": [
+          "हरिशयनी एकादशी व्रत (तुलसी रोप्ने)",
+          "चतुर्मास व्रत आरम्भ"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 25
+      },
+      "10": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 26
+      },
+      "11": {
+        "events": [],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 27
+      },
+      "12": {
+        "events": [
+          "विश्व हेपाटाइटिस दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 28
+      },
+      "13": {
+        "events": [
+          "गुरु पुर्णिमा व्रत",
+          "व्यास जयन्ती",
+          "विश्व बाघ दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 29
+      },
+      "14": {
+        "events": [
+          "अन्तर्राष्ट्रिय मित्रता दिवस",
+          "अन्तर्राष्ट्रिय मानव बेचबिखन विरुद्ध दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 30
+      },
+      "15": {
+        "events": [
+          "खीर खाने दिन"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 7,
+        "adDay": 31
+      },
+      "16": {
+        "events": [
+          "विश्व स्तनपान सप्ताह प्रारम्भ"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 1
+      },
+      "17": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 2
+      },
+      "18": {
+        "events": [
+          "बीतक कथा प्रारम्भ"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 3
+      },
+      "19": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 4
+      },
+      "20": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 5
+      },
+      "21": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 6
+      },
+      "22": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 7
+      },
+      "23": {
+        "events": [
+          "राष्ट्रिय भू संरक्षण दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 8
+      },
+      "24": {
+        "events": [
+          "कामिका एकादशी व्रत",
+          "अन्तर्राष्ट्रिय आदिवासी दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 9
+      },
+      "25": {
+        "events": [
+          "सोम प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 10
+      },
+      "26": {
+        "events": [
+          "गथांमुगः चःह्रे"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 11
+      },
+      "27": {
+        "events": [
+          "अन्तर्राष्ट्रिय युवा दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 12
+      },
+      "28": {
+        "events": [
+          "गुंला पर्व आरम्भ",
+          "विश्व सुलेखन दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 13
+      },
+      "29": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 14
+      },
+      "30": {
+        "events": [
+          "वराह जयन्ती"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 15
+      },
+      "31": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 16
+      }
+    },
+    "5": {
+      "1": {
+        "events": [
+          "नाग पञ्चमी व्रत",
+          "सिंह संक्रान्ति"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 17
+      },
+      "2": {
+        "events": [
+          "कल्कि जयन्ती"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 18
+      },
+      "3": {
+        "events": [
+          "तुलसीदास जयन्ती",
+          "राष्ट्रिय सूचना दिवस",
+          "विश्व फोटोग्राफी दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 19
+      },
+      "4": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 20
+      },
+      "5": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 21
+      },
+      "6": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 22
+      },
+      "7": {
+        "events": [
+          "पुत्रदा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 23
+      },
+      "8": {
+        "events": [],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 24
+      },
+      "9": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 25
+      },
+      "10": {
+        "events": [],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 26
+      },
+      "11": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 27
+      },
+      "12": {
+        "events": [
+          "जनै पूर्णिमा",
+          "रक्षा बन्धन",
+          "पूर्णिमा व्रत",
+          "क्वाति खाने दिन",
+          "ऋषितर्पणी",
+          "संस्कृत दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 28
+      },
+      "13": {
+        "events": [
+          "गाईजात्रा (काठमाडौं उपत्यका बिदा)",
+          "विश्व आणविक परिक्षण विरुद्धको दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 29
+      },
+      "14": {
+        "events": [
+          "रोपाईं जात्रा",
+          "विश्व बेपत्ता विरुद्धको दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 30
+      },
+      "15": {
+        "events": [
+          "राष्ट्रिय पुस्तकालय दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 8,
+        "adDay": 31
+      },
+      "16": {
+        "events": [
+          "मंगलचौथी व्रत"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 1
+      },
+      "17": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 2
+      },
+      "18": {
+        "events": [
+          "गौरा सप्तमी"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 3
+      },
+      "19": {
+        "events": [
+          "श्रीकृष्ण जन्माष्टमी",
+          "गाैरा पर्व",
+          "गोरखकाली पूजा",
+          "दुर्वाष्टमी"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 4
+      },
+      "20": {
+        "events": [
+          "विराटनगरमा राधाकृष्ण रथयात्रा",
+          "गूङा नवमी",
+          "मानव बेचबिखन विरुद्ध राष्ट्रिय दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 5
+      },
+      "21": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 6
+      },
+      "22": {
+        "events": [
+          "अजा एकादशी व्रत",
+          "निजामती सेवा दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 7
+      },
+      "23": {
+        "events": [
+          "प्रदोष व्रत",
+          "जेनजी शहीद दिवस",
+          "अन्तर्राष्ट्रिय साक्षरता दिवस",
+          "विश्व फिजियोथेरापी दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 8
+      },
+      "24": {
+        "events": [],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 9
+      },
+      "25": {
+        "events": [
+          "विश्व आत्महत्या रोकथाम दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 10
+      },
+      "26": {
+        "events": [
+          "कुशे औंसी",
+          "बुबाको मुख हेर्ने दिन",
+          "मोतीराम भट्ट जन्मजयन्ती"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 11
+      },
+      "27": {
+        "events": [
+          "प्राथमिक उपचार दिवस",
+          "गुंला पर्व समाप्ति"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 12
+      },
+      "28": {
+        "events": [
+          "दर खाने दिन"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 13
+      },
+      "29": {
+        "events": [
+          "हरितालिका तीज (महिला कर्मचारीहरूलाई मात्र)",
+          "गणेश चतुर्थी व्रत",
+          "राष्ट्रिय धर्मसभा दिवस",
+          "राष्ट्रिय बाल दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 14
+      },
+      "30": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 15
+      },
+      "31": {
+        "events": [
+          "विश्व ओजोन तह बचाउ दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 16
+      }
+    },
+    "6": {
+      "1": {
+        "events": [
+          "विश्वकर्मा पूजा",
+          "कन्या संक्रान्ति",
+          "वास्तु दिवस",
+          "सूर्य षष्ठी",
+          "राष्ट्रिय विज्ञान दिवस",
+          "विश्व बिरामी सुरक्षा दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 17
+      },
+      "2": {
+        "events": [
+          "महालक्ष्मी व्रतआरम्भ"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 18
+      },
+      "3": {
+        "events": [
+          "संविधान दिवस",
+          "राधा जन्मोत्सव",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 19
+      },
+      "4": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 20
+      },
+      "5": {
+        "events": [
+          "विश्व शान्ति दिवस",
+          "विश्व अल्जाइमर्स दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 21
+      },
+      "6": {
+        "events": [
+          "हरिपरिवर्तिनी एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 22
+      },
+      "7": {
+        "events": [
+          "वामन द्वादशी",
+          "अन्तर्राष्ट्रिय सांकेतिक भाषा दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 23
+      },
+      "8": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 24
+      },
+      "9": {
+        "events": [
+          "इन्द्रजात्रा (काठमाडौं उपत्यका बिदा)",
+          "अनन्त चतुर्दशी व्रत",
+          "विश्व फार्मासिस्ट दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 25
+      },
+      "10": {
+        "events": [
+          "चेपाङ चोनाम पर्व",
+          "अन्तर्राष्ट्रिय परमाणु हतियार निर्मुल दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 26
+      },
+      "11": {
+        "events": [
+          "सोह्रश्राद्ध प्रारम्भ (प्रतिपदा श्राद्ध)",
+          "विश्व पर्यटन दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 27
+      },
+      "12": {
+        "events": [
+          "द्वितीया श्राद्ध",
+          "विश्व रेबिज दिवस",
+          "अन्तर्राष्ट्रिय सूचनामा विश्वव्यापी पहुँचको दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 28
+      },
+      "13": {
+        "events": [
+          "तृतीया श्राद्ध",
+          "विश्व मुटु दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 29
+      },
+      "14": {
+        "events": [
+          "चतुर्थी श्राद्ध"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 9,
+        "adDay": 30
+      },
+      "15": {
+        "events": [
+          "पञ्चमी श्राद्ध",
+          "षष्ठी श्राद्ध",
+          "राष्ट्रिय चलचित्र दिवस",
+          "अन्तर्राष्ट्रिय  ज्येष्ठ नागरिक दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 1
+      },
+      "16": {
+        "events": [
+          "सप्तमी श्राद्ध",
+          "विश्व अहिंसा दिवस",
+          "विश्व मुस्कान दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 2
+      },
+      "17": {
+        "events": [
+          "अष्टमी श्राद्ध",
+          "गोरखकाली पूजा",
+          "महालक्ष्मी व्रत समाप्त"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 3
+      },
+      "18": {
+        "events": [
+          "नवमी श्राद्ध",
+          "जितियापर्व (महिला कर्मचारीहरूलाई मात्र)",
+          "विश्व पशु दिवस"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 4
+      },
+      "19": {
+        "events": [
+          "दशमी श्राद्ध",
+          "विश्व शिक्षक दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 5
+      },
+      "20": {
+        "events": [
+          "इन्दिरा एकादशी व्रत",
+          "एकादशी श्राद्ध"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 6
+      },
+      "21": {
+        "events": [
+          "द्वादशी श्राद्ध",
+          "मघा श्राद्ध"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 7
+      },
+      "22": {
+        "events": [
+          "प्रदोष व्रत",
+          "त्रयोदशी श्राद्ध",
+          "विश्व दृष्टि दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 8
+      },
+      "23": {
+        "events": [
+          "चतुर्दशी श्राद्ध",
+          "विश्व हुलाक दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 9
+      },
+      "24": {
+        "events": [
+          "पितृ विसर्जन",
+          "औंसी श्राद्ध",
+          "विश्व मानसिक स्वास्थ्य दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 10
+      },
+      "25": {
+        "events": [
+          "घटस्थापना व्रत",
+          "नवरात्र आरम्भ"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 11
+      },
+      "26": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 12
+      },
+      "27": {
+        "events": [
+          "अन्तर्राष्ट्रिय प्रकोप जोखिम न्यूनीकरण दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 13
+      },
+      "28": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 14
+      },
+      "29": {
+        "events": [
+          "विश्व हातधुने दिवस",
+          "अन्तर्राष्ट्रिय ग्रामीण महिला दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 15
+      },
+      "30": {
+        "events": [
+          "विश्व खाद्य दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 16
+      },
+      "31": {
+        "events": [
+          "फूलपाती",
+          "दशैं बिदा",
+          "अन्तर्राष्ट्रिय गरिबी निवारण दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 17
+      }
+    },
+    "7": {
+      "1": {
+        "events": [
+          "तुला संक्रान्ति",
+          "महाअष्टमी व्रत",
+          "कालरात्रि",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 18
+      },
+      "2": {
+        "events": [],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 19
+      },
+      "3": {
+        "events": [
+          "महानवमी व्रत"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 20
+      },
+      "4": {
+        "events": [
+          "विजया दशमी",
+          "देवी विसर्जन"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 21
+      },
+      "5": {
+        "events": [
+          "पापांकुशा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 22
+      },
+      "6": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 23
+      },
+      "7": {
+        "events": [
+          "संयुक्त राष्ट्रसंघ दिवस",
+          "विश्व विकास सूचना दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 24
+      },
+      "8": {
+        "events": [
+          "कोजाग्रत व्रत",
+          "पूर्णिमा व्रत"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 25
+      },
+      "9": {
+        "events": [
+          "कार्तिक स्नान आरम्भ",
+          "आकाशदीपदान आरम्भ"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 26
+      },
+      "10": {
+        "events": [],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 27
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 28
+      },
+      "12": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 29
+      },
+      "13": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 30
+      },
+      "14": {
+        "events": [
+          "विश्व शहरीकरण दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 10,
+        "adDay": 31
+      },
+      "15": {
+        "events": [
+          "रविसप्तमी व्रत"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 1
+      },
+      "16": {
+        "events": [
+          "राधाष्टमी व्रत",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 2
+      },
+      "17": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 3
+      },
+      "18": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 4
+      },
+      "19": {
+        "events": [
+          "निम्बार्काचार्य जयन्ती",
+          "रमा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 5
+      },
+      "20": {
+        "events": [
+          "धन त्रयोदशी व्रत (धनतेरस)",
+          "प्रदोष व्रत",
+          "यमदीपदान आरम्भ"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 6
+      },
+      "21": {
+        "events": [
+          "धनवन्तरी जयन्ती",
+          "काग तिहार"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 7
+      },
+      "22": {
+        "events": [
+          "लक्ष्मी पूजा",
+          "महाकवि लक्ष्मीप्रसाद देवकोटाको जन्म जयन्ती",
+          "कुकुर तिहार",
+          "नरक चतुर्दशी",
+          "सुखरात्री",
+          "विश्व रेडियोग्राफी दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 8
+      },
+      "23": {
+        "events": [
+          "गाई पूजा",
+          "विश्व स्वतन्त्रता दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 9
+      },
+      "24": {
+        "events": [
+          "गोवर्धन पूजा",
+          "म्हपूजा",
+          "हलि तिहार",
+          "नेपाल सम्वत ११४७ प्रारम्भ",
+          "गोरु पूजा",
+          "शान्ति र विकासको लागि विश्व विज्ञान दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 10
+      },
+      "25": {
+        "events": [
+          "भाइटीका",
+          "किजा पूजा",
+          "महागुरु फाल्गुनन्द जयन्ती  (किरात धर्मावलम्बीहरुलाई मात्र)"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 11
+      },
+      "26": {
+        "events": [
+          "विश्व निमोनिया दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 12
+      },
+      "27": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 13
+      },
+      "28": {
+        "events": [
+          "विश्व मधुमेह दिवस",
+          "सांस्कृतिक सम्पत्तिको अवैध ओसारपसार विरुद्धको अन्तर्राष्ट्रिय दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 14
+      },
+      "29": {
+        "events": [
+          "छठ पर्व"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 15
+      },
+      "30": {
+        "events": [
+          "अन्तर्राष्ट्रिय सहनशीलता दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 16
+      }
+    },
+    "8": {
+      "1": {
+        "events": [
+          "वृश्चिक संक्रान्ति",
+          "भौमाष्टमी व्रत",
+          "गोपाष्टमी व्रत",
+          "गोरखकाली पूजा",
+          "अन्तर्राष्ट्रिय विद्यार्थी दिवस"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 17
+      },
+      "2": {
+        "events": [
+          "कुष्मान्ड नवमी व्रत"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 18
+      },
+      "3": {
+        "events": [
+          "विश्व शौचालय दिवस",
+          "अन्तर्राष्ट्रिय पुरुष दिवस",
+          "विश्व दर्शनशास्त्र दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 19
+      },
+      "4": {
+        "events": [
+          "हरिबोधिनी एकादशी व्रत",
+          "तुलसी बिवाह",
+          "विश्व बाल दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 20
+      },
+      "5": {
+        "events": [
+          "विश्व टेलिभिजन दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 21
+      },
+      "6": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 22
+      },
+      "7": {
+        "events": [
+          "बैकुण्ठ चतुर्दशी व्रत"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 23
+      },
+      "8": {
+        "events": [
+          "कार्तिक स्नान समाप्ति",
+          "चतुर्मास व्रत समाप्ति",
+          "गुरु नानक जयन्ती (सिख धर्मावलम्बीहरुलाई मात्र)",
+          "निम्बार्काचार्य जयन्ती",
+          "सकिमना पुन्हि"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 24
+      },
+      "9": {
+        "events": [
+          "अन्तराष्ट्रिय महिला हिंसा अन्त्य दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 25
+      },
+      "10": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 26
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 27
+      },
+      "12": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 28
+      },
+      "13": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 29
+      },
+      "14": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 11,
+        "adDay": 30
+      },
+      "15": {
+        "events": [
+          "भाैमाष्टमी व्रत",
+          "गोरखकाली पूजा",
+          "विश्व एड्स दिवस"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 1
+      },
+      "16": {
+        "events": [
+          "प्रदोष व्रत",
+          "अन्तर्राष्ट्रिय दासता उन्मूलन दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 2
+      },
+      "17": {
+        "events": [
+          "अन्तर्राष्ट्रिय अपाङ्ग दिवस (विशेष क्षमता भएका कर्मचारीलाई मात्र)"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 3
+      },
+      "18": {
+        "events": [
+          "उँधौली पर्व",
+          "उत्पतिका एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 4
+      },
+      "19": {
+        "events": [
+          "अन्तर्राष्ट्रिय स्वयंसेवक दिवस",
+          "विश्व माटो दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 5
+      },
+      "20": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 6
+      },
+      "21": {
+        "events": [
+          "बाला चतुर्दशी व्रत",
+          "शतबीज छर्ने दिन",
+          "अन्तर्राष्ट्रिय नागरिक उड्डयन दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 7
+      },
+      "22": {
+        "events": [
+          "अन्तर्राष्ट्रिय मर्यादित महिनावारी दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 8
+      },
+      "23": {
+        "events": [
+          "अन्तर्राष्ट्रिय भ्रष्टाचार विरुद्ध दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 9
+      },
+      "24": {
+        "events": [
+          "अन्तर्राष्ट्रिय मानव अधिकार दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 10
+      },
+      "25": {
+        "events": [
+          "अन्तर्राष्ट्रिय पर्वत दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 11
+      },
+      "26": {
+        "events": [
+          "अन्तर्राष्ट्रिय तटस्थ दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 12
+      },
+      "27": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 13
+      },
+      "28": {
+        "events": [
+          "विवाह पञ्चमी",
+          "षडानन्द जयन्ती"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 14
+      },
+      "29": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 15
+      }
+    },
+    "9": {
+      "1": {
+        "events": [
+          "धनु संक्रान्ति"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 16
+      },
+      "2": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 17
+      },
+      "3": {
+        "events": [
+          "अन्तर्राष्ट्रिय आप्रवासी दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 18
+      },
+      "4": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 19
+      },
+      "5": {
+        "events": [
+          "मोक्षदा एकादशी व्रत",
+          "गीता जयन्ती"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 20
+      },
+      "6": {
+        "events": [
+          "सोम प्रदोष व्रत",
+          "विश्व ध्यान दिवस"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 21
+      },
+      "7": {
+        "events": [],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 22
+      },
+      "8": {
+        "events": [
+          "दत्तात्रेय जयन्ती"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 23
+      },
+      "9": {
+        "events": [
+          "धान्यपुर्णिमा",
+          "उधौली पर्व",
+          "य:मरि पुन्हि",
+          "ज्यापु दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 24
+      },
+      "10": {
+        "events": [
+          "क्रिसमस-डे"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 25
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 26
+      },
+      "12": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 27
+      },
+      "13": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 28
+      },
+      "14": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 29
+      },
+      "15": {
+        "events": [
+          "तमु ल्होसार",
+          "कवि शिरोमणि लेखनाथ जयन्ती"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": true,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 30
+      },
+      "16": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2026,
+        "adMonth": 12,
+        "adDay": 31
+      },
+      "17": {
+        "events": [
+          "नयाँ वर्ष २०२७ प्रारम्भ",
+          "राष्ट्रिय पोशाक दिवस",
+          "टोपी दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 1
+      },
+      "18": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 2
+      },
+      "19": {
+        "events": [
+          "सफला एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 3
+      },
+      "20": {
+        "events": [],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 4
+      },
+      "21": {
+        "events": [
+          "गुरु गोबिन्द सिंह जयन्ती",
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 5
+      },
+      "22": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 6
+      },
+      "23": {
+        "events": [
+          "अरनिको स्मृति दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 7
+      },
+      "24": {
+        "events": [
+          "तोल ल्होसार",
+          "नेपाल ज्योतिष परिषद स्थापना दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 8
+      },
+      "25": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 9
+      },
+      "26": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 10
+      },
+      "27": {
+        "events": [
+          "पृथ्वी जयन्ती",
+          "राष्ट्रिय एकता दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 11
+      },
+      "28": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 12
+      },
+      "29": {
+        "events": [
+          "राष्ट्रिय भाक्का दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 13
+      },
+      "30": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 14
+      }
+    },
+    "10": {
+      "1": {
+        "events": [
+          "माघे संक्रान्ति",
+          "मकर स्नान आरम्भ",
+          "घ्यु चाकु खाने दिन",
+          "उत्तरायण आरम्भ"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 15
+      },
+      "2": {
+        "events": [
+          "राष्ट्रिय भुकम्प सुरक्षा दिवस"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 16
+      },
+      "3": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 17
+      },
+      "4": {
+        "events": [
+          "पुत्रदा एकादशी व्रत (स्मार्तहरूको लागि)"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 18
+      },
+      "5": {
+        "events": [
+          "पुत्रदा एकादशी व्रत (वैष्णवहरूको लागि)"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 19
+      },
+      "6": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 20
+      },
+      "7": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 21
+      },
+      "8": {
+        "events": [
+          "श्री स्वस्थानी व्रत कथा प्रारम्भ",
+          "माघ स्नान सुरु"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 22
+      },
+      "9": {
+        "events": [],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 23
+      },
+      "10": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 24
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 25
+      },
+      "12": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 26
+      },
+      "13": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 27
+      },
+      "14": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 28
+      },
+      "15": {
+        "events": [],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 29
+      },
+      "16": {
+        "events": [
+          "शहीद दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 30
+      },
+      "17": {
+        "events": [
+          "विश्व कुष्ठरोग दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 1,
+        "adDay": 31
+      },
+      "18": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 1
+      },
+      "19": {
+        "events": [
+          "षट्तिला एकादशी",
+          "विश्व सिमसार दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 2
+      },
+      "20": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 3
+      },
+      "21": {
+        "events": [
+          "विश्व क्यान्सर दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 4
+      },
+      "22": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 5
+      },
+      "23": {
+        "events": [],
+        "tithi": "औंसी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 6
+      },
+      "24": {
+        "events": [
+          "सोनाम ल्होछार"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 7
+      },
+      "25": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 8
+      },
+      "26": {
+        "events": [
+          "सुरक्षित इन्टरनेट दिवस"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 9
+      },
+      "27": {
+        "events": [
+          "तिलकुन्द चौथी"
+        ],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 10
+      },
+      "28": {
+        "events": [
+          "वसन्तपञ्चमी व्रत",
+          "सरस्वती पूजा"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 11
+      },
+      "29": {
+        "events": [
+          "स्कन्द षष्ठी"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 12
+      }
+    },
+    "11": {
+      "1": {
+        "events": [
+          "कुम्भ संक्रान्ति",
+          "अचला सप्तमी",
+          "विश्व रेडियो दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 13
+      },
+      "2": {
+        "events": [
+          "गोरखकाली पूजा",
+          "प्रणय दिवस"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 14
+      },
+      "3": {
+        "events": [
+          "द्रोण नवमी"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 15
+      },
+      "4": {
+        "events": [],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 16
+      },
+      "5": {
+        "events": [
+          "भीमा एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 17
+      },
+      "6": {
+        "events": [
+          "भिष्म द्वादशी",
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 18
+      },
+      "7": {
+        "events": [
+          "प्रजातन्त्र दिवस",
+          "निर्वाचन दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 19
+      },
+      "8": {
+        "events": [
+          "माघ स्नान समाप्ती",
+          "सामाजिक न्याय दिवस",
+          "श्री स्वस्थानी व्रत समाप्ती",
+          "पशुपतिनाथको छाया दर्शन"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 20
+      },
+      "9": {
+        "events": [
+          "अन्तर्राष्ट्रिय मातृभाषा दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 21
+      },
+      "10": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 22
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 23
+      },
+      "12": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 24
+      },
+      "13": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 25
+      },
+      "14": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 26
+      },
+      "15": {
+        "events": [
+          "विश्व गैरसरकारी संस्था दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 27
+      },
+      "16": {
+        "events": [
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 2,
+        "adDay": 28
+      },
+      "17": {
+        "events": [
+          "शून्य भेदभाव दिवस"
+        ],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 1
+      },
+      "18": {
+        "events": [
+          "माझी समुदायको लदीपूजा"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 2
+      },
+      "19": {
+        "events": [
+          "विश्व वन्यजन्तु दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 3
+      },
+      "20": {
+        "events": [
+          "विजया एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 4
+      },
+      "21": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 5
+      },
+      "22": {
+        "events": [
+          "महाशिवरात्रि",
+          "नेपाली सेना दिवस",
+          "सिलाचःह्रे पूजा"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 6
+      },
+      "23": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 7
+      },
+      "24": {
+        "events": [
+          "अन्तर्राष्ट्रिय नारी दिवस"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 8
+      },
+      "25": {
+        "events": [
+          "ग्याल्पो ल्होसार"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 9
+      },
+      "26": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 10
+      },
+      "27": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 11
+      },
+      "28": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 12
+      },
+      "29": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 13
+      },
+      "30": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 14
+      }
+    },
+    "12": {
+      "1": {
+        "events": [
+          "मीन संक्रान्ति",
+          "विश्व उपभोक्ता अधिकार दिवस"
+        ],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 15
+      },
+      "2": {
+        "events": [
+          "गोरखकाली पूजा",
+          "भौमाष्टमी व्रत"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 16
+      },
+      "3": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 17
+      },
+      "4": {
+        "events": [
+          "आमलकी एकादशी व्रत"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 18
+      },
+      "5": {
+        "events": [],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 19
+      },
+      "6": {
+        "events": [
+          "शनि प्रदोष व्रत",
+          "विश्व मुख स्वास्थ्य दिवस",
+          "अन्तर्राष्ट्रिय खुशी दिवस"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 20
+      },
+      "7": {
+        "events": [
+          "फागु पुर्णिमा (पहाडी जिल्ला)",
+          "विश्व कविता दिवस"
+        ],
+        "tithi": "चतुर्दशी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 21
+      },
+      "8": {
+        "events": [
+          "फागु पुर्णिमा (तराइ होली)",
+          "विश्व जल दिवस"
+        ],
+        "tithi": "पूर्णिमा",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 22
+      },
+      "9": {
+        "events": [
+          "तेल लगाउने र आँपको मुजुरा खाने दिन",
+          "गणगौर पूजा प्रारम्भ",
+          "विश्व मौसम विज्ञान दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 23
+      },
+      "10": {
+        "events": [
+          "विश्व क्षयरोग दिवस"
+        ],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 24
+      },
+      "11": {
+        "events": [],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 25
+      },
+      "12": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 26
+      },
+      "13": {
+        "events": [
+          "विश्व रङ्गमञ्च दिवस"
+        ],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 27
+      },
+      "14": {
+        "events": [],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 28
+      },
+      "15": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 29
+      },
+      "16": {
+        "events": [
+          "भौमाष्टमी व्रत",
+          "गोरखकाली पूजा"
+        ],
+        "tithi": "अष्टमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 30
+      },
+      "17": {
+        "events": [],
+        "tithi": "नवमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 3,
+        "adDay": 31
+      },
+      "18": {
+        "events": [
+          "विश्व मूर्ख दिवस"
+        ],
+        "tithi": "दशमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 1
+      },
+      "19": {
+        "events": [
+          "पापमोचनी एकादशी व्रत",
+          "विश्व अटिजम जागरुकता दिवस"
+        ],
+        "tithi": "एकादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 2
+      },
+      "20": {
+        "events": [],
+        "tithi": "द्वादशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 3
+      },
+      "21": {
+        "events": [
+          "प्रदोष व्रत"
+        ],
+        "tithi": "त्रयोदशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 4
+      },
+      "22": {
+        "events": [],
+        "tithi": "चतुर्दशी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 5
+      },
+      "23": {
+        "events": [
+          "घोडेजात्रा (काठमाडौं उपत्यका बिदा)"
+        ],
+        "tithi": "औंसी",
+        "isHoliday": true,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 6
+      },
+      "24": {
+        "events": [
+          "तेल लगाउने र नीमको पात खाने दिन",
+          "ज्योतिष दिवस",
+          "विश्व स्वास्थ्य दिवस"
+        ],
+        "tithi": "प्रतिपदा",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 7
+      },
+      "25": {
+        "events": [],
+        "tithi": "द्वितीया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 8
+      },
+      "26": {
+        "events": [
+          "गौरी व्रत",
+          "मत्स्य जयन्ती व्रत"
+        ],
+        "tithi": "तृतिया",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 9
+      },
+      "27": {
+        "events": [],
+        "tithi": "चतुर्थी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 10
+      },
+      "28": {
+        "events": [],
+        "tithi": "पञ्चमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 11
+      },
+      "29": {
+        "events": [
+          "विश्व ज्योतिष स्थापना दिवस",
+          "अन्तर्राष्ट्रिय मानव अन्तरिक्ष उडान दिवस"
+        ],
+        "tithi": "षष्ठी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 12
+      },
+      "30": {
+        "events": [],
+        "tithi": "सप्तमी",
+        "isHoliday": false,
+        "adYear": 2027,
+        "adMonth": 4,
+        "adDay": 13
+      }
+    }
+  }
+}

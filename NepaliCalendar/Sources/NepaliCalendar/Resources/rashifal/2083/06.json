@@ -1,0 +1,1506 @@
+{
+  "bsYear": 2083,
+  "bsMonth": 6,
+  "days": {
+    "1": {
+      "mesh": {
+        "en": "Your bold energy drives you forward today. Take initiative on a project you've been postponing — the stars favor decisive action.",
+        "ne": "आज तपाईंको साहसी ऊर्जाले तपाईंलाई अगाडि बढाउँछ। लम्बित परियोजनामा पहल गर्नुहोस् — ग्रहले निर्णायक कदमलाई साथ दिन्छ।"
+      },
+      "brish": {
+        "en": "Property matters move forward. If you've been eyeing a new home or land, today's energy supports careful negotiations.",
+        "ne": "सम्पत्ति सम्बन्धी कुरा अगाडि बढ्छ। नयाँ घर वा जमिन हेरिरहनुभएको छ भने आजको ऊर्जाले सावधानीपूर्ण वार्तालाई सहयोग गर्छ।"
+      },
+      "mithun": {
+        "en": "Mental agility is at its peak. Puzzles, strategy games, or brainstorming sessions feed your intellectual hunger.",
+        "ne": "मानसिक चपलता चरम बिन्दुमा छ। पजल, रणनीति खेल वा विचार-मन्थन सत्रहरूले तपाईंको बौद्धिक भोक मेटाउँछ।"
+      },
+      "karkat": {
+        "en": "Water activities are therapeutic. Swimming, a long bath, or simply listening to rain sounds can deeply soothe your soul.",
+        "ne": "पानीसम्बन्धी गतिविधिहरू उपचारात्मक छन्। पौडी, लामो स्नान वा पानी बर्सिएको आवाजले तपाईंको आत्मालाई शान्त गर्छ।"
+      },
+      "simha": {
+        "en": "Romance is vibrant. Plan a grand date or surprise your partner — your dramatic flair makes ordinary moments extraordinary.",
+        "ne": "रोमान्स जीवन्त छ। भव्य डेट वा साथीलाई आश्चर्यचकित पार्ने योजना बनाउनुहोस् — तपाईंको नाटकीय शैलीले सामान्य क्षणलाई असाधारण बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Attention to detail saves the day. A small error caught early prevents a much larger problem down the road.",
+        "ne": "विवरणमा ध्यानले दिन बचाउँछ। चाँडै पत्ता लगाइएको सानो त्रुटिले पछि ठूलो समस्या रोक्छ।"
+      },
+      "tula": {
+        "en": "A friend's problem becomes your mission. While helping others is noble, make sure you don't neglect your own needs in the process.",
+        "ne": "साथीको समस्या तपाईंको मिसन बन्छ। अरूलाई मद्दत गर्नु महान् हो, तर प्रक्रियामा आफ्नै आवश्यकताहरू बेवास्ता नगर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Financial acumen is sharp. Trust your instinct about an investment opportunity — your ability to see hidden value is unmatched.",
+        "ne": "आर्थिक बुद्धि तीक्ष्ण छ। लगानी अवसरको बारेमा आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् — लुकेको मूल्य देख्ने तपाईंको क्षमता अद्वितीय छ।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Structure and routine bring comfort. Stick to your proven methods rather than experimenting with untested approaches.",
+        "ne": "संरचना र दिनचर्याले सान्त्वना ल्याउँछ। परीक्षण नगरिएको दृष्टिकोणको प्रयोग गर्नुभन्दा आफ्नो प्रमाणित विधिमा टिक्नुहोस्।"
+      },
+      "kumbha": {
+        "en": "Group projects thrive under your facilitation. Your ability to include diverse perspectives creates stronger outcomes.",
+        "ne": "समूह परियोजनाहरू तपाईंको सुविधा अन्तर्गत फस्टाउँछन्। विविध दृष्टिकोण समावेश गर्ने तपाईंको क्षमताले बलियो नतिजा सिर्जना गर्छ।"
+      },
+      "min": {
+        "en": "Past life memories or déjà vu experiences are significant. Trust these moments as guideposts on your spiritual journey.",
+        "ne": "पूर्वजन्मका सम्झना वा डेजा भू अनुभवहरू महत्त्वपूर्ण छन्। यी क्षणहरूलाई तपाईंको आध्यात्मिक यात्रामा मार्गदर्शकको रूपमा विश्वास गर्नुहोस्।"
+      }
+    },
+    "2": {
+      "mesh": {
+        "en": "Your bold energy drives you forward today. Take initiative on a project you've been postponing — the stars favor decisive action.",
+        "ne": "आज तपाईंको साहसी ऊर्जाले तपाईंलाई अगाडि बढाउँछ। लम्बित परियोजनामा पहल गर्नुहोस् — ग्रहले निर्णायक कदमलाई साथ दिन्छ।"
+      },
+      "brish": {
+        "en": "Financial stability is your focus today. Long-term investments look promising — avoid the temptation of quick gains.",
+        "ne": "आज आर्थिक स्थिरता तपाईंको मुख्य ध्यान हो। दीर्घकालीन लगानी आशाजनक देखिन्छ — छिटो नाफाको प्रलोभनबाट बच्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Restlessness may distract you. Practice mindfulness to stay focused on priorities instead of jumping between too many tasks.",
+        "ne": "अशान्तिले ध्यान भटकाउन सक्छ। धेरै कामहरूमा उफ्रिनुको सट्टा प्राथमिकतामा केन्द्रित रहन माइन्डफुलनेस अभ्यास गर्नुहोस्।"
+      },
+      "karkat": {
+        "en": "A real estate opportunity may present itself. Your instinct for finding cozy, valuable properties is strong right now.",
+        "ne": "घरजग्गाको अवसर आउन सक्छ। आरामदायी र मूल्यवान सम्पत्ति खोज्ने तपाईंको सहज बुद्धि अहिले बलियो छ।"
+      },
+      "simha": {
+        "en": "Romance is vibrant. Plan a grand date or surprise your partner — your dramatic flair makes ordinary moments extraordinary.",
+        "ne": "रोमान्स जीवन्त छ। भव्य डेट वा साथीलाई आश्चर्यचकित पार्ने योजना बनाउनुहोस् — तपाईंको नाटकीय शैलीले सामान्य क्षणलाई असाधारण बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Health routines are satisfying today. Whether it's meal prep, yoga, or organizing your supplements, self-care feels productive.",
+        "ne": "स्वास्थ्य दिनचर्या आज सन्तोषजनक छ। खाना तयारी, योग वा पूरक व्यवस्थापन जे भए पनि आत्म-हेरचाह उत्पादक लाग्छ।"
+      },
+      "tula": {
+        "en": "Indecision plagues you when faced with too many options. Trust your first instinct — it usually aligns with what truly matters.",
+        "ne": "धेरै विकल्पहरू हुँदा अनिर्णयले सताउँछ। आफ्नो पहिलो सहज बुद्धिमा विश्वास गर्नुहोस् — यो प्रायः वास्तवमा महत्त्वपूर्ण कुरासँग मिल्छ।"
+      },
+      "vrishchik": {
+        "en": "Secrets may surface today. Handle sensitive information with discretion — your reputation for trustworthiness is your greatest asset.",
+        "ne": "आज रहस्यहरू सतहमा आउन सक्छन्। संवेदनशील जानकारी विवेकपूर्ण रूपमा सम्हाल्नुहोस् — विश्वसनीयताको तपाईंको प्रतिष्ठा तपाईंको सबैभन्दा ठूलो सम्पत्ति हो।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Authority figures notice your dedication. A promotion, raise, or recognition from a superior validates your hard work.",
+        "ne": "अधिकारी व्यक्तिहरूले तपाईंको समर्पण देख्छन्। पदोन्नति, तलब वृद्धि वा माथिल्लो तहबाट मान्यताले तपाईंको मेहनत प्रमाणित गर्छ।"
+      },
+      "kumbha": {
+        "en": "Scientific curiosity drives productive research. Your methodical yet creative approach uncovers patterns others miss.",
+        "ne": "वैज्ञानिक जिज्ञासाले उत्पादक अनुसन्धान चलाउँछ। तपाईंको व्यवस्थित तर सिर्जनात्मक दृष्टिकोणले अरूले नदेखेका ढाँचाहरू उजागर गर्छ।"
+      },
+      "min": {
+        "en": "Artistic creation flows effortlessly. Poetry, music, painting, or photography captures emotions words cannot express.",
+        "ne": "कलात्मक सिर्जना सहज रूपमा बग्छ। कविता, सङ्गीत, चित्रकला वा फोटोग्राफीले शब्दले व्यक्त गर्न नसक्ने भावनाहरू कैद गर्छ।"
+      }
+    },
+    "3": {
+      "mesh": {
+        "en": "Team dynamics improve as you learn to delegate. Not everything requires your direct involvement — trust your team members.",
+        "ne": "तपाईंले कार्य बाँड्न सिक्दा टोलीको गतिशीलता सुधरिन्छ। सबै कुरामा प्रत्यक्ष सहभागिता आवश्यक छैन।"
+      },
+      "brish": {
+        "en": "Colleagues appreciate your reliable nature. A team project benefits from your methodical approach and attention to detail.",
+        "ne": "सहकर्मीहरूले तपाईंको भरपर्दो स्वभावको कदर गर्छन्। टोली परियोजनामा तपाईंको व्यवस्थित दृष्टिकोणबाट फाइदा हुन्छ।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "Emotional sensitivity is heightened. Channel these deep feelings into art, cooking, or caring for others rather than overthinking.",
+        "ne": "भावनात्मक संवेदनशीलता बढेको छ। यी गहिरो भावनाहरूलाई कला, खाना पकाउने वा अरूको हेरचाहमा लगाउनुहोस्।"
+      },
+      "simha": {
+        "en": "Heart health deserves focus. Cardio exercises, joyful dancing, or brisk walking strengthens your most vital organ.",
+        "ne": "हृदय स्वास्थ्यमा ध्यान दिनुहोस्। कार्डियो व्यायाम, रमाइलो नृत्य वा तीव्र हिँडाइले तपाईंको सबैभन्दा महत्त्वपूर्ण अङ्ग बलियो बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Health routines are satisfying today. Whether it's meal prep, yoga, or organizing your supplements, self-care feels productive.",
+        "ne": "स्वास्थ्य दिनचर्या आज सन्तोषजनक छ। खाना तयारी, योग वा पूरक व्यवस्थापन जे भए पनि आत्म-हेरचाह उत्पादक लाग्छ।"
+      },
+      "tula": {
+        "en": "Social media presence could benefit from a refresh. Your eye for aesthetics creates content that naturally attracts followers.",
+        "ne": "सोशल मिडिया उपस्थितिलाई ताजगी दिनुले फाइदा पुर्‍याउन सक्छ। सौन्दर्यको लागि तपाईंको नजरले प्राकृतिक रूपमा फलोअर आकर्षित गर्ने सामग्री सिर्जना गर्छ।"
+      },
+      "vrishchik": {
+        "en": "Investigative instincts serve you well. Whether researching an investment or uncovering a truth, your depth of analysis impresses.",
+        "ne": "अनुसन्धानात्मक सहज बुद्धिले तपाईंलाई राम्रो सेवा गर्छ। लगानी अनुसन्धान होस् वा सत्य उजागर गर्नु, तपाईंको विश्लेषणको गहिराइले प्रभावित गर्छ।"
+      },
+      "dhanu": {
+        "en": "Bluntness may offend someone unintentionally. Your truth-telling nature is a gift, but timing and tact make it more effective.",
+        "ne": "स्पष्टवादिताले अनजानमा कसैलाई रिसाउन सक्छ। सत्य भन्ने तपाईंको स्वभाव उपहार हो, तर समय र कौशलले यसलाई अझ प्रभावकारी बनाउँछ।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Rebellion against outdated rules serves a purpose today. Question authority respectfully but firmly when change is clearly needed.",
+        "ne": "पुरानो नियमहरू विरुद्धको विद्रोहले आज उद्देश्य पूरा गर्छ। परिवर्तन स्पष्ट रूपमा आवश्यक हुँदा अधिकारलाई सम्मानपूर्वक तर दृढतापूर्वक प्रश्न गर्नुहोस्।"
+      },
+      "min": {
+        "en": "Past life memories or déjà vu experiences are significant. Trust these moments as guideposts on your spiritual journey.",
+        "ne": "पूर्वजन्मका सम्झना वा डेजा भू अनुभवहरू महत्त्वपूर्ण छन्। यी क्षणहरूलाई तपाईंको आध्यात्मिक यात्रामा मार्गदर्शकको रूपमा विश्वास गर्नुहोस्।"
+      }
+    },
+    "4": {
+      "mesh": {
+        "en": "A leadership opportunity may arise unexpectedly. Trust your instincts but listen to experienced colleagues before making big decisions.",
+        "ne": "नेतृत्वको अवसर अचानक आउन सक्छ। आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् तर ठूलो निर्णय लिनुअघि अनुभवी साथीहरूको सुन्नुहोस्।"
+      },
+      "brish": {
+        "en": "Stubbornness could cause friction in relationships. Try to see things from your partner's perspective before digging in.",
+        "ne": "हठीपनले सम्बन्धमा तनाव ल्याउन सक्छ। आफ्नो धारणामा अडिग हुनुअघि साथीको दृष्टिकोणबाट हेर्ने प्रयास गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Your nurturing instinct helps a colleague through a tough day. Kindness costs nothing but means everything to someone in need.",
+        "ne": "तपाईंको हेरचाह गर्ने स्वभावले एक सहकर्मीलाई कठिन दिनमा मद्दत गर्छ। दयालुताको कुनै मूल्य छैन तर खाँचोमा परेकालाई सबै कुरा हो।"
+      },
+      "simha": {
+        "en": "Evening entertainment is favored. A movie, concert, or game night with friends recharges your social batteries.",
+        "ne": "साँझको मनोरञ्जन अनुकूल छ। साथीहरूसँग चलचित्र, कन्सर्ट वा खेल रातले तपाईंको सामाजिक ऊर्जा रिचार्ज गर्छ।"
+      },
+      "kanya": {
+        "en": "Attention to detail saves the day. A small error caught early prevents a much larger problem down the road.",
+        "ne": "विवरणमा ध्यानले दिन बचाउँछ। चाँडै पत्ता लगाइएको सानो त्रुटिले पछि ठूलो समस्या रोक्छ।"
+      },
+      "tula": {
+        "en": "Partnership opportunities arise in business. Your diplomatic nature makes you an ideal negotiator for joint ventures.",
+        "ne": "व्यवसायमा साझेदारीको अवसर उत्पन्न हुन्छ। तपाईंको कूटनीतिक स्वभावले तपाईंलाई संयुक्त उद्यमका लागि आदर्श वार्ताकार बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Intensity in emotions is normal for you, but today's depth is exceptional. Use journaling to process and channel these feelings productively.",
+        "ne": "भावनामा तीव्रता तपाईंको लागि सामान्य हो, तर आजको गहिराइ असाधारण छ। यी भावनाहरू उत्पादक रूपमा प्रशोधन गर्न जर्नलिङ प्रयोग गर्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Outdoor sports or hiking refresh your spirit. Nature's grandeur reminds you of life's bigger picture and your place within it.",
+        "ne": "बाहिरी खेलकुद वा हाइकिङले तपाईंको आत्मालाई ताजा बनाउँछ। प्रकृतिको भव्यताले जीवनको ठूलो तस्विर सम्झाउँछ।"
+      },
+      "makar": {
+        "en": "Reputation management matters today. Every interaction builds your professional brand — be consistent and reliable.",
+        "ne": "आज प्रतिष्ठा व्यवस्थापन महत्त्वपूर्ण छ। प्रत्येक अन्तरक्रियाले तपाईंको व्यावसायिक ब्रान्ड निर्माण गर्छ — निरन्तर र भरपर्दो हुनुहोस्।"
+      },
+      "kumbha": {
+        "en": "Eccentric choices are embraced today. Your uniqueness is your strength — don't dim your light to fit in.",
+        "ne": "विचित्र छनोटहरू आज स्वीकार गरिन्छ। तपाईंको विशिष्टता तपाईंको शक्ति हो — फिट हुन आफ्नो प्रकाश मधुरो नबनाउनुहोस्।"
+      },
+      "min": {
+        "en": "Boundaries need strengthening. Your empathetic nature absorbs others' emotions too easily — protect your energy with gentle limits.",
+        "ne": "सीमाहरू बलियो बनाउनु आवश्यक छ। तपाईंको सहानुभूतिपूर्ण स्वभावले अरूको भावना धेरै सजिलै सोस्छ — कोमल सीमाहरूले आफ्नो ऊर्जा जोगाउनुहोस्।"
+      }
+    },
+    "5": {
+      "mesh": {
+        "en": "A leadership opportunity may arise unexpectedly. Trust your instincts but listen to experienced colleagues before making big decisions.",
+        "ne": "नेतृत्वको अवसर अचानक आउन सक्छ। आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् तर ठूलो निर्णय लिनुअघि अनुभवी साथीहरूको सुन्नुहोस्।"
+      },
+      "brish": {
+        "en": "Your artistic side wants expression. Music, painting, or crafts can be therapeutic and surprisingly productive today.",
+        "ne": "तपाईंको कलात्मक पक्षले अभिव्यक्ति खोज्दैछ। सङ्गीत, चित्रकला वा हस्तकलाले आज उपचारात्मक र उत्पादक हुन सक्छ।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "A real estate opportunity may present itself. Your instinct for finding cozy, valuable properties is strong right now.",
+        "ne": "घरजग्गाको अवसर आउन सक्छ। आरामदायी र मूल्यवान सम्पत्ति खोज्ने तपाईंको सहज बुद्धि अहिले बलियो छ।"
+      },
+      "simha": {
+        "en": "Your confidence radiates today, drawing positive attention. Use this magnetic energy to pitch ideas or lead presentations.",
+        "ne": "आज तपाईंको आत्मविश्वासले सकारात्मक ध्यान आकर्षित गर्छ। विचार प्रस्तुत गर्न वा प्रस्तुतीकरण नेतृत्व गर्न यो चुम्बकीय ऊर्जा प्रयोग गर्नुहोस्।"
+      },
+      "kanya": {
+        "en": "Organization projects thrive. Decluttering your workspace or home creates mental clarity and invites fresh opportunities.",
+        "ne": "व्यवस्थापन परियोजनाहरू फस्टाउँछन्। कार्यस्थल वा घर मिलाउनुले मानसिक स्पष्टता सिर्जना गर्छ र नयाँ अवसरहरू निम्त्याउँछ।"
+      },
+      "tula": {
+        "en": "Harmony in relationships is your theme today. A compromise you propose satisfies everyone and strengthens partnerships.",
+        "ne": "सम्बन्धमा सामञ्जस्य आजको तपाईंको विषय हो। तपाईंले प्रस्ताव गरेको सम्झौताले सबैलाई सन्तुष्ट गर्छ र साझेदारी बलियो बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Deep transformation is underway. Release old patterns that no longer serve you — a powerful rebirth awaits on the other side.",
+        "ne": "गहिरो रूपान्तरण भइरहेको छ। अब काम नलाग्ने पुरानो बानीहरू छोड्नुहोस् — अर्को पट्टि शक्तिशाली पुनर्जन्म पर्खिरहेको छ।"
+      },
+      "dhanu": {
+        "en": "Optimism is contagious today. Your positive outlook lifts the spirits of everyone around you — spread that sunshine generously.",
+        "ne": "आज आशावाद संक्रामक छ। तपाईंको सकारात्मक दृष्टिकोणले वरिपरिका सबैको आत्माबल उठाउँछ — त्यो किरण उदारतापूर्वक फैलाउनुहोस्।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Group projects thrive under your facilitation. Your ability to include diverse perspectives creates stronger outcomes.",
+        "ne": "समूह परियोजनाहरू तपाईंको सुविधा अन्तर्गत फस्टाउँछन्। विविध दृष्टिकोण समावेश गर्ने तपाईंको क्षमताले बलियो नतिजा सिर्जना गर्छ।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "6": {
+      "mesh": {
+        "en": "Financial matters need careful attention today. A hasty investment could backfire — take time to research before committing funds.",
+        "ne": "आज आर्थिक मामिलामा सावधानी चाहिन्छ। हतारमा गरेको लगानी उल्टो पर्न सक्छ — रकम लगाउनुअघि राम्ररी अध्ययन गर्नुहोस्।"
+      },
+      "brish": {
+        "en": "Property matters move forward. If you've been eyeing a new home or land, today's energy supports careful negotiations.",
+        "ne": "सम्पत्ति सम्बन्धी कुरा अगाडि बढ्छ। नयाँ घर वा जमिन हेरिरहनुभएको छ भने आजको ऊर्जाले सावधानीपूर्ण वार्तालाई सहयोग गर्छ।"
+      },
+      "mithun": {
+        "en": "Gossip or rumor mills are active — stay clear. Your words carry weight, so choose them wisely in professional settings.",
+        "ne": "गफगाफ सक्रिय छ — टाढा रहनुहोस्। तपाईंका शब्दको महत्त्व छ, त्यसैले व्यावसायिक सेटिङमा बुद्धिमानीपूर्वक छान्नुहोस्।"
+      },
+      "karkat": {
+        "en": "Home and family matters take center stage. A heart-to-heart conversation with a loved one strengthens your emotional bond.",
+        "ne": "घर र परिवारका कुराहरू मुख्य बन्छन्। प्रियजनसँगको खुला कुराकानीले भावनात्मक बन्धन बलियो बनाउँछ।"
+      },
+      "simha": {
+        "en": "Children or younger people bring happiness. Mentoring a young person fulfills your desire to leave a lasting legacy.",
+        "ne": "बालबालिका वा युवाहरूले खुसी ल्याउँछन्। युवालाई मार्गदर्शन गर्नुले स्थायी विरासत छोड्ने तपाईंको इच्छा पूरा गर्छ।"
+      },
+      "kanya": {
+        "en": "Financial spreadsheets and budget reviews are oddly satisfying today. Your practical nature finds joy in organized numbers.",
+        "ne": "आज आर्थिक स्प्रेडसिट र बजेट समीक्षा अचम्मको सन्तोषजनक छ। तपाईंको व्यावहारिक स्वभावले व्यवस्थित संख्यामा आनन्द पाउँछ।"
+      },
+      "tula": {
+        "en": "Back and kidney health need attention. Maintain good posture and stay hydrated to support your body's natural balance.",
+        "ne": "पिठ्यूँ र मिर्गौला स्वास्थ्यमा ध्यान चाहिन्छ। शरीरको प्राकृतिक सन्तुलन कायम राख्न राम्रो मुद्रा र पानी पिउनुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Physical intimacy and emotional depth strengthen bonds with your partner. Vulnerability is not weakness — it's your path to true connection.",
+        "ne": "शारीरिक नजिकी र भावनात्मक गहिराइले साथीसँगको बन्धन बलियो बनाउँछ। कमजोरी देखाउनु कमजोरी होइन — यो साँचो जडानतिर तपाईंको बाटो हो।"
+      },
+      "dhanu": {
+        "en": "Publishing or sharing ideas with a wider audience is favored. Your perspective has value — don't keep it to yourself.",
+        "ne": "प्रकाशन वा फराकिलो दर्शकसँग विचार साझा गर्नु अनुकूल छ। तपाईंको दृष्टिकोणको मूल्य छ — यसलाई आफूमा मात्र नराख्नुहोस्।"
+      },
+      "makar": {
+        "en": "Reputation management matters today. Every interaction builds your professional brand — be consistent and reliable.",
+        "ne": "आज प्रतिष्ठा व्यवस्थापन महत्त्वपूर्ण छ। प्रत्येक अन्तरक्रियाले तपाईंको व्यावसायिक ब्रान्ड निर्माण गर्छ — निरन्तर र भरपर्दो हुनुहोस्।"
+      },
+      "kumbha": {
+        "en": "Group projects thrive under your facilitation. Your ability to include diverse perspectives creates stronger outcomes.",
+        "ne": "समूह परियोजनाहरू तपाईंको सुविधा अन्तर्गत फस्टाउँछन्। विविध दृष्टिकोण समावेश गर्ने तपाईंको क्षमताले बलियो नतिजा सिर्जना गर्छ।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "7": {
+      "mesh": {
+        "en": "Team dynamics improve as you learn to delegate. Not everything requires your direct involvement — trust your team members.",
+        "ne": "तपाईंले कार्य बाँड्न सिक्दा टोलीको गतिशीलता सुधरिन्छ। सबै कुरामा प्रत्यक्ष सहभागिता आवश्यक छैन।"
+      },
+      "brish": {
+        "en": "Garden or nature time brings peace. Reconnecting with the earth element restores your inner balance and reduces stress.",
+        "ne": "बगैँचा वा प्रकृतिसँग समय बिताउनुले शान्ति ल्याउँछ। पृथ्वी तत्वसँग पुन: जडान भएर भित्री सन्तुलन बहाल हुन्छ।"
+      },
+      "mithun": {
+        "en": "Social connections bring opportunities. Networking at an event or online platform could lead to a promising collaboration.",
+        "ne": "सामाजिक सम्पर्कले अवसरहरू ल्याउँछ। कार्यक्रम वा अनलाइन प्लेटफर्ममा नेटवर्किङले आशाजनक सहकार्यतिर लैजान सक्छ।"
+      },
+      "karkat": {
+        "en": "Intuition guides you correctly today. Trust your gut feeling about a person or situation — it won't lead you astray.",
+        "ne": "आज अन्तर्ज्ञानले तपाईंलाई सही मार्गदर्शन गर्छ। व्यक्ति वा परिस्थितिको बारेमा आफ्नो भित्री भावनामा विश्वास गर्नुहोस्।"
+      },
+      "simha": {
+        "en": "Pride might cloud judgment in a disagreement. Step back, breathe, and remember that being kind is more important than being right.",
+        "ne": "गर्वले असहमतिमा निर्णयलाई धमिलो पार्न सक्छ। पछाडि हट्नुहोस्, सास फेर्नुहोस् र सम्झनुहोस् कि दयालु हुनु सही हुनुभन्दा महत्त्वपूर्ण छ।"
+      },
+      "kanya": {
+        "en": "Financial spreadsheets and budget reviews are oddly satisfying today. Your practical nature finds joy in organized numbers.",
+        "ne": "आज आर्थिक स्प्रेडसिट र बजेट समीक्षा अचम्मको सन्तोषजनक छ। तपाईंको व्यावहारिक स्वभावले व्यवस्थित संख्यामा आनन्द पाउँछ।"
+      },
+      "tula": {
+        "en": "Indecision plagues you when faced with too many options. Trust your first instinct — it usually aligns with what truly matters.",
+        "ne": "धेरै विकल्पहरू हुँदा अनिर्णयले सताउँछ। आफ्नो पहिलो सहज बुद्धिमा विश्वास गर्नुहोस् — यो प्रायः वास्तवमा महत्त्वपूर्ण कुरासँग मिल्छ।"
+      },
+      "vrishchik": {
+        "en": "Research projects yield breakthrough results. Your persistence in digging deep uncovers information others overlooked.",
+        "ne": "अनुसन्धान परियोजनाहरूले सफल नतिजा दिन्छन्। गहिरो खनजोट गर्ने तपाईंको दृढताले अरूले बेवास्ता गरेको जानकारी उजागर गर्छ।"
+      },
+      "dhanu": {
+        "en": "Bluntness may offend someone unintentionally. Your truth-telling nature is a gift, but timing and tact make it more effective.",
+        "ne": "स्पष्टवादिताले अनजानमा कसैलाई रिसाउन सक्छ। सत्य भन्ने तपाईंको स्वभाव उपहार हो, तर समय र कौशलले यसलाई अझ प्रभावकारी बनाउँछ।"
+      },
+      "makar": {
+        "en": "Reputation management matters today. Every interaction builds your professional brand — be consistent and reliable.",
+        "ne": "आज प्रतिष्ठा व्यवस्थापन महत्त्वपूर्ण छ। प्रत्येक अन्तरक्रियाले तपाईंको व्यावसायिक ब्रान्ड निर्माण गर्छ — निरन्तर र भरपर्दो हुनुहोस्।"
+      },
+      "kumbha": {
+        "en": "Rebellion against outdated rules serves a purpose today. Question authority respectfully but firmly when change is clearly needed.",
+        "ne": "पुरानो नियमहरू विरुद्धको विद्रोहले आज उद्देश्य पूरा गर्छ। परिवर्तन स्पष्ट रूपमा आवश्यक हुँदा अधिकारलाई सम्मानपूर्वक तर दृढतापूर्वक प्रश्न गर्नुहोस्।"
+      },
+      "min": {
+        "en": "Artistic creation flows effortlessly. Poetry, music, painting, or photography captures emotions words cannot express.",
+        "ne": "कलात्मक सिर्जना सहज रूपमा बग्छ। कविता, सङ्गीत, चित्रकला वा फोटोग्राफीले शब्दले व्यक्त गर्न नसक्ने भावनाहरू कैद गर्छ।"
+      }
+    },
+    "8": {
+      "mesh": {
+        "en": "Creative projects gain momentum. Your innovative ideas impress superiors. Don't be afraid to think outside the box.",
+        "ne": "सिर्जनात्मक परियोजनाहरूले गति पाउँछन्। तपाईंका नवीन विचारहरूले माथिल्लो तहलाई प्रभावित गर्छन्।"
+      },
+      "brish": {
+        "en": "Patience is your greatest strength today. A slow and steady approach to a work challenge will yield the best results.",
+        "ne": "आज धैर्य तपाईंको सबैभन्दा ठूलो शक्ति हो। कामको चुनौतीमा बिस्तारै तर स्थिर दृष्टिकोणले उत्तम नतिजा दिन्छ।"
+      },
+      "mithun": {
+        "en": "Gossip or rumor mills are active — stay clear. Your words carry weight, so choose them wisely in professional settings.",
+        "ne": "गफगाफ सक्रिय छ — टाढा रहनुहोस्। तपाईंका शब्दको महत्त्व छ, त्यसैले व्यावसायिक सेटिङमा बुद्धिमानीपूर्वक छान्नुहोस्।"
+      },
+      "karkat": {
+        "en": "Domestic projects bring satisfaction. Rearranging furniture or redecorating a room can shift stagnant energy in your home.",
+        "ne": "घरेलु परियोजनाहरूले सन्तुष्टि ल्याउँछन्। फर्निचर पुन:व्यवस्थित गर्दा वा कोठा सजाउँदा घरको स्थिर ऊर्जा परिवर्तन हुन्छ।"
+      },
+      "simha": {
+        "en": "Romance is vibrant. Plan a grand date or surprise your partner — your dramatic flair makes ordinary moments extraordinary.",
+        "ne": "रोमान्स जीवन्त छ। भव्य डेट वा साथीलाई आश्चर्यचकित पार्ने योजना बनाउनुहोस् — तपाईंको नाटकीय शैलीले सामान्य क्षणलाई असाधारण बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Perfectionism may cause unnecessary stress. Remember that done is better than perfect — release control and trust the process.",
+        "ne": "पूर्णतावादले अनावश्यक तनाव ल्याउन सक्छ। सम्पन्न भएको पूर्णभन्दा राम्रो हुन्छ भन्ने सम्झनुहोस्।"
+      },
+      "tula": {
+        "en": "Harmony in relationships is your theme today. A compromise you propose satisfies everyone and strengthens partnerships.",
+        "ne": "सम्बन्धमा सामञ्जस्य आजको तपाईंको विषय हो। तपाईंले प्रस्ताव गरेको सम्झौताले सबैलाई सन्तुष्ट गर्छ र साझेदारी बलियो बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Detox and cleansing are favored. Physical, emotional, or digital detox clears space for new growth and opportunities.",
+        "ne": "डिटक्स र सफाइ अनुकूल छ। शारीरिक, भावनात्मक वा डिजिटल डिटक्सले नयाँ वृद्धि र अवसरका लागि ठाउँ खाली गर्छ।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Authority figures notice your dedication. A promotion, raise, or recognition from a superior validates your hard work.",
+        "ne": "अधिकारी व्यक्तिहरूले तपाईंको समर्पण देख्छन्। पदोन्नति, तलब वृद्धि वा माथिल्लो तहबाट मान्यताले तपाईंको मेहनत प्रमाणित गर्छ।"
+      },
+      "kumbha": {
+        "en": "Future planning is your forte today. Visualize where you want to be in five years and take one concrete step toward it.",
+        "ne": "भविष्य योजना आज तपाईंको बलियो पक्ष हो। पाँच वर्षमा कहाँ हुन चाहनुहुन्छ कल्पना गर्नुहोस् र एक ठोस कदम चाल्नुहोस्।"
+      },
+      "min": {
+        "en": "Boundaries need strengthening. Your empathetic nature absorbs others' emotions too easily — protect your energy with gentle limits.",
+        "ne": "सीमाहरू बलियो बनाउनु आवश्यक छ। तपाईंको सहानुभूतिपूर्ण स्वभावले अरूको भावना धेरै सजिलै सोस्छ — कोमल सीमाहरूले आफ्नो ऊर्जा जोगाउनुहोस्।"
+      }
+    },
+    "9": {
+      "mesh": {
+        "en": "Creative projects gain momentum. Your innovative ideas impress superiors. Don't be afraid to think outside the box.",
+        "ne": "सिर्जनात्मक परियोजनाहरूले गति पाउँछन्। तपाईंका नवीन विचारहरूले माथिल्लो तहलाई प्रभावित गर्छन्।"
+      },
+      "brish": {
+        "en": "Health-wise, focus on your throat and neck area. Gentle stretches and staying hydrated will prevent common Taurus ailments.",
+        "ne": "स्वास्थ्यको हिसाबले घाँटी र गर्दन क्षेत्रमा ध्यान दिनुहोस्। हल्का स्ट्रेच र पानी पिउनले सामान्य समस्या रोक्छ।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Your nurturing instinct helps a colleague through a tough day. Kindness costs nothing but means everything to someone in need.",
+        "ne": "तपाईंको हेरचाह गर्ने स्वभावले एक सहकर्मीलाई कठिन दिनमा मद्दत गर्छ। दयालुताको कुनै मूल्य छैन तर खाँचोमा परेकालाई सबै कुरा हो।"
+      },
+      "simha": {
+        "en": "Stage fright disappears as you step into the spotlight. Public speaking or performing comes naturally — embrace the attention.",
+        "ne": "स्टेज डरले तपाईंलाई स्पटलाइटमा आउँदा बिदा लिन्छ। सार्वजनिक बोल्ने वा प्रदर्शन स्वाभाविक रूपमा आउँछ।"
+      },
+      "kanya": {
+        "en": "Critical feedback you give is well-received if wrapped in kindness. Your observations help others grow — share them gently.",
+        "ne": "दयालुतामा बेरिएको आलोचनात्मक प्रतिक्रिया राम्ररी स्वीकार गरिन्छ। तपाईंको अवलोकनले अरूलाई बढ्न मद्दत गर्छ — कोमलतापूर्वक साझा गर्नुहोस्।"
+      },
+      "tula": {
+        "en": "Wedding or anniversary plans progress smoothly. Your attention to harmony and beauty creates memorable celebrations.",
+        "ne": "विवाह वा वार्षिकोत्सव योजनाहरू सहज रूपमा अगाडि बढ्छन्। सामञ्जस्य र सौन्दर्यमा तपाईंको ध्यानले यादगार उत्सव सिर्जना गर्छ।"
+      },
+      "vrishchik": {
+        "en": "Jealousy could rear its head in relationships. Recognize it as a signal of insecurity and address the root cause honestly.",
+        "ne": "सम्बन्धमा ईर्ष्या उत्पन्न हुन सक्छ। यसलाई असुरक्षाको संकेतको रूपमा पहिचान गर्नुहोस् र मूल कारणलाई इमानदारीपूर्वक सम्बोधन गर्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Government or institutional matters progress. Paperwork, permits, or official processes move forward with patience and persistence.",
+        "ne": "सरकारी वा संस्थागत कार्यहरू अगाडि बढ्छन्। कागजात, अनुमति वा आधिकारिक प्रक्रियाहरू धैर्य र दृढतासँग अगाडि बढ्छन्।"
+      },
+      "kumbha": {
+        "en": "Eccentric choices are embraced today. Your uniqueness is your strength — don't dim your light to fit in.",
+        "ne": "विचित्र छनोटहरू आज स्वीकार गरिन्छ। तपाईंको विशिष्टता तपाईंको शक्ति हो — फिट हुन आफ्नो प्रकाश मधुरो नबनाउनुहोस्।"
+      },
+      "min": {
+        "en": "Feet and immune system need care. Comfortable shoes, warm socks, and immune-boosting foods support your health today.",
+        "ne": "खुट्टा र प्रतिरक्षा प्रणालीलाई हेरचाह चाहिन्छ। आरामदायी जुत्ता, न्यानो मोजा र प्रतिरक्षा बढाउने खानाले आज तपाईंको स्वास्थ्यलाई सहयोग गर्छ।"
+      }
+    },
+    "10": {
+      "mesh": {
+        "en": "An old friend may reach out with an interesting proposal. Evaluate it objectively before your enthusiasm takes over.",
+        "ne": "एक पुरानो साथीले रोचक प्रस्ताव लिएर आउन सक्छन्। उत्साहमा बगिनु अगाडि वस्तुनिष्ठ रूपमा मूल्याङ्कन गर्नुहोस्।"
+      },
+      "brish": {
+        "en": "Stubbornness could cause friction in relationships. Try to see things from your partner's perspective before digging in.",
+        "ne": "हठीपनले सम्बन्धमा तनाव ल्याउन सक्छ। आफ्नो धारणामा अडिग हुनुअघि साथीको दृष्टिकोणबाट हेर्ने प्रयास गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Social connections bring opportunities. Networking at an event or online platform could lead to a promising collaboration.",
+        "ne": "सामाजिक सम्पर्कले अवसरहरू ल्याउँछ। कार्यक्रम वा अनलाइन प्लेटफर्ममा नेटवर्किङले आशाजनक सहकार्यतिर लैजान सक्छ।"
+      },
+      "karkat": {
+        "en": "A mother figure or elder provides valuable wisdom. Their experience offers a shortcut through a problem you've been struggling with.",
+        "ne": "एक आमा वा जेठो व्यक्तिले बहुमूल्य ज्ञान प्रदान गर्छन्। तपाईंले संघर्ष गरिरहेको समस्यामा तिनीहरूको अनुभवले सहज बाटो देखाउँछ।"
+      },
+      "simha": {
+        "en": "Pride might cloud judgment in a disagreement. Step back, breathe, and remember that being kind is more important than being right.",
+        "ne": "गर्वले असहमतिमा निर्णयलाई धमिलो पार्न सक्छ। पछाडि हट्नुहोस्, सास फेर्नुहोस् र सम्झनुहोस् कि दयालु हुनु सही हुनुभन्दा महत्त्वपूर्ण छ।"
+      },
+      "kanya": {
+        "en": "Financial spreadsheets and budget reviews are oddly satisfying today. Your practical nature finds joy in organized numbers.",
+        "ne": "आज आर्थिक स्प्रेडसिट र बजेट समीक्षा अचम्मको सन्तोषजनक छ। तपाईंको व्यावहारिक स्वभावले व्यवस्थित संख्यामा आनन्द पाउँछ।"
+      },
+      "tula": {
+        "en": "Harmony in relationships is your theme today. A compromise you propose satisfies everyone and strengthens partnerships.",
+        "ne": "सम्बन्धमा सामञ्जस्य आजको तपाईंको विषय हो। तपाईंले प्रस्ताव गरेको सम्झौताले सबैलाई सन्तुष्ट गर्छ र साझेदारी बलियो बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Intensity in emotions is normal for you, but today's depth is exceptional. Use journaling to process and channel these feelings productively.",
+        "ne": "भावनामा तीव्रता तपाईंको लागि सामान्य हो, तर आजको गहिराइ असाधारण छ। यी भावनाहरू उत्पादक रूपमा प्रशोधन गर्न जर्नलिङ प्रयोग गर्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Teaching or mentoring opportunities arise. Sharing your wisdom and experience enriches both the student and the teacher.",
+        "ne": "शिक्षण वा सल्लाहकार अवसरहरू उत्पन्न हुन्छन्। आफ्नो ज्ञान र अनुभव साझा गर्नुले विद्यार्थी र शिक्षक दुवैलाई समृद्ध बनाउँछ।"
+      },
+      "makar": {
+        "en": "Mountain metaphors fit your day — slow, steady climbing leads to summit views others never see. Keep ascending.",
+        "ne": "पहाडको रूपकले तपाईंको दिनसँग मिल्छ — बिस्तारै, स्थिर चढाइले अरूले कहिल्यै नदेख्ने चुचुरोको दृश्य दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Future planning is your forte today. Visualize where you want to be in five years and take one concrete step toward it.",
+        "ne": "भविष्य योजना आज तपाईंको बलियो पक्ष हो। पाँच वर्षमा कहाँ हुन चाहनुहुन्छ कल्पना गर्नुहोस् र एक ठोस कदम चाल्नुहोस्।"
+      },
+      "min": {
+        "en": "Escapism tempts you — be mindful of using screens, food, or sleep to avoid problems. Face challenges gently but directly.",
+        "ne": "पलायनवादले प्रलोभित गर्छ — समस्याबाट बच्न स्क्रिन, खाना वा निद्रा प्रयोग गर्ने बारेमा सचेत हुनुहोस्। चुनौतीहरूलाई कोमलतापूर्वक तर सिधै सामना गर्नुहोस्।"
+      }
+    },
+    "11": {
+      "mesh": {
+        "en": "Creative projects gain momentum. Your innovative ideas impress superiors. Don't be afraid to think outside the box.",
+        "ne": "सिर्जनात्मक परियोजनाहरूले गति पाउँछन्। तपाईंका नवीन विचारहरूले माथिल्लो तहलाई प्रभावित गर्छन्।"
+      },
+      "brish": {
+        "en": "Property matters move forward. If you've been eyeing a new home or land, today's energy supports careful negotiations.",
+        "ne": "सम्पत्ति सम्बन्धी कुरा अगाडि बढ्छ। नयाँ घर वा जमिन हेरिरहनुभएको छ भने आजको ऊर्जाले सावधानीपूर्ण वार्तालाई सहयोग गर्छ।"
+      },
+      "mithun": {
+        "en": "Siblings or close friends need your support. Your ability to see both sides of a situation makes you an ideal mediator.",
+        "ne": "दाजुभाइ वा नजिकका साथीलाई तपाईंको सहयोग चाहिन्छ। दुवै पक्ष बुझ्ने तपाईंको क्षमताले तपाईंलाई आदर्श मध्यस्थकर्ता बनाउँछ।"
+      },
+      "karkat": {
+        "en": "Financial security comes from careful planning. Review your savings goals and consider setting up an emergency fund.",
+        "ne": "सावधानीपूर्ण योजनाबाट आर्थिक सुरक्षा आउँछ। बचत लक्ष्यहरू समीक्षा गर्नुहोस् र आपतकालीन कोष बनाउने विचार गर्नुहोस्।"
+      },
+      "simha": {
+        "en": "Evening entertainment is favored. A movie, concert, or game night with friends recharges your social batteries.",
+        "ne": "साँझको मनोरञ्जन अनुकूल छ। साथीहरूसँग चलचित्र, कन्सर्ट वा खेल रातले तपाईंको सामाजिक ऊर्जा रिचार्ज गर्छ।"
+      },
+      "kanya": {
+        "en": "Critical feedback you give is well-received if wrapped in kindness. Your observations help others grow — share them gently.",
+        "ne": "दयालुतामा बेरिएको आलोचनात्मक प्रतिक्रिया राम्ररी स्वीकार गरिन्छ। तपाईंको अवलोकनले अरूलाई बढ्न मद्दत गर्छ — कोमलतापूर्वक साझा गर्नुहोस्।"
+      },
+      "tula": {
+        "en": "Art galleries, museums, or cultural events feed your soul. Make time for beauty — it's not a luxury, it's a necessity for you.",
+        "ne": "कला ग्यालरी, संग्रहालय वा सांस्कृतिक कार्यक्रमले तपाईंको आत्मालाई पोष्छ। सौन्दर्यका लागि समय निकाल्नुहोस् — यो विलासिता होइन, तपाईंको लागि आवश्यकता हो।"
+      },
+      "vrishchik": {
+        "en": "Power dynamics at work need careful navigation. Influence quietly rather than asserting dominance — subtle moves win bigger games.",
+        "ne": "कार्यस्थलमा शक्ति गतिशीलतामा सावधानीपूर्वक नेभिगेट गर्नुपर्छ। प्रभुत्व जमाउनुभन्दा चुपचाप प्रभाव पार्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Hip and thigh exercises improve wellbeing. Stretching, yoga, or running keeps your adventurous body in peak condition.",
+        "ne": "कुल्लो र जाँघको व्यायामले स्वास्थ्य सुधार्छ। स्ट्रेचिङ, योग वा दौडले तपाईंको साहसिक शरीरलाई उत्कृष्ट अवस्थामा राख्छ।"
+      },
+      "makar": {
+        "en": "Legacy building is on your mind. Decisions made today have long-term consequences — choose with future generations in mind.",
+        "ne": "विरासत निर्माण तपाईंको मनमा छ। आज गरिएका निर्णयहरूको दीर्घकालीन परिणाम हुन्छ — भविष्यका पुस्ताहरूलाई ध्यानमा राखेर छान्नुहोस्।"
+      },
+      "kumbha": {
+        "en": "Ankle and circulation issues need monitoring. Regular movement, compression socks, or leg elevation can prevent discomfort.",
+        "ne": "खुट्टाको गोली र रक्त संचार समस्यामा ध्यान दिनुपर्छ। नियमित चलन, कम्प्रेसन मोजा वा खुट्टा उठाउनुले असुविधा रोक्न सक्छ।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "12": {
+      "mesh": {
+        "en": "Your competitive spirit shines at work. A challenging task will bring out the best in you. Celebrate small victories along the way.",
+        "ne": "कार्यस्थलमा तपाईंको प्रतिस्पर्धी भावना चम्किन्छ। चुनौतीपूर्ण कामले तपाईंको उत्कृष्ट क्षमता देखाउनेछ।"
+      },
+      "brish": {
+        "en": "Colleagues appreciate your reliable nature. A team project benefits from your methodical approach and attention to detail.",
+        "ne": "सहकर्मीहरूले तपाईंको भरपर्दो स्वभावको कदर गर्छन्। टोली परियोजनामा तपाईंको व्यवस्थित दृष्टिकोणबाट फाइदा हुन्छ।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "Your nurturing instinct helps a colleague through a tough day. Kindness costs nothing but means everything to someone in need.",
+        "ne": "तपाईंको हेरचाह गर्ने स्वभावले एक सहकर्मीलाई कठिन दिनमा मद्दत गर्छ। दयालुताको कुनै मूल्य छैन तर खाँचोमा परेकालाई सबै कुरा हो।"
+      },
+      "simha": {
+        "en": "Creative expression brings joy and recognition. A performance, artwork, or bold fashion choice makes heads turn.",
+        "ne": "सिर्जनात्मक अभिव्यक्तिले आनन्द र मान्यता ल्याउँछ। प्रदर्शन, कलाकृति वा बोल्ड फेसन छनोटले ध्यान तान्छ।"
+      },
+      "kanya": {
+        "en": "Work-life balance needs recalibration. Overworking diminishes returns — schedule breaks and honor your rest time.",
+        "ne": "कार्य-जीवन सन्तुलन पुन:समायोजन आवश्यक छ। अति काम गर्नुले प्रतिफल घटाउँछ — ब्रेक तालिका बनाउनुहोस्।"
+      },
+      "tula": {
+        "en": "Music soothes and inspires you today. Create a playlist that matches your mood or try learning a new instrument.",
+        "ne": "सङ्गीतले आज तपाईंलाई शान्त र प्रेरित गर्छ। आफ्नो मुडसँग मिल्ने प्लेलिस्ट बनाउनुहोस् वा नयाँ वाद्ययन्त्र सिक्ने प्रयास गर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Research projects yield breakthrough results. Your persistence in digging deep uncovers information others overlooked.",
+        "ne": "अनुसन्धान परियोजनाहरूले सफल नतिजा दिन्छन्। गहिरो खनजोट गर्ने तपाईंको दृढताले अरूले बेवास्ता गरेको जानकारी उजागर गर्छ।"
+      },
+      "dhanu": {
+        "en": "Legal or ethical matters require your attention. Stand firm on principles — your moral compass is calibrated correctly.",
+        "ne": "कानुनी वा नैतिक मामिलाहरूमा तपाईंको ध्यान चाहिन्छ। सिद्धान्तमा दृढ रहनुहोस् — तपाईंको नैतिक दिशासूचक सही छ।"
+      },
+      "makar": {
+        "en": "Patience with younger colleagues builds team loyalty. Your mentorship style combines tough love with practical wisdom.",
+        "ne": "युवा सहकर्मीसँगको धैर्यले टोली वफादारता निर्माण गर्छ। तपाईंको सल्लाहकार शैलीले कडा माया र व्यावहारिक ज्ञान संयोजन गर्छ।"
+      },
+      "kumbha": {
+        "en": "Humanitarian work fulfills a deep need. Whether donating, volunteering, or simply being kind, your impact ripples outward.",
+        "ne": "मानवतावादी कार्यले गहिरो आवश्यकता पूरा गर्छ। दान, स्वयंसेवा वा साधारण दयालुता जे भए पनि तपाईंको प्रभाव बाहिरतिर फैलिन्छ।"
+      },
+      "min": {
+        "en": "Artistic creation flows effortlessly. Poetry, music, painting, or photography captures emotions words cannot express.",
+        "ne": "कलात्मक सिर्जना सहज रूपमा बग्छ। कविता, सङ्गीत, चित्रकला वा फोटोग्राफीले शब्दले व्यक्त गर्न नसक्ने भावनाहरू कैद गर्छ।"
+      }
+    },
+    "13": {
+      "mesh": {
+        "en": "A mentor figure may appear in your life today. Be open to guidance even if your independent nature resists it.",
+        "ne": "आज तपाईंको जीवनमा एक मार्गदर्शक आउन सक्छन्। स्वतन्त्र स्वभाव भए पनि मार्गदर्शनका लागि खुला रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Cooking or food-related activities bring joy. Share a homemade meal with loved ones to strengthen bonds.",
+        "ne": "खाना पकाउने वा खानासम्बन्धी गतिविधिले आनन्द ल्याउँछ। सम्बन्ध बलियो बनाउन प्रियजनसँग घरको खाना साझा गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Home and family matters take center stage. A heart-to-heart conversation with a loved one strengthens your emotional bond.",
+        "ne": "घर र परिवारका कुराहरू मुख्य बन्छन्। प्रियजनसँगको खुला कुराकानीले भावनात्मक बन्धन बलियो बनाउँछ।"
+      },
+      "simha": {
+        "en": "Heart health deserves focus. Cardio exercises, joyful dancing, or brisk walking strengthens your most vital organ.",
+        "ne": "हृदय स्वास्थ्यमा ध्यान दिनुहोस्। कार्डियो व्यायाम, रमाइलो नृत्य वा तीव्र हिँडाइले तपाईंको सबैभन्दा महत्त्वपूर्ण अङ्ग बलियो बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Service to others brings deep fulfillment. Volunteering or helping a neighbor creates positive karma that returns unexpectedly.",
+        "ne": "अरूको सेवाले गहिरो सन्तुष्टि ल्याउँछ। स्वयंसेवा वा छिमेकीलाई मद्दत गर्नुले सकारात्मक कर्म सिर्जना गर्छ।"
+      },
+      "tula": {
+        "en": "Harmony in relationships is your theme today. A compromise you propose satisfies everyone and strengthens partnerships.",
+        "ne": "सम्बन्धमा सामञ्जस्य आजको तपाईंको विषय हो। तपाईंले प्रस्ताव गरेको सम्झौताले सबैलाई सन्तुष्ट गर्छ र साझेदारी बलियो बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Secrets may surface today. Handle sensitive information with discretion — your reputation for trustworthiness is your greatest asset.",
+        "ne": "आज रहस्यहरू सतहमा आउन सक्छन्। संवेदनशील जानकारी विवेकपूर्ण रूपमा सम्हाल्नुहोस् — विश्वसनीयताको तपाईंको प्रतिष्ठा तपाईंको सबैभन्दा ठूलो सम्पत्ति हो।"
+      },
+      "dhanu": {
+        "en": "Higher education pursuits gain momentum. Whether formal studies or self-directed learning, knowledge acquisition is deeply fulfilling.",
+        "ne": "उच्च शिक्षा खोजले गति पाउँछ। औपचारिक अध्ययन होस् वा स्व-निर्देशित सिकाइ, ज्ञान अर्जन गहन सन्तुष्टिदायक छ।"
+      },
+      "makar": {
+        "en": "A father figure or elder's advice proves valuable. Traditional wisdom often holds answers that modern approaches overlook.",
+        "ne": "बाबा वा जेठो व्यक्तिको सल्लाह बहुमूल्य सावित हुन्छ। परम्परागत ज्ञानमा प्रायः आधुनिक दृष्टिकोणले बेवास्ता गर्ने उत्तरहरू हुन्छन्।"
+      },
+      "kumbha": {
+        "en": "Friendships deepen through shared ideals. Conversations about the future and social change strengthen bonds with like-minded souls.",
+        "ne": "साझा आदर्शहरूमार्फत मित्रता गहिरो हुन्छ। भविष्य र सामाजिक परिवर्तनबारे कुराकानीले समान विचारधाराका आत्माहरूसँगको बन्धन बलियो बनाउँछ।"
+      },
+      "min": {
+        "en": "Past life memories or déjà vu experiences are significant. Trust these moments as guideposts on your spiritual journey.",
+        "ne": "पूर्वजन्मका सम्झना वा डेजा भू अनुभवहरू महत्त्वपूर्ण छन्। यी क्षणहरूलाई तपाईंको आध्यात्मिक यात्रामा मार्गदर्शकको रूपमा विश्वास गर्नुहोस्।"
+      }
+    },
+    "14": {
+      "mesh": {
+        "en": "A leadership opportunity may arise unexpectedly. Trust your instincts but listen to experienced colleagues before making big decisions.",
+        "ne": "नेतृत्वको अवसर अचानक आउन सक्छ। आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् तर ठूलो निर्णय लिनुअघि अनुभवी साथीहरूको सुन्नुहोस्।"
+      },
+      "brish": {
+        "en": "Stubbornness could cause friction in relationships. Try to see things from your partner's perspective before digging in.",
+        "ne": "हठीपनले सम्बन्धमा तनाव ल्याउन सक्छ। आफ्नो धारणामा अडिग हुनुअघि साथीको दृष्टिकोणबाट हेर्ने प्रयास गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Siblings or close friends need your support. Your ability to see both sides of a situation makes you an ideal mediator.",
+        "ne": "दाजुभाइ वा नजिकका साथीलाई तपाईंको सहयोग चाहिन्छ। दुवै पक्ष बुझ्ने तपाईंको क्षमताले तपाईंलाई आदर्श मध्यस्थकर्ता बनाउँछ।"
+      },
+      "karkat": {
+        "en": "Mood swings may affect your productivity. Acknowledge your emotions without judging them — this too shall pass.",
+        "ne": "मुड स्विङले तपाईंको उत्पादकत्वलाई असर गर्न सक्छ। आफ्नो भावनाहरूलाई न्याय नगरी स्वीकार गर्नुहोस् — यो पनि बितिजान्छ।"
+      },
+      "simha": {
+        "en": "Drama in friend circles may pull you in. Rise above petty conflicts and set an example of grace and maturity.",
+        "ne": "साथी समूहमा नाटक हुन सक्छ। साना द्वन्द्वभन्दा माथि उठ्नुहोस् र अनुग्रह र परिपक्वताको उदाहरण बन्नुहोस्।"
+      },
+      "kanya": {
+        "en": "Health routines are satisfying today. Whether it's meal prep, yoga, or organizing your supplements, self-care feels productive.",
+        "ne": "स्वास्थ्य दिनचर्या आज सन्तोषजनक छ। खाना तयारी, योग वा पूरक व्यवस्थापन जे भए पनि आत्म-हेरचाह उत्पादक लाग्छ।"
+      },
+      "tula": {
+        "en": "Music soothes and inspires you today. Create a playlist that matches your mood or try learning a new instrument.",
+        "ne": "सङ्गीतले आज तपाईंलाई शान्त र प्रेरित गर्छ। आफ्नो मुडसँग मिल्ने प्लेलिस्ट बनाउनुहोस् वा नयाँ वाद्ययन्त्र सिक्ने प्रयास गर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Secrets may surface today. Handle sensitive information with discretion — your reputation for trustworthiness is your greatest asset.",
+        "ne": "आज रहस्यहरू सतहमा आउन सक्छन्। संवेदनशील जानकारी विवेकपूर्ण रूपमा सम्हाल्नुहोस् — विश्वसनीयताको तपाईंको प्रतिष्ठा तपाईंको सबैभन्दा ठूलो सम्पत्ति हो।"
+      },
+      "dhanu": {
+        "en": "Foreign connections bring good fortune. An international friend, business contact, or cultural exchange opens exciting doors.",
+        "ne": "विदेशी सम्पर्कले सौभाग्य ल्याउँछ। अन्तर्राष्ट्रिय साथी, व्यापार सम्पर्क वा सांस्कृतिक आदानप्रदानले रोमाञ्चक ढोकाहरू खोल्छ।"
+      },
+      "makar": {
+        "en": "Mountain metaphors fit your day — slow, steady climbing leads to summit views others never see. Keep ascending.",
+        "ne": "पहाडको रूपकले तपाईंको दिनसँग मिल्छ — बिस्तारै, स्थिर चढाइले अरूले कहिल्यै नदेख्ने चुचुरोको दृश्य दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Rebellion against outdated rules serves a purpose today. Question authority respectfully but firmly when change is clearly needed.",
+        "ne": "पुरानो नियमहरू विरुद्धको विद्रोहले आज उद्देश्य पूरा गर्छ। परिवर्तन स्पष्ट रूपमा आवश्यक हुँदा अधिकारलाई सम्मानपूर्वक तर दृढतापूर्वक प्रश्न गर्नुहोस्।"
+      },
+      "min": {
+        "en": "Past life memories or déjà vu experiences are significant. Trust these moments as guideposts on your spiritual journey.",
+        "ne": "पूर्वजन्मका सम्झना वा डेजा भू अनुभवहरू महत्त्वपूर्ण छन्। यी क्षणहरूलाई तपाईंको आध्यात्मिक यात्रामा मार्गदर्शकको रूपमा विश्वास गर्नुहोस्।"
+      }
+    },
+    "15": {
+      "mesh": {
+        "en": "Physical energy is high — channel it into exercise or outdoor activities. Avoid unnecessary arguments that drain your enthusiasm.",
+        "ne": "शारीरिक ऊर्जा उच्च छ — यसलाई व्यायाम वा बाहिरी गतिविधिमा लगाउनुहोस्। अनावश्यक बहसबाट टाढा रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Financial stability is your focus today. Long-term investments look promising — avoid the temptation of quick gains.",
+        "ne": "आज आर्थिक स्थिरता तपाईंको मुख्य ध्यान हो। दीर्घकालीन लगानी आशाजनक देखिन्छ — छिटो नाफाको प्रलोभनबाट बच्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "Nostalgia brings comfort. Looking through old photos or reconnecting with childhood friends warms your heart.",
+        "ne": "पुरानो सम्झनाले सान्त्वना ल्याउँछ। पुराना फोटोहरू हेर्दा वा बाल्यकालका साथीसँग पुन: जडान हुँदा मन तातिन्छ।"
+      },
+      "simha": {
+        "en": "Luxury purchases tempt you. If budget allows, treat yourself — you work hard and deserve beautiful things.",
+        "ne": "विलासिता किनमेलले प्रलोभित गर्छ। बजेट अनुमति दिन्छ भने आफूलाई उपहार दिनुहोस् — तपाईं कडा मेहनत गर्नुहुन्छ।"
+      },
+      "kanya": {
+        "en": "A pet or animal brings unexpected comfort. The simple joy of caring for another creature grounds your anxious mind.",
+        "ne": "पालतु जनावर वा पशुले अप्रत्याशित सान्त्वना ल्याउँछ। अर्को प्राणीको हेरचाहको सरल आनन्दले चिन्तित मनलाई शान्त गर्छ।"
+      },
+      "tula": {
+        "en": "Indecision plagues you when faced with too many options. Trust your first instinct — it usually aligns with what truly matters.",
+        "ne": "धेरै विकल्पहरू हुँदा अनिर्णयले सताउँछ। आफ्नो पहिलो सहज बुद्धिमा विश्वास गर्नुहोस् — यो प्रायः वास्तवमा महत्त्वपूर्ण कुरासँग मिल्छ।"
+      },
+      "vrishchik": {
+        "en": "Jealousy could rear its head in relationships. Recognize it as a signal of insecurity and address the root cause honestly.",
+        "ne": "सम्बन्धमा ईर्ष्या उत्पन्न हुन सक्छ। यसलाई असुरक्षाको संकेतको रूपमा पहिचान गर्नुहोस् र मूल कारणलाई इमानदारीपूर्वक सम्बोधन गर्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Philosophy and big-picture thinking energize you. A book, lecture, or deep conversation about life's meaning sparks genuine excitement.",
+        "ne": "दर्शन र ठूलो तस्विर सोचले तपाईंलाई ऊर्जा दिन्छ। जीवनको अर्थबारे पुस्तक, व्याख्यान वा गहिरो कुराकानीले वास्तविक उत्साह जगाउँछ।"
+      },
+      "makar": {
+        "en": "Government or institutional matters progress. Paperwork, permits, or official processes move forward with patience and persistence.",
+        "ne": "सरकारी वा संस्थागत कार्यहरू अगाडि बढ्छन्। कागजात, अनुमति वा आधिकारिक प्रक्रियाहरू धैर्य र दृढतासँग अगाडि बढ्छन्।"
+      },
+      "kumbha": {
+        "en": "Humanitarian work fulfills a deep need. Whether donating, volunteering, or simply being kind, your impact ripples outward.",
+        "ne": "मानवतावादी कार्यले गहिरो आवश्यकता पूरा गर्छ। दान, स्वयंसेवा वा साधारण दयालुता जे भए पनि तपाईंको प्रभाव बाहिरतिर फैलिन्छ।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "16": {
+      "mesh": {
+        "en": "An old friend may reach out with an interesting proposal. Evaluate it objectively before your enthusiasm takes over.",
+        "ne": "एक पुरानो साथीले रोचक प्रस्ताव लिएर आउन सक्छन्। उत्साहमा बगिनु अगाडि वस्तुनिष्ठ रूपमा मूल्याङ्कन गर्नुहोस्।"
+      },
+      "brish": {
+        "en": "Cooking or food-related activities bring joy. Share a homemade meal with loved ones to strengthen bonds.",
+        "ne": "खाना पकाउने वा खानासम्बन्धी गतिविधिले आनन्द ल्याउँछ। सम्बन्ध बलियो बनाउन प्रियजनसँग घरको खाना साझा गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "Nostalgia brings comfort. Looking through old photos or reconnecting with childhood friends warms your heart.",
+        "ne": "पुरानो सम्झनाले सान्त्वना ल्याउँछ। पुराना फोटोहरू हेर्दा वा बाल्यकालका साथीसँग पुन: जडान हुँदा मन तातिन्छ।"
+      },
+      "simha": {
+        "en": "Children or younger people bring happiness. Mentoring a young person fulfills your desire to leave a lasting legacy.",
+        "ne": "बालबालिका वा युवाहरूले खुसी ल्याउँछन्। युवालाई मार्गदर्शन गर्नुले स्थायी विरासत छोड्ने तपाईंको इच्छा पूरा गर्छ।"
+      },
+      "kanya": {
+        "en": "Organization projects thrive. Decluttering your workspace or home creates mental clarity and invites fresh opportunities.",
+        "ne": "व्यवस्थापन परियोजनाहरू फस्टाउँछन्। कार्यस्थल वा घर मिलाउनुले मानसिक स्पष्टता सिर्जना गर्छ र नयाँ अवसरहरू निम्त्याउँछ।"
+      },
+      "tula": {
+        "en": "Legal or contractual matters advance favorably. Justice-related issues tend to resolve in your favor when fairness prevails.",
+        "ne": "कानुनी वा सम्झौता सम्बन्धी कुराहरू अनुकूल रूपमा अगाडि बढ्छन्। निष्पक्षता हावी हुँदा न्याय सम्बन्धी मुद्दाहरू तपाईंको पक्षमा समाधान हुन्छन्।"
+      },
+      "vrishchik": {
+        "en": "Secrets may surface today. Handle sensitive information with discretion — your reputation for trustworthiness is your greatest asset.",
+        "ne": "आज रहस्यहरू सतहमा आउन सक्छन्। संवेदनशील जानकारी विवेकपूर्ण रूपमा सम्हाल्नुहोस् — विश्वसनीयताको तपाईंको प्रतिष्ठा तपाईंको सबैभन्दा ठूलो सम्पत्ति हो।"
+      },
+      "dhanu": {
+        "en": "Higher education pursuits gain momentum. Whether formal studies or self-directed learning, knowledge acquisition is deeply fulfilling.",
+        "ne": "उच्च शिक्षा खोजले गति पाउँछ। औपचारिक अध्ययन होस् वा स्व-निर्देशित सिकाइ, ज्ञान अर्जन गहन सन्तुष्टिदायक छ।"
+      },
+      "makar": {
+        "en": "Work-life balance requires conscious effort. Allow yourself to relax without guilt — even the most disciplined need rest.",
+        "ne": "कार्य-जीवन सन्तुलनका लागि सचेत प्रयास चाहिन्छ। अपराध बोध बिना आराम गर्न आफूलाई अनुमति दिनुहोस्।"
+      },
+      "kumbha": {
+        "en": "Humanitarian work fulfills a deep need. Whether donating, volunteering, or simply being kind, your impact ripples outward.",
+        "ne": "मानवतावादी कार्यले गहिरो आवश्यकता पूरा गर्छ। दान, स्वयंसेवा वा साधारण दयालुता जे भए पनि तपाईंको प्रभाव बाहिरतिर फैलिन्छ।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "17": {
+      "mesh": {
+        "en": "Romance is in the air for single Aries. Those in relationships should plan something spontaneous to rekindle the spark.",
+        "ne": "एकल मेष राशिका लागि रोमान्सको सम्भावना छ। सम्बन्धमा भएकाहरूले सम्बन्धमा नयाँ ताजगी ल्याउन केही नयाँ योजना बनाउनुहोस्।"
+      },
+      "brish": {
+        "en": "Cooking or food-related activities bring joy. Share a homemade meal with loved ones to strengthen bonds.",
+        "ne": "खाना पकाउने वा खानासम्बन्धी गतिविधिले आनन्द ल्याउँछ। सम्बन्ध बलियो बनाउन प्रियजनसँग घरको खाना साझा गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "A real estate opportunity may present itself. Your instinct for finding cozy, valuable properties is strong right now.",
+        "ne": "घरजग्गाको अवसर आउन सक्छ। आरामदायी र मूल्यवान सम्पत्ति खोज्ने तपाईंको सहज बुद्धि अहिले बलियो छ।"
+      },
+      "simha": {
+        "en": "Romance is vibrant. Plan a grand date or surprise your partner — your dramatic flair makes ordinary moments extraordinary.",
+        "ne": "रोमान्स जीवन्त छ। भव्य डेट वा साथीलाई आश्चर्यचकित पार्ने योजना बनाउनुहोस् — तपाईंको नाटकीय शैलीले सामान्य क्षणलाई असाधारण बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Attention to detail saves the day. A small error caught early prevents a much larger problem down the road.",
+        "ne": "विवरणमा ध्यानले दिन बचाउँछ। चाँडै पत्ता लगाइएको सानो त्रुटिले पछि ठूलो समस्या रोक्छ।"
+      },
+      "tula": {
+        "en": "Legal or contractual matters advance favorably. Justice-related issues tend to resolve in your favor when fairness prevails.",
+        "ne": "कानुनी वा सम्झौता सम्बन्धी कुराहरू अनुकूल रूपमा अगाडि बढ्छन्। निष्पक्षता हावी हुँदा न्याय सम्बन्धी मुद्दाहरू तपाईंको पक्षमा समाधान हुन्छन्।"
+      },
+      "vrishchik": {
+        "en": "Investigative instincts serve you well. Whether researching an investment or uncovering a truth, your depth of analysis impresses.",
+        "ne": "अनुसन्धानात्मक सहज बुद्धिले तपाईंलाई राम्रो सेवा गर्छ। लगानी अनुसन्धान होस् वा सत्य उजागर गर्नु, तपाईंको विश्लेषणको गहिराइले प्रभावित गर्छ।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Reputation management matters today. Every interaction builds your professional brand — be consistent and reliable.",
+        "ne": "आज प्रतिष्ठा व्यवस्थापन महत्त्वपूर्ण छ। प्रत्येक अन्तरक्रियाले तपाईंको व्यावसायिक ब्रान्ड निर्माण गर्छ — निरन्तर र भरपर्दो हुनुहोस्।"
+      },
+      "kumbha": {
+        "en": "Group projects thrive under your facilitation. Your ability to include diverse perspectives creates stronger outcomes.",
+        "ne": "समूह परियोजनाहरू तपाईंको सुविधा अन्तर्गत फस्टाउँछन्। विविध दृष्टिकोण समावेश गर्ने तपाईंको क्षमताले बलियो नतिजा सिर्जना गर्छ।"
+      },
+      "min": {
+        "en": "Creative visualization manifests desires. Spend quiet time imagining your ideal life — your powerful imagination shapes reality.",
+        "ne": "सिर्जनात्मक कल्पनाले इच्छाहरू साकार गर्छ। आफ्नो आदर्श जीवन कल्पना गर्दै शान्त समय बिताउनुहोस् — तपाईंको शक्तिशाली कल्पनाले वास्तविकतालाई आकार दिन्छ।"
+      }
+    },
+    "18": {
+      "mesh": {
+        "en": "A mentor figure may appear in your life today. Be open to guidance even if your independent nature resists it.",
+        "ne": "आज तपाईंको जीवनमा एक मार्गदर्शक आउन सक्छन्। स्वतन्त्र स्वभाव भए पनि मार्गदर्शनका लागि खुला रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Colleagues appreciate your reliable nature. A team project benefits from your methodical approach and attention to detail.",
+        "ne": "सहकर्मीहरूले तपाईंको भरपर्दो स्वभावको कदर गर्छन्। टोली परियोजनामा तपाईंको व्यवस्थित दृष्टिकोणबाट फाइदा हुन्छ।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "Financial security comes from careful planning. Review your savings goals and consider setting up an emergency fund.",
+        "ne": "सावधानीपूर्ण योजनाबाट आर्थिक सुरक्षा आउँछ। बचत लक्ष्यहरू समीक्षा गर्नुहोस् र आपतकालीन कोष बनाउने विचार गर्नुहोस्।"
+      },
+      "simha": {
+        "en": "Your confidence radiates today, drawing positive attention. Use this magnetic energy to pitch ideas or lead presentations.",
+        "ne": "आज तपाईंको आत्मविश्वासले सकारात्मक ध्यान आकर्षित गर्छ। विचार प्रस्तुत गर्न वा प्रस्तुतीकरण नेतृत्व गर्न यो चुम्बकीय ऊर्जा प्रयोग गर्नुहोस्।"
+      },
+      "kanya": {
+        "en": "Perfectionism may cause unnecessary stress. Remember that done is better than perfect — release control and trust the process.",
+        "ne": "पूर्णतावादले अनावश्यक तनाव ल्याउन सक्छ। सम्पन्न भएको पूर्णभन्दा राम्रो हुन्छ भन्ने सम्झनुहोस्।"
+      },
+      "tula": {
+        "en": "A friend's problem becomes your mission. While helping others is noble, make sure you don't neglect your own needs in the process.",
+        "ne": "साथीको समस्या तपाईंको मिसन बन्छ। अरूलाई मद्दत गर्नु महान् हो, तर प्रक्रियामा आफ्नै आवश्यकताहरू बेवास्ता नगर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Financial acumen is sharp. Trust your instinct about an investment opportunity — your ability to see hidden value is unmatched.",
+        "ne": "आर्थिक बुद्धि तीक्ष्ण छ। लगानी अवसरको बारेमा आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् — लुकेको मूल्य देख्ने तपाईंको क्षमता अद्वितीय छ।"
+      },
+      "dhanu": {
+        "en": "Philosophy and big-picture thinking energize you. A book, lecture, or deep conversation about life's meaning sparks genuine excitement.",
+        "ne": "दर्शन र ठूलो तस्विर सोचले तपाईंलाई ऊर्जा दिन्छ। जीवनको अर्थबारे पुस्तक, व्याख्यान वा गहिरो कुराकानीले वास्तविक उत्साह जगाउँछ।"
+      },
+      "makar": {
+        "en": "Bones and joints need care today. Calcium-rich foods, proper posture, and gentle stretching support your skeletal health.",
+        "ne": "आज हड्डी र जोर्नीलाई हेरचाह चाहिन्छ। क्याल्सियमयुक्त खाना, राम्रो मुद्रा र हल्का स्ट्रेचिङले हड्डी स्वास्थ्यलाई सहयोग गर्छ।"
+      },
+      "kumbha": {
+        "en": "Scientific curiosity drives productive research. Your methodical yet creative approach uncovers patterns others miss.",
+        "ne": "वैज्ञानिक जिज्ञासाले उत्पादक अनुसन्धान चलाउँछ। तपाईंको व्यवस्थित तर सिर्जनात्मक दृष्टिकोणले अरूले नदेखेका ढाँचाहरू उजागर गर्छ।"
+      },
+      "min": {
+        "en": "Charity and giving align with your soul's purpose today. Even small acts of kindness create ripples that change the world.",
+        "ne": "दान र दिनुले आज तपाईंको आत्माको उद्देश्यसँग मिल्छ। दयालुताको सानो कार्यले पनि संसार परिवर्तन गर्ने लहरहरू सिर्जना गर्छ।"
+      }
+    },
+    "19": {
+      "mesh": {
+        "en": "Financial matters need careful attention today. A hasty investment could backfire — take time to research before committing funds.",
+        "ne": "आज आर्थिक मामिलामा सावधानी चाहिन्छ। हतारमा गरेको लगानी उल्टो पर्न सक्छ — रकम लगाउनुअघि राम्ररी अध्ययन गर्नुहोस्।"
+      },
+      "brish": {
+        "en": "Health-wise, focus on your throat and neck area. Gentle stretches and staying hydrated will prevent common Taurus ailments.",
+        "ne": "स्वास्थ्यको हिसाबले घाँटी र गर्दन क्षेत्रमा ध्यान दिनुहोस्। हल्का स्ट्रेच र पानी पिउनले सामान्य समस्या रोक्छ।"
+      },
+      "mithun": {
+        "en": "Restlessness may distract you. Practice mindfulness to stay focused on priorities instead of jumping between too many tasks.",
+        "ne": "अशान्तिले ध्यान भटकाउन सक्छ। धेरै कामहरूमा उफ्रिनुको सट्टा प्राथमिकतामा केन्द्रित रहन माइन्डफुलनेस अभ्यास गर्नुहोस्।"
+      },
+      "karkat": {
+        "en": "Water activities are therapeutic. Swimming, a long bath, or simply listening to rain sounds can deeply soothe your soul.",
+        "ne": "पानीसम्बन्धी गतिविधिहरू उपचारात्मक छन्। पौडी, लामो स्नान वा पानी बर्सिएको आवाजले तपाईंको आत्मालाई शान्त गर्छ।"
+      },
+      "simha": {
+        "en": "Children or younger people bring happiness. Mentoring a young person fulfills your desire to leave a lasting legacy.",
+        "ne": "बालबालिका वा युवाहरूले खुसी ल्याउँछन्। युवालाई मार्गदर्शन गर्नुले स्थायी विरासत छोड्ने तपाईंको इच्छा पूरा गर्छ।"
+      },
+      "kanya": {
+        "en": "Perfectionism may cause unnecessary stress. Remember that done is better than perfect — release control and trust the process.",
+        "ne": "पूर्णतावादले अनावश्यक तनाव ल्याउन सक्छ। सम्पन्न भएको पूर्णभन्दा राम्रो हुन्छ भन्ने सम्झनुहोस्।"
+      },
+      "tula": {
+        "en": "Partnership opportunities arise in business. Your diplomatic nature makes you an ideal negotiator for joint ventures.",
+        "ne": "व्यवसायमा साझेदारीको अवसर उत्पन्न हुन्छ। तपाईंको कूटनीतिक स्वभावले तपाईंलाई संयुक्त उद्यमका लागि आदर्श वार्ताकार बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Detox and cleansing are favored. Physical, emotional, or digital detox clears space for new growth and opportunities.",
+        "ne": "डिटक्स र सफाइ अनुकूल छ। शारीरिक, भावनात्मक वा डिजिटल डिटक्सले नयाँ वृद्धि र अवसरका लागि ठाउँ खाली गर्छ।"
+      },
+      "dhanu": {
+        "en": "Outdoor sports or hiking refresh your spirit. Nature's grandeur reminds you of life's bigger picture and your place within it.",
+        "ne": "बाहिरी खेलकुद वा हाइकिङले तपाईंको आत्मालाई ताजा बनाउँछ। प्रकृतिको भव्यताले जीवनको ठूलो तस्विर सम्झाउँछ।"
+      },
+      "makar": {
+        "en": "A father figure or elder's advice proves valuable. Traditional wisdom often holds answers that modern approaches overlook.",
+        "ne": "बाबा वा जेठो व्यक्तिको सल्लाह बहुमूल्य सावित हुन्छ। परम्परागत ज्ञानमा प्रायः आधुनिक दृष्टिकोणले बेवास्ता गर्ने उत्तरहरू हुन्छन्।"
+      },
+      "kumbha": {
+        "en": "Community involvement brings purpose. Joining a cause or group that aligns with your values creates meaningful connections.",
+        "ne": "सामुदायिक संलग्नताले उद्देश्य ल्याउँछ। तपाईंको मूल्यसँग मिल्ने कारण वा समूहमा सामेल हुँदा अर्थपूर्ण सम्बन्ध बन्छन्।"
+      },
+      "min": {
+        "en": "Creative visualization manifests desires. Spend quiet time imagining your ideal life — your powerful imagination shapes reality.",
+        "ne": "सिर्जनात्मक कल्पनाले इच्छाहरू साकार गर्छ। आफ्नो आदर्श जीवन कल्पना गर्दै शान्त समय बिताउनुहोस् — तपाईंको शक्तिशाली कल्पनाले वास्तविकतालाई आकार दिन्छ।"
+      }
+    },
+    "20": {
+      "mesh": {
+        "en": "An old friend may reach out with an interesting proposal. Evaluate it objectively before your enthusiasm takes over.",
+        "ne": "एक पुरानो साथीले रोचक प्रस्ताव लिएर आउन सक्छन्। उत्साहमा बगिनु अगाडि वस्तुनिष्ठ रूपमा मूल्याङ्कन गर्नुहोस्।"
+      },
+      "brish": {
+        "en": "Patience is your greatest strength today. A slow and steady approach to a work challenge will yield the best results.",
+        "ne": "आज धैर्य तपाईंको सबैभन्दा ठूलो शक्ति हो। कामको चुनौतीमा बिस्तारै तर स्थिर दृष्टिकोणले उत्तम नतिजा दिन्छ।"
+      },
+      "mithun": {
+        "en": "Mental agility is at its peak. Puzzles, strategy games, or brainstorming sessions feed your intellectual hunger.",
+        "ne": "मानसिक चपलता चरम बिन्दुमा छ। पजल, रणनीति खेल वा विचार-मन्थन सत्रहरूले तपाईंको बौद्धिक भोक मेटाउँछ।"
+      },
+      "karkat": {
+        "en": "Mood swings may affect your productivity. Acknowledge your emotions without judging them — this too shall pass.",
+        "ne": "मुड स्विङले तपाईंको उत्पादकत्वलाई असर गर्न सक्छ। आफ्नो भावनाहरूलाई न्याय नगरी स्वीकार गर्नुहोस् — यो पनि बितिजान्छ।"
+      },
+      "simha": {
+        "en": "Drama in friend circles may pull you in. Rise above petty conflicts and set an example of grace and maturity.",
+        "ne": "साथी समूहमा नाटक हुन सक्छ। साना द्वन्द्वभन्दा माथि उठ्नुहोस् र अनुग्रह र परिपक्वताको उदाहरण बन्नुहोस्।"
+      },
+      "kanya": {
+        "en": "Perfectionism may cause unnecessary stress. Remember that done is better than perfect — release control and trust the process.",
+        "ne": "पूर्णतावादले अनावश्यक तनाव ल्याउन सक्छ। सम्पन्न भएको पूर्णभन्दा राम्रो हुन्छ भन्ने सम्झनुहोस्।"
+      },
+      "tula": {
+        "en": "Diplomacy resolves a long-standing dispute. Your ability to see merit in opposing viewpoints creates lasting peace.",
+        "ne": "कूटनीतिले लामो समयदेखिको विवाद समाधान गर्छ। विरोधी दृष्टिकोणमा गुण देख्ने तपाईंको क्षमताले स्थायी शान्ति सिर्जना गर्छ।"
+      },
+      "vrishchik": {
+        "en": "Physical intimacy and emotional depth strengthen bonds with your partner. Vulnerability is not weakness — it's your path to true connection.",
+        "ne": "शारीरिक नजिकी र भावनात्मक गहिराइले साथीसँगको बन्धन बलियो बनाउँछ। कमजोरी देखाउनु कमजोरी होइन — यो साँचो जडानतिर तपाईंको बाटो हो।"
+      },
+      "dhanu": {
+        "en": "Publishing or sharing ideas with a wider audience is favored. Your perspective has value — don't keep it to yourself.",
+        "ne": "प्रकाशन वा फराकिलो दर्शकसँग विचार साझा गर्नु अनुकूल छ। तपाईंको दृष्टिकोणको मूल्य छ — यसलाई आफूमा मात्र नराख्नुहोस्।"
+      },
+      "makar": {
+        "en": "Structure and routine bring comfort. Stick to your proven methods rather than experimenting with untested approaches.",
+        "ne": "संरचना र दिनचर्याले सान्त्वना ल्याउँछ। परीक्षण नगरिएको दृष्टिकोणको प्रयोग गर्नुभन्दा आफ्नो प्रमाणित विधिमा टिक्नुहोस्।"
+      },
+      "kumbha": {
+        "en": "Eccentric choices are embraced today. Your uniqueness is your strength — don't dim your light to fit in.",
+        "ne": "विचित्र छनोटहरू आज स्वीकार गरिन्छ। तपाईंको विशिष्टता तपाईंको शक्ति हो — फिट हुन आफ्नो प्रकाश मधुरो नबनाउनुहोस्।"
+      },
+      "min": {
+        "en": "Compassion for others heals your own wounds. Reaching out to someone in pain creates a bridge of mutual understanding.",
+        "ne": "अरूप्रतिको करुणाले तपाईंको आफ्नै घाउ निको गर्छ। पीडामा भएको कसैसँग हात बढाउँदा पारस्परिक समझको पुल बन्छ।"
+      }
+    },
+    "21": {
+      "mesh": {
+        "en": "Physical energy is high — channel it into exercise or outdoor activities. Avoid unnecessary arguments that drain your enthusiasm.",
+        "ne": "शारीरिक ऊर्जा उच्च छ — यसलाई व्यायाम वा बाहिरी गतिविधिमा लगाउनुहोस्। अनावश्यक बहसबाट टाढा रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Comfort and luxury call to you. Treat yourself to something special but keep spending within reasonable limits.",
+        "ne": "आराम र विलासिताले तपाईंलाई बोलाउँछ। आफूलाई केही विशेष उपहार दिनुहोस् तर खर्च सीमामा राख्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Nostalgia brings comfort. Looking through old photos or reconnecting with childhood friends warms your heart.",
+        "ne": "पुरानो सम्झनाले सान्त्वना ल्याउँछ। पुराना फोटोहरू हेर्दा वा बाल्यकालका साथीसँग पुन: जडान हुँदा मन तातिन्छ।"
+      },
+      "simha": {
+        "en": "Pride might cloud judgment in a disagreement. Step back, breathe, and remember that being kind is more important than being right.",
+        "ne": "गर्वले असहमतिमा निर्णयलाई धमिलो पार्न सक्छ। पछाडि हट्नुहोस्, सास फेर्नुहोस् र सम्झनुहोस् कि दयालु हुनु सही हुनुभन्दा महत्त्वपूर्ण छ।"
+      },
+      "kanya": {
+        "en": "Critical feedback you give is well-received if wrapped in kindness. Your observations help others grow — share them gently.",
+        "ne": "दयालुतामा बेरिएको आलोचनात्मक प्रतिक्रिया राम्ररी स्वीकार गरिन्छ। तपाईंको अवलोकनले अरूलाई बढ्न मद्दत गर्छ — कोमलतापूर्वक साझा गर्नुहोस्।"
+      },
+      "tula": {
+        "en": "Social media presence could benefit from a refresh. Your eye for aesthetics creates content that naturally attracts followers.",
+        "ne": "सोशल मिडिया उपस्थितिलाई ताजगी दिनुले फाइदा पुर्‍याउन सक्छ। सौन्दर्यको लागि तपाईंको नजरले प्राकृतिक रूपमा फलोअर आकर्षित गर्ने सामग्री सिर्जना गर्छ।"
+      },
+      "vrishchik": {
+        "en": "Research projects yield breakthrough results. Your persistence in digging deep uncovers information others overlooked.",
+        "ne": "अनुसन्धान परियोजनाहरूले सफल नतिजा दिन्छन्। गहिरो खनजोट गर्ने तपाईंको दृढताले अरूले बेवास्ता गरेको जानकारी उजागर गर्छ।"
+      },
+      "dhanu": {
+        "en": "Adventure calls loudly today. Whether physical travel or intellectual exploration, say yes to new experiences that broaden your horizons.",
+        "ne": "आज साहसिकताले जोरले बोलाउँछ। शारीरिक यात्रा होस् वा बौद्धिक अन्वेषण, क्षितिज फराकिलो गर्ने नयाँ अनुभवहरूलाई हुन्छ भन्नुहोस्।"
+      },
+      "makar": {
+        "en": "Mountain metaphors fit your day — slow, steady climbing leads to summit views others never see. Keep ascending.",
+        "ne": "पहाडको रूपकले तपाईंको दिनसँग मिल्छ — बिस्तारै, स्थिर चढाइले अरूले कहिल्यै नदेख्ने चुचुरोको दृश्य दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Technology breakthroughs excite you. Stay updated on the latest trends — your early adoption could give you a significant advantage.",
+        "ne": "प्रविधि सफलताहरूले तपाईंलाई उत्साहित गर्छ। नवीनतम प्रवृत्तिमा अद्यावधिक रहनुहोस् — तपाईंको प्रारम्भिक अवलम्बनले महत्त्वपूर्ण फाइदा दिन सक्छ।"
+      },
+      "min": {
+        "en": "Water-related activities bring peace. Swimming, visiting a lake, or simply taking a long shower washes away accumulated stress.",
+        "ne": "पानीसम्बन्धी गतिविधिहरूले शान्ति ल्याउँछन्। पौडी, ताल भ्रमण वा लामो शावरले जम्मा भएको तनाव धोइदिन्छ।"
+      }
+    },
+    "22": {
+      "mesh": {
+        "en": "Physical energy is high — channel it into exercise or outdoor activities. Avoid unnecessary arguments that drain your enthusiasm.",
+        "ne": "शारीरिक ऊर्जा उच्च छ — यसलाई व्यायाम वा बाहिरी गतिविधिमा लगाउनुहोस्। अनावश्यक बहसबाट टाढा रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Home improvements are favored. A small change in your living space can bring surprising comfort and positive energy.",
+        "ne": "घर सुधारका लागि अनुकूल दिन। बसोबासको ठाउँमा सानो परिवर्तनले अचम्मको आराम र सकारात्मक ऊर्जा ल्याउन सक्छ।"
+      },
+      "mithun": {
+        "en": "Dual tasks are manageable today. Your ability to multitask impresses others, but ensure quality doesn't suffer for quantity.",
+        "ne": "आज दोहोरो कामहरू व्यवस्थापन योग्य छन्। बहु-कार्य गर्ने तपाईंको क्षमताले अरूलाई प्रभावित गर्छ।"
+      },
+      "karkat": {
+        "en": "Stomach and digestive health need attention. Warm, homemade meals nourish you better than takeout or processed food.",
+        "ne": "पेट र पाचन स्वास्थ्यमा ध्यान दिनुपर्छ। न्यानो घरमा पकाएको खानाले बाहिरको खानाभन्दा राम्रो पोषण दिन्छ।"
+      },
+      "simha": {
+        "en": "Heart health deserves focus. Cardio exercises, joyful dancing, or brisk walking strengthens your most vital organ.",
+        "ne": "हृदय स्वास्थ्यमा ध्यान दिनुहोस्। कार्डियो व्यायाम, रमाइलो नृत्य वा तीव्र हिँडाइले तपाईंको सबैभन्दा महत्त्वपूर्ण अङ्ग बलियो बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Analytical skills are in high demand. A colleague or friend seeks your ability to break down complex problems into manageable steps.",
+        "ne": "विश्लेषणात्मक सीपको उच्च माग छ। सहकर्मी वा साथीले जटिल समस्यालाई व्यवस्थित चरणमा विभाजन गर्ने तपाईंको क्षमता खोज्छन्।"
+      },
+      "tula": {
+        "en": "A friend's problem becomes your mission. While helping others is noble, make sure you don't neglect your own needs in the process.",
+        "ne": "साथीको समस्या तपाईंको मिसन बन्छ। अरूलाई मद्दत गर्नु महान् हो, तर प्रक्रियामा आफ्नै आवश्यकताहरू बेवास्ता नगर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Physical intimacy and emotional depth strengthen bonds with your partner. Vulnerability is not weakness — it's your path to true connection.",
+        "ne": "शारीरिक नजिकी र भावनात्मक गहिराइले साथीसँगको बन्धन बलियो बनाउँछ। कमजोरी देखाउनु कमजोरी होइन — यो साँचो जडानतिर तपाईंको बाटो हो।"
+      },
+      "dhanu": {
+        "en": "Optimism is contagious today. Your positive outlook lifts the spirits of everyone around you — spread that sunshine generously.",
+        "ne": "आज आशावाद संक्रामक छ। तपाईंको सकारात्मक दृष्टिकोणले वरिपरिका सबैको आत्माबल उठाउँछ — त्यो किरण उदारतापूर्वक फैलाउनुहोस्।"
+      },
+      "makar": {
+        "en": "Financial planning sessions are productive. Reviewing budgets, investments, and savings goals gives you a sense of control.",
+        "ne": "आर्थिक योजना सत्रहरू उत्पादक छन्। बजेट, लगानी र बचत लक्ष्यहरू समीक्षा गर्दा नियन्त्रणको भावना दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Technology breakthroughs excite you. Stay updated on the latest trends — your early adoption could give you a significant advantage.",
+        "ne": "प्रविधि सफलताहरूले तपाईंलाई उत्साहित गर्छ। नवीनतम प्रवृत्तिमा अद्यावधिक रहनुहोस् — तपाईंको प्रारम्भिक अवलम्बनले महत्त्वपूर्ण फाइदा दिन सक्छ।"
+      },
+      "min": {
+        "en": "Intuition is your guiding star today. Dreams and subtle signs carry messages — pay attention to the whispers of your subconscious.",
+        "ne": "आज अन्तर्ज्ञान तपाईंको मार्गदर्शक तारा हो। सपना र सूक्ष्म संकेतहरूले सन्देश बोक्छन् — अवचेतनको कुसकुसीमा ध्यान दिनुहोस्।"
+      }
+    },
+    "23": {
+      "mesh": {
+        "en": "Physical energy is high — channel it into exercise or outdoor activities. Avoid unnecessary arguments that drain your enthusiasm.",
+        "ne": "शारीरिक ऊर्जा उच्च छ — यसलाई व्यायाम वा बाहिरी गतिविधिमा लगाउनुहोस्। अनावश्यक बहसबाट टाढा रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Financial stability is your focus today. Long-term investments look promising — avoid the temptation of quick gains.",
+        "ne": "आज आर्थिक स्थिरता तपाईंको मुख्य ध्यान हो। दीर्घकालीन लगानी आशाजनक देखिन्छ — छिटो नाफाको प्रलोभनबाट बच्नुहोस्।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "Nostalgia brings comfort. Looking through old photos or reconnecting with childhood friends warms your heart.",
+        "ne": "पुरानो सम्झनाले सान्त्वना ल्याउँछ। पुराना फोटोहरू हेर्दा वा बाल्यकालका साथीसँग पुन: जडान हुँदा मन तातिन्छ।"
+      },
+      "simha": {
+        "en": "Pride might cloud judgment in a disagreement. Step back, breathe, and remember that being kind is more important than being right.",
+        "ne": "गर्वले असहमतिमा निर्णयलाई धमिलो पार्न सक्छ। पछाडि हट्नुहोस्, सास फेर्नुहोस् र सम्झनुहोस् कि दयालु हुनु सही हुनुभन्दा महत्त्वपूर्ण छ।"
+      },
+      "kanya": {
+        "en": "Health routines are satisfying today. Whether it's meal prep, yoga, or organizing your supplements, self-care feels productive.",
+        "ne": "स्वास्थ्य दिनचर्या आज सन्तोषजनक छ। खाना तयारी, योग वा पूरक व्यवस्थापन जे भए पनि आत्म-हेरचाह उत्पादक लाग्छ।"
+      },
+      "tula": {
+        "en": "Art galleries, museums, or cultural events feed your soul. Make time for beauty — it's not a luxury, it's a necessity for you.",
+        "ne": "कला ग्यालरी, संग्रहालय वा सांस्कृतिक कार्यक्रमले तपाईंको आत्मालाई पोष्छ। सौन्दर्यका लागि समय निकाल्नुहोस् — यो विलासिता होइन, तपाईंको लागि आवश्यकता हो।"
+      },
+      "vrishchik": {
+        "en": "Secrets may surface today. Handle sensitive information with discretion — your reputation for trustworthiness is your greatest asset.",
+        "ne": "आज रहस्यहरू सतहमा आउन सक्छन्। संवेदनशील जानकारी विवेकपूर्ण रूपमा सम्हाल्नुहोस् — विश्वसनीयताको तपाईंको प्रतिष्ठा तपाईंको सबैभन्दा ठूलो सम्पत्ति हो।"
+      },
+      "dhanu": {
+        "en": "Higher education pursuits gain momentum. Whether formal studies or self-directed learning, knowledge acquisition is deeply fulfilling.",
+        "ne": "उच्च शिक्षा खोजले गति पाउँछ। औपचारिक अध्ययन होस् वा स्व-निर्देशित सिकाइ, ज्ञान अर्जन गहन सन्तुष्टिदायक छ।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Detachment from outcomes brings peace. Do your best work and release expectations — the universe has its own timeline.",
+        "ne": "नतिजाबाट अलग हुँदा शान्ति आउँछ। आफ्नो उत्कृष्ट काम गर्नुहोस् र अपेक्षा छोड्नुहोस् — ब्रह्माण्डको आफ्नै समयरेखा छ।"
+      },
+      "min": {
+        "en": "Past life memories or déjà vu experiences are significant. Trust these moments as guideposts on your spiritual journey.",
+        "ne": "पूर्वजन्मका सम्झना वा डेजा भू अनुभवहरू महत्त्वपूर्ण छन्। यी क्षणहरूलाई तपाईंको आध्यात्मिक यात्रामा मार्गदर्शकको रूपमा विश्वास गर्नुहोस्।"
+      }
+    },
+    "24": {
+      "mesh": {
+        "en": "Romance is in the air for single Aries. Those in relationships should plan something spontaneous to rekindle the spark.",
+        "ne": "एकल मेष राशिका लागि रोमान्सको सम्भावना छ। सम्बन्धमा भएकाहरूले सम्बन्धमा नयाँ ताजगी ल्याउन केही नयाँ योजना बनाउनुहोस्।"
+      },
+      "brish": {
+        "en": "Colleagues appreciate your reliable nature. A team project benefits from your methodical approach and attention to detail.",
+        "ne": "सहकर्मीहरूले तपाईंको भरपर्दो स्वभावको कदर गर्छन्। टोली परियोजनामा तपाईंको व्यवस्थित दृष्टिकोणबाट फाइदा हुन्छ।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Stomach and digestive health need attention. Warm, homemade meals nourish you better than takeout or processed food.",
+        "ne": "पेट र पाचन स्वास्थ्यमा ध्यान दिनुपर्छ। न्यानो घरमा पकाएको खानाले बाहिरको खानाभन्दा राम्रो पोषण दिन्छ।"
+      },
+      "simha": {
+        "en": "Children or younger people bring happiness. Mentoring a young person fulfills your desire to leave a lasting legacy.",
+        "ne": "बालबालिका वा युवाहरूले खुसी ल्याउँछन्। युवालाई मार्गदर्शन गर्नुले स्थायी विरासत छोड्ने तपाईंको इच्छा पूरा गर्छ।"
+      },
+      "kanya": {
+        "en": "Perfectionism may cause unnecessary stress. Remember that done is better than perfect — release control and trust the process.",
+        "ne": "पूर्णतावादले अनावश्यक तनाव ल्याउन सक्छ। सम्पन्न भएको पूर्णभन्दा राम्रो हुन्छ भन्ने सम्झनुहोस्।"
+      },
+      "tula": {
+        "en": "Music soothes and inspires you today. Create a playlist that matches your mood or try learning a new instrument.",
+        "ne": "सङ्गीतले आज तपाईंलाई शान्त र प्रेरित गर्छ। आफ्नो मुडसँग मिल्ने प्लेलिस्ट बनाउनुहोस् वा नयाँ वाद्ययन्त्र सिक्ने प्रयास गर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Occult or spiritual studies attract you today. Meditation, astrology, or psychology books feed your desire to understand life's mysteries.",
+        "ne": "आज गूढ वा आध्यात्मिक अध्ययनले तपाईंलाई आकर्षित गर्छ। ध्यान, ज्योतिष वा मनोविज्ञान पुस्तकहरूले जीवनको रहस्य बुझ्ने तपाईंको इच्छा पोष्छन्।"
+      },
+      "dhanu": {
+        "en": "Teaching or mentoring opportunities arise. Sharing your wisdom and experience enriches both the student and the teacher.",
+        "ne": "शिक्षण वा सल्लाहकार अवसरहरू उत्पन्न हुन्छन्। आफ्नो ज्ञान र अनुभव साझा गर्नुले विद्यार्थी र शिक्षक दुवैलाई समृद्ध बनाउँछ।"
+      },
+      "makar": {
+        "en": "A father figure or elder's advice proves valuable. Traditional wisdom often holds answers that modern approaches overlook.",
+        "ne": "बाबा वा जेठो व्यक्तिको सल्लाह बहुमूल्य सावित हुन्छ। परम्परागत ज्ञानमा प्रायः आधुनिक दृष्टिकोणले बेवास्ता गर्ने उत्तरहरू हुन्छन्।"
+      },
+      "kumbha": {
+        "en": "Group projects thrive under your facilitation. Your ability to include diverse perspectives creates stronger outcomes.",
+        "ne": "समूह परियोजनाहरू तपाईंको सुविधा अन्तर्गत फस्टाउँछन्। विविध दृष्टिकोण समावेश गर्ने तपाईंको क्षमताले बलियो नतिजा सिर्जना गर्छ।"
+      },
+      "min": {
+        "en": "Spiritual practices deepen your connection to the divine. Meditation, prayer, or temple visits nourish your soul profoundly.",
+        "ne": "आध्यात्मिक अभ्यासले दैवीसँगको तपाईंको सम्बन्ध गहिरो बनाउँछ। ध्यान, प्रार्थना वा मन्दिर भ्रमणले तपाईंको आत्मालाई गहन रूपमा पोष्छ।"
+      }
+    },
+    "25": {
+      "mesh": {
+        "en": "Physical energy is high — channel it into exercise or outdoor activities. Avoid unnecessary arguments that drain your enthusiasm.",
+        "ne": "शारीरिक ऊर्जा उच्च छ — यसलाई व्यायाम वा बाहिरी गतिविधिमा लगाउनुहोस्। अनावश्यक बहसबाट टाढा रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Patience is your greatest strength today. A slow and steady approach to a work challenge will yield the best results.",
+        "ne": "आज धैर्य तपाईंको सबैभन्दा ठूलो शक्ति हो। कामको चुनौतीमा बिस्तारै तर स्थिर दृष्टिकोणले उत्तम नतिजा दिन्छ।"
+      },
+      "mithun": {
+        "en": "Tech-related tasks flow smoothly. Software updates, gadget purchases, or learning new digital tools are all well-starred.",
+        "ne": "प्रविधि सम्बन्धी कामहरू सहज छन्। सफ्टवेयर अपडेट, ग्याजेट किनमेल वा नयाँ डिजिटल उपकरण सिक्नु अनुकूल छ।"
+      },
+      "karkat": {
+        "en": "A mother figure or elder provides valuable wisdom. Their experience offers a shortcut through a problem you've been struggling with.",
+        "ne": "एक आमा वा जेठो व्यक्तिले बहुमूल्य ज्ञान प्रदान गर्छन्। तपाईंले संघर्ष गरिरहेको समस्यामा तिनीहरूको अनुभवले सहज बाटो देखाउँछ।"
+      },
+      "simha": {
+        "en": "Stage fright disappears as you step into the spotlight. Public speaking or performing comes naturally — embrace the attention.",
+        "ne": "स्टेज डरले तपाईंलाई स्पटलाइटमा आउँदा बिदा लिन्छ। सार्वजनिक बोल्ने वा प्रदर्शन स्वाभाविक रूपमा आउँछ।"
+      },
+      "kanya": {
+        "en": "Organization projects thrive. Decluttering your workspace or home creates mental clarity and invites fresh opportunities.",
+        "ne": "व्यवस्थापन परियोजनाहरू फस्टाउँछन्। कार्यस्थल वा घर मिलाउनुले मानसिक स्पष्टता सिर्जना गर्छ र नयाँ अवसरहरू निम्त्याउँछ।"
+      },
+      "tula": {
+        "en": "Art galleries, museums, or cultural events feed your soul. Make time for beauty — it's not a luxury, it's a necessity for you.",
+        "ne": "कला ग्यालरी, संग्रहालय वा सांस्कृतिक कार्यक्रमले तपाईंको आत्मालाई पोष्छ। सौन्दर्यका लागि समय निकाल्नुहोस् — यो विलासिता होइन, तपाईंको लागि आवश्यकता हो।"
+      },
+      "vrishchik": {
+        "en": "Research projects yield breakthrough results. Your persistence in digging deep uncovers information others overlooked.",
+        "ne": "अनुसन्धान परियोजनाहरूले सफल नतिजा दिन्छन्। गहिरो खनजोट गर्ने तपाईंको दृढताले अरूले बेवास्ता गरेको जानकारी उजागर गर्छ।"
+      },
+      "dhanu": {
+        "en": "Philosophy and big-picture thinking energize you. A book, lecture, or deep conversation about life's meaning sparks genuine excitement.",
+        "ne": "दर्शन र ठूलो तस्विर सोचले तपाईंलाई ऊर्जा दिन्छ। जीवनको अर्थबारे पुस्तक, व्याख्यान वा गहिरो कुराकानीले वास्तविक उत्साह जगाउँछ।"
+      },
+      "makar": {
+        "en": "Legacy building is on your mind. Decisions made today have long-term consequences — choose with future generations in mind.",
+        "ne": "विरासत निर्माण तपाईंको मनमा छ। आज गरिएका निर्णयहरूको दीर्घकालीन परिणाम हुन्छ — भविष्यका पुस्ताहरूलाई ध्यानमा राखेर छान्नुहोस्।"
+      },
+      "kumbha": {
+        "en": "Community involvement brings purpose. Joining a cause or group that aligns with your values creates meaningful connections.",
+        "ne": "सामुदायिक संलग्नताले उद्देश्य ल्याउँछ। तपाईंको मूल्यसँग मिल्ने कारण वा समूहमा सामेल हुँदा अर्थपूर्ण सम्बन्ध बन्छन्।"
+      },
+      "min": {
+        "en": "Spiritual practices deepen your connection to the divine. Meditation, prayer, or temple visits nourish your soul profoundly.",
+        "ne": "आध्यात्मिक अभ्यासले दैवीसँगको तपाईंको सम्बन्ध गहिरो बनाउँछ। ध्यान, प्रार्थना वा मन्दिर भ्रमणले तपाईंको आत्मालाई गहन रूपमा पोष्छ।"
+      }
+    },
+    "26": {
+      "mesh": {
+        "en": "Romance is in the air for single Aries. Those in relationships should plan something spontaneous to rekindle the spark.",
+        "ne": "एकल मेष राशिका लागि रोमान्सको सम्भावना छ। सम्बन्धमा भएकाहरूले सम्बन्धमा नयाँ ताजगी ल्याउन केही नयाँ योजना बनाउनुहोस्।"
+      },
+      "brish": {
+        "en": "Comfort and luxury call to you. Treat yourself to something special but keep spending within reasonable limits.",
+        "ne": "आराम र विलासिताले तपाईंलाई बोलाउँछ। आफूलाई केही विशेष उपहार दिनुहोस् तर खर्च सीमामा राख्नुहोस्।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "A mother figure or elder provides valuable wisdom. Their experience offers a shortcut through a problem you've been struggling with.",
+        "ne": "एक आमा वा जेठो व्यक्तिले बहुमूल्य ज्ञान प्रदान गर्छन्। तपाईंले संघर्ष गरिरहेको समस्यामा तिनीहरूको अनुभवले सहज बाटो देखाउँछ।"
+      },
+      "simha": {
+        "en": "Generosity defines your day. Sharing your resources or knowledge with others comes back to you multiplied.",
+        "ne": "उदारताले तपाईंको दिनलाई परिभाषित गर्छ। आफ्नो स्रोत वा ज्ञान अरूसँग साझा गर्नुले बहुगुणित भएर फर्कन्छ।"
+      },
+      "kanya": {
+        "en": "Critical feedback you give is well-received if wrapped in kindness. Your observations help others grow — share them gently.",
+        "ne": "दयालुतामा बेरिएको आलोचनात्मक प्रतिक्रिया राम्ररी स्वीकार गरिन्छ। तपाईंको अवलोकनले अरूलाई बढ्न मद्दत गर्छ — कोमलतापूर्वक साझा गर्नुहोस्।"
+      },
+      "tula": {
+        "en": "Music soothes and inspires you today. Create a playlist that matches your mood or try learning a new instrument.",
+        "ne": "सङ्गीतले आज तपाईंलाई शान्त र प्रेरित गर्छ। आफ्नो मुडसँग मिल्ने प्लेलिस्ट बनाउनुहोस् वा नयाँ वाद्ययन्त्र सिक्ने प्रयास गर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Occult or spiritual studies attract you today. Meditation, astrology, or psychology books feed your desire to understand life's mysteries.",
+        "ne": "आज गूढ वा आध्यात्मिक अध्ययनले तपाईंलाई आकर्षित गर्छ। ध्यान, ज्योतिष वा मनोविज्ञान पुस्तकहरूले जीवनको रहस्य बुझ्ने तपाईंको इच्छा पोष्छन्।"
+      },
+      "dhanu": {
+        "en": "Bluntness may offend someone unintentionally. Your truth-telling nature is a gift, but timing and tact make it more effective.",
+        "ne": "स्पष्टवादिताले अनजानमा कसैलाई रिसाउन सक्छ। सत्य भन्ने तपाईंको स्वभाव उपहार हो, तर समय र कौशलले यसलाई अझ प्रभावकारी बनाउँछ।"
+      },
+      "makar": {
+        "en": "Bones and joints need care today. Calcium-rich foods, proper posture, and gentle stretching support your skeletal health.",
+        "ne": "आज हड्डी र जोर्नीलाई हेरचाह चाहिन्छ। क्याल्सियमयुक्त खाना, राम्रो मुद्रा र हल्का स्ट्रेचिङले हड्डी स्वास्थ्यलाई सहयोग गर्छ।"
+      },
+      "kumbha": {
+        "en": "Detachment from outcomes brings peace. Do your best work and release expectations — the universe has its own timeline.",
+        "ne": "नतिजाबाट अलग हुँदा शान्ति आउँछ। आफ्नो उत्कृष्ट काम गर्नुहोस् र अपेक्षा छोड्नुहोस् — ब्रह्माण्डको आफ्नै समयरेखा छ।"
+      },
+      "min": {
+        "en": "Boundaries need strengthening. Your empathetic nature absorbs others' emotions too easily — protect your energy with gentle limits.",
+        "ne": "सीमाहरू बलियो बनाउनु आवश्यक छ। तपाईंको सहानुभूतिपूर्ण स्वभावले अरूको भावना धेरै सजिलै सोस्छ — कोमल सीमाहरूले आफ्नो ऊर्जा जोगाउनुहोस्।"
+      }
+    },
+    "27": {
+      "mesh": {
+        "en": "A leadership opportunity may arise unexpectedly. Trust your instincts but listen to experienced colleagues before making big decisions.",
+        "ne": "नेतृत्वको अवसर अचानक आउन सक्छ। आफ्नो सहज बुद्धिमा विश्वास गर्नुहोस् तर ठूलो निर्णय लिनुअघि अनुभवी साथीहरूको सुन्नुहोस्।"
+      },
+      "brish": {
+        "en": "A romantic evening is in store. Express your feelings openly — your loyalty and devotion will be deeply appreciated.",
+        "ne": "रोमान्टिक साँझ आउँदैछ। आफ्नो भावना खुलेर व्यक्त गर्नुहोस् — तपाईंको वफादारी र समर्पणको गहिरो कदर हुनेछ।"
+      },
+      "mithun": {
+        "en": "Your curiosity leads you to valuable information. Research and learning activities are highly favored — enroll in that course you've been considering.",
+        "ne": "तपाईंको जिज्ञासाले बहुमूल्य जानकारीतिर डोर्‍याउँछ। अनुसन्धान र सिकाइ गतिविधिहरू अत्यन्त अनुकूल छन्।"
+      },
+      "karkat": {
+        "en": "Mood swings may affect your productivity. Acknowledge your emotions without judging them — this too shall pass.",
+        "ne": "मुड स्विङले तपाईंको उत्पादकत्वलाई असर गर्न सक्छ। आफ्नो भावनाहरूलाई न्याय नगरी स्वीकार गर्नुहोस् — यो पनि बितिजान्छ।"
+      },
+      "simha": {
+        "en": "Heart health deserves focus. Cardio exercises, joyful dancing, or brisk walking strengthens your most vital organ.",
+        "ne": "हृदय स्वास्थ्यमा ध्यान दिनुहोस्। कार्डियो व्यायाम, रमाइलो नृत्य वा तीव्र हिँडाइले तपाईंको सबैभन्दा महत्त्वपूर्ण अङ्ग बलियो बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Herbal teas and natural remedies work well for you today. Your body responds positively to gentle, traditional healing methods.",
+        "ne": "जडिबुटी चिया र प्राकृतिक उपचार आज तपाईंका लागि राम्रो काम गर्छ। तपाईंको शरीरले कोमल परम्परागत उपचार विधिमा सकारात्मक प्रतिक्रिया दिन्छ।"
+      },
+      "tula": {
+        "en": "Music soothes and inspires you today. Create a playlist that matches your mood or try learning a new instrument.",
+        "ne": "सङ्गीतले आज तपाईंलाई शान्त र प्रेरित गर्छ। आफ्नो मुडसँग मिल्ने प्लेलिस्ट बनाउनुहोस् वा नयाँ वाद्ययन्त्र सिक्ने प्रयास गर्नुहोस्।"
+      },
+      "vrishchik": {
+        "en": "Detox and cleansing are favored. Physical, emotional, or digital detox clears space for new growth and opportunities.",
+        "ne": "डिटक्स र सफाइ अनुकूल छ। शारीरिक, भावनात्मक वा डिजिटल डिटक्सले नयाँ वृद्धि र अवसरका लागि ठाउँ खाली गर्छ।"
+      },
+      "dhanu": {
+        "en": "Teaching or mentoring opportunities arise. Sharing your wisdom and experience enriches both the student and the teacher.",
+        "ne": "शिक्षण वा सल्लाहकार अवसरहरू उत्पन्न हुन्छन्। आफ्नो ज्ञान र अनुभव साझा गर्नुले विद्यार्थी र शिक्षक दुवैलाई समृद्ध बनाउँछ।"
+      },
+      "makar": {
+        "en": "Structure and routine bring comfort. Stick to your proven methods rather than experimenting with untested approaches.",
+        "ne": "संरचना र दिनचर्याले सान्त्वना ल्याउँछ। परीक्षण नगरिएको दृष्टिकोणको प्रयोग गर्नुभन्दा आफ्नो प्रमाणित विधिमा टिक्नुहोस्।"
+      },
+      "kumbha": {
+        "en": "Ankle and circulation issues need monitoring. Regular movement, compression socks, or leg elevation can prevent discomfort.",
+        "ne": "खुट्टाको गोली र रक्त संचार समस्यामा ध्यान दिनुपर्छ। नियमित चलन, कम्प्रेसन मोजा वा खुट्टा उठाउनुले असुविधा रोक्न सक्छ।"
+      },
+      "min": {
+        "en": "Charity and giving align with your soul's purpose today. Even small acts of kindness create ripples that change the world.",
+        "ne": "दान र दिनुले आज तपाईंको आत्माको उद्देश्यसँग मिल्छ। दयालुताको सानो कार्यले पनि संसार परिवर्तन गर्ने लहरहरू सिर्जना गर्छ।"
+      }
+    },
+    "28": {
+      "mesh": {
+        "en": "Your competitive spirit shines at work. A challenging task will bring out the best in you. Celebrate small victories along the way.",
+        "ne": "कार्यस्थलमा तपाईंको प्रतिस्पर्धी भावना चम्किन्छ। चुनौतीपूर्ण कामले तपाईंको उत्कृष्ट क्षमता देखाउनेछ।"
+      },
+      "brish": {
+        "en": "Property matters move forward. If you've been eyeing a new home or land, today's energy supports careful negotiations.",
+        "ne": "सम्पत्ति सम्बन्धी कुरा अगाडि बढ्छ। नयाँ घर वा जमिन हेरिरहनुभएको छ भने आजको ऊर्जाले सावधानीपूर्ण वार्तालाई सहयोग गर्छ।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "Your nurturing instinct helps a colleague through a tough day. Kindness costs nothing but means everything to someone in need.",
+        "ne": "तपाईंको हेरचाह गर्ने स्वभावले एक सहकर्मीलाई कठिन दिनमा मद्दत गर्छ। दयालुताको कुनै मूल्य छैन तर खाँचोमा परेकालाई सबै कुरा हो।"
+      },
+      "simha": {
+        "en": "Generosity defines your day. Sharing your resources or knowledge with others comes back to you multiplied.",
+        "ne": "उदारताले तपाईंको दिनलाई परिभाषित गर्छ। आफ्नो स्रोत वा ज्ञान अरूसँग साझा गर्नुले बहुगुणित भएर फर्कन्छ।"
+      },
+      "kanya": {
+        "en": "Attention to detail saves the day. A small error caught early prevents a much larger problem down the road.",
+        "ne": "विवरणमा ध्यानले दिन बचाउँछ। चाँडै पत्ता लगाइएको सानो त्रुटिले पछि ठूलो समस्या रोक्छ।"
+      },
+      "tula": {
+        "en": "Legal or contractual matters advance favorably. Justice-related issues tend to resolve in your favor when fairness prevails.",
+        "ne": "कानुनी वा सम्झौता सम्बन्धी कुराहरू अनुकूल रूपमा अगाडि बढ्छन्। निष्पक्षता हावी हुँदा न्याय सम्बन्धी मुद्दाहरू तपाईंको पक्षमा समाधान हुन्छन्।"
+      },
+      "vrishchik": {
+        "en": "Occult or spiritual studies attract you today. Meditation, astrology, or psychology books feed your desire to understand life's mysteries.",
+        "ne": "आज गूढ वा आध्यात्मिक अध्ययनले तपाईंलाई आकर्षित गर्छ। ध्यान, ज्योतिष वा मनोविज्ञान पुस्तकहरूले जीवनको रहस्य बुझ्ने तपाईंको इच्छा पोष्छन्।"
+      },
+      "dhanu": {
+        "en": "Hip and thigh exercises improve wellbeing. Stretching, yoga, or running keeps your adventurous body in peak condition.",
+        "ne": "कुल्लो र जाँघको व्यायामले स्वास्थ्य सुधार्छ। स्ट्रेचिङ, योग वा दौडले तपाईंको साहसिक शरीरलाई उत्कृष्ट अवस्थामा राख्छ।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Community involvement brings purpose. Joining a cause or group that aligns with your values creates meaningful connections.",
+        "ne": "सामुदायिक संलग्नताले उद्देश्य ल्याउँछ। तपाईंको मूल्यसँग मिल्ने कारण वा समूहमा सामेल हुँदा अर्थपूर्ण सम्बन्ध बन्छन्।"
+      },
+      "min": {
+        "en": "Music creates a sanctuary for your sensitive soul. Let melodies wash over you and restore emotional equilibrium.",
+        "ne": "सङ्गीतले तपाईंको संवेदनशील आत्माको लागि अभयारण्य सिर्जना गर्छ। सुरहरूलाई बगेर भावनात्मक सन्तुलन पुनर्स्थापित गर्न दिनुहोस्।"
+      }
+    },
+    "29": {
+      "mesh": {
+        "en": "Team dynamics improve as you learn to delegate. Not everything requires your direct involvement — trust your team members.",
+        "ne": "तपाईंले कार्य बाँड्न सिक्दा टोलीको गतिशीलता सुधरिन्छ। सबै कुरामा प्रत्यक्ष सहभागिता आवश्यक छैन।"
+      },
+      "brish": {
+        "en": "Health-wise, focus on your throat and neck area. Gentle stretches and staying hydrated will prevent common Taurus ailments.",
+        "ne": "स्वास्थ्यको हिसाबले घाँटी र गर्दन क्षेत्रमा ध्यान दिनुहोस्। हल्का स्ट्रेच र पानी पिउनले सामान्य समस्या रोक्छ।"
+      },
+      "mithun": {
+        "en": "A short trip or day outing refreshes your mind. Change of scenery sparks new ideas and helps break creative blocks.",
+        "ne": "छोटो यात्रा वा दिनको भ्रमणले मनलाई ताजा बनाउँछ। दृश्य परिवर्तनले नयाँ विचार जगाउँछ।"
+      },
+      "karkat": {
+        "en": "Nostalgia brings comfort. Looking through old photos or reconnecting with childhood friends warms your heart.",
+        "ne": "पुरानो सम्झनाले सान्त्वना ल्याउँछ। पुराना फोटोहरू हेर्दा वा बाल्यकालका साथीसँग पुन: जडान हुँदा मन तातिन्छ।"
+      },
+      "simha": {
+        "en": "Evening entertainment is favored. A movie, concert, or game night with friends recharges your social batteries.",
+        "ne": "साँझको मनोरञ्जन अनुकूल छ। साथीहरूसँग चलचित्र, कन्सर्ट वा खेल रातले तपाईंको सामाजिक ऊर्जा रिचार्ज गर्छ।"
+      },
+      "kanya": {
+        "en": "Work-life balance needs recalibration. Overworking diminishes returns — schedule breaks and honor your rest time.",
+        "ne": "कार्य-जीवन सन्तुलन पुन:समायोजन आवश्यक छ। अति काम गर्नुले प्रतिफल घटाउँछ — ब्रेक तालिका बनाउनुहोस्।"
+      },
+      "tula": {
+        "en": "Social media presence could benefit from a refresh. Your eye for aesthetics creates content that naturally attracts followers.",
+        "ne": "सोशल मिडिया उपस्थितिलाई ताजगी दिनुले फाइदा पुर्‍याउन सक्छ। सौन्दर्यको लागि तपाईंको नजरले प्राकृतिक रूपमा फलोअर आकर्षित गर्ने सामग्री सिर्जना गर्छ।"
+      },
+      "vrishchik": {
+        "en": "Physical intimacy and emotional depth strengthen bonds with your partner. Vulnerability is not weakness — it's your path to true connection.",
+        "ne": "शारीरिक नजिकी र भावनात्मक गहिराइले साथीसँगको बन्धन बलियो बनाउँछ। कमजोरी देखाउनु कमजोरी होइन — यो साँचो जडानतिर तपाईंको बाटो हो।"
+      },
+      "dhanu": {
+        "en": "Higher education pursuits gain momentum. Whether formal studies or self-directed learning, knowledge acquisition is deeply fulfilling.",
+        "ne": "उच्च शिक्षा खोजले गति पाउँछ। औपचारिक अध्ययन होस् वा स्व-निर्देशित सिकाइ, ज्ञान अर्जन गहन सन्तुष्टिदायक छ।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Technology breakthroughs excite you. Stay updated on the latest trends — your early adoption could give you a significant advantage.",
+        "ne": "प्रविधि सफलताहरूले तपाईंलाई उत्साहित गर्छ। नवीनतम प्रवृत्तिमा अद्यावधिक रहनुहोस् — तपाईंको प्रारम्भिक अवलम्बनले महत्त्वपूर्ण फाइदा दिन सक्छ।"
+      },
+      "min": {
+        "en": "Creative visualization manifests desires. Spend quiet time imagining your ideal life — your powerful imagination shapes reality.",
+        "ne": "सिर्जनात्मक कल्पनाले इच्छाहरू साकार गर्छ। आफ्नो आदर्श जीवन कल्पना गर्दै शान्त समय बिताउनुहोस् — तपाईंको शक्तिशाली कल्पनाले वास्तविकतालाई आकार दिन्छ।"
+      }
+    },
+    "30": {
+      "mesh": {
+        "en": "A mentor figure may appear in your life today. Be open to guidance even if your independent nature resists it.",
+        "ne": "आज तपाईंको जीवनमा एक मार्गदर्शक आउन सक्छन्। स्वतन्त्र स्वभाव भए पनि मार्गदर्शनका लागि खुला रहनुहोस्।"
+      },
+      "brish": {
+        "en": "Cooking or food-related activities bring joy. Share a homemade meal with loved ones to strengthen bonds.",
+        "ne": "खाना पकाउने वा खानासम्बन्धी गतिविधिले आनन्द ल्याउँछ। सम्बन्ध बलियो बनाउन प्रियजनसँग घरको खाना साझा गर्नुहोस्।"
+      },
+      "mithun": {
+        "en": "Gossip or rumor mills are active — stay clear. Your words carry weight, so choose them wisely in professional settings.",
+        "ne": "गफगाफ सक्रिय छ — टाढा रहनुहोस्। तपाईंका शब्दको महत्त्व छ, त्यसैले व्यावसायिक सेटिङमा बुद्धिमानीपूर्वक छान्नुहोस्।"
+      },
+      "karkat": {
+        "en": "Stomach and digestive health need attention. Warm, homemade meals nourish you better than takeout or processed food.",
+        "ne": "पेट र पाचन स्वास्थ्यमा ध्यान दिनुपर्छ। न्यानो घरमा पकाएको खानाले बाहिरको खानाभन्दा राम्रो पोषण दिन्छ।"
+      },
+      "simha": {
+        "en": "A leadership role at work beckons. Your natural charisma and organizational skills make you the perfect candidate.",
+        "ne": "कार्यस्थलमा नेतृत्व भूमिकाले बोलाउँदैछ। तपाईंको प्राकृतिक करिश्मा र संगठनात्मक सीपले तपाईंलाई उत्तम उम्मेदवार बनाउँछ।"
+      },
+      "kanya": {
+        "en": "Service to others brings deep fulfillment. Volunteering or helping a neighbor creates positive karma that returns unexpectedly.",
+        "ne": "अरूको सेवाले गहिरो सन्तुष्टि ल्याउँछ। स्वयंसेवा वा छिमेकीलाई मद्दत गर्नुले सकारात्मक कर्म सिर्जना गर्छ।"
+      },
+      "tula": {
+        "en": "Harmony in relationships is your theme today. A compromise you propose satisfies everyone and strengthens partnerships.",
+        "ne": "सम्बन्धमा सामञ्जस्य आजको तपाईंको विषय हो। तपाईंले प्रस्ताव गरेको सम्झौताले सबैलाई सन्तुष्ट गर्छ र साझेदारी बलियो बनाउँछ।"
+      },
+      "vrishchik": {
+        "en": "Intensity in emotions is normal for you, but today's depth is exceptional. Use journaling to process and channel these feelings productively.",
+        "ne": "भावनामा तीव्रता तपाईंको लागि सामान्य हो, तर आजको गहिराइ असाधारण छ। यी भावनाहरू उत्पादक रूपमा प्रशोधन गर्न जर्नलिङ प्रयोग गर्नुहोस्।"
+      },
+      "dhanu": {
+        "en": "Philosophy and big-picture thinking energize you. A book, lecture, or deep conversation about life's meaning sparks genuine excitement.",
+        "ne": "दर्शन र ठूलो तस्विर सोचले तपाईंलाई ऊर्जा दिन्छ। जीवनको अर्थबारे पुस्तक, व्याख्यान वा गहिरो कुराकानीले वास्तविक उत्साह जगाउँछ।"
+      },
+      "makar": {
+        "en": "Career ambitions advance steadily. A disciplined approach to a long-term goal pays off with visible progress today.",
+        "ne": "क्यारियरको महत्वाकांक्षा स्थिर रूपमा अगाडि बढ्छ। दीर्घकालीन लक्ष्यप्रति अनुशासित दृष्टिकोणले आज देखिने प्रगतिमा फल दिन्छ।"
+      },
+      "kumbha": {
+        "en": "Community involvement brings purpose. Joining a cause or group that aligns with your values creates meaningful connections.",
+        "ne": "सामुदायिक संलग्नताले उद्देश्य ल्याउँछ। तपाईंको मूल्यसँग मिल्ने कारण वा समूहमा सामेल हुँदा अर्थपूर्ण सम्बन्ध बन्छन्।"
+      },
+      "min": {
+        "en": "Artistic creation flows effortlessly. Poetry, music, painting, or photography captures emotions words cannot express.",
+        "ne": "कलात्मक सिर्जना सहज रूपमा बग्छ। कविता, सङ्गीत, चित्रकला वा फोटोग्राफीले शब्दले व्यक्त गर्न नसक्ने भावनाहरू कैद गर्छ।"
+      }
+    }
+  }
+}
