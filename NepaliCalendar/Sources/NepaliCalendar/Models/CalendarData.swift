@@ -94,15 +94,36 @@ final class CalendarStore {
     /// Day of week (0 = Sunday ... 6 = Saturday) for the first day of the month.
     func firstWeekday(bsYear: Int, bsMonth: Int) -> Int {
         guard let first = byBs[bsYear]?[bsMonth]?[1] else { return 0 }
+        return weekday(adYear: first.adYear, adMonth: first.adMonth, adDay: first.adDay)
+    }
+
+    /// Weekday (0 = Sunday ... 6 = Saturday) for a given BS date. Returns nil
+    /// if the date isn't covered by the bundled data.
+    func weekday(bsYear: Int, bsMonth: Int, bsDay: Int) -> Int? {
+        guard let info = byBs[bsYear]?[bsMonth]?[bsDay] else { return nil }
+        return weekday(adYear: info.adYear, adMonth: info.adMonth, adDay: info.adDay)
+    }
+
+    private func weekday(adYear: Int, adMonth: Int, adDay: Int) -> Int {
         var cal = Calendar(identifier: .gregorian)
         cal.timeZone = TimeZone(identifier: "Asia/Kathmandu") ?? .current
         var comps = DateComponents()
-        comps.year = first.adYear
-        comps.month = first.adMonth
-        comps.day = first.adDay
+        comps.year = adYear; comps.month = adMonth; comps.day = adDay
         let date = cal.date(from: comps) ?? Date()
-        // Calendar.component(.weekday) returns 1 = Sunday
+        // Calendar.component(.weekday) returns 1 = Sunday ... 7 = Saturday.
         return cal.component(.weekday, from: date) - 1
+    }
+
+    /// Treats Saturdays AND Sundays as holidays, in addition to any date whose
+    /// JSON entry has `isHoliday: true`. Returns `false` for unknown dates.
+    func isEffectiveHoliday(bsYear: Int, bsMonth: Int, bsDay: Int) -> Bool {
+        guard let info = byBs[bsYear]?[bsMonth]?[bsDay] else { return false }
+        if info.isHoliday { return true }
+        if let wd = weekday(bsYear: bsYear, bsMonth: bsMonth, bsDay: bsDay),
+           wd == 0 || wd == 6 {
+            return true
+        }
+        return false
     }
 
     /// Next/previous BS month, wrapping year if necessary. Returns nil at the edge of the data.

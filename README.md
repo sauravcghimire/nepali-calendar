@@ -20,8 +20,10 @@ brew tap sauravcghimire/tap
 brew install --cask nepali-calendar
 ```
 
-> First launch: right-click `NepaliCalendar.app` in Applications and choose
-> **Open** once, to bypass Gatekeeper for this ad-hoc-signed build.
+> First launch is automatic — the cask strips the `com.apple.quarantine`
+> attribute and launches the app via `open` right after `brew install`.
+> If you ever move the app bundle manually and hit Gatekeeper, run:
+> `xattr -dr com.apple.quarantine /Applications/NepaliCalendar.app`
 
 ```
 ┌─ Menu bar: ३ बैशाख ─────────────────────────────────┐

@@ -148,10 +148,10 @@ events, tithi, holidays, and daily rashifal.
     brew tap __GH_USER__/tap
     brew install --cask nepali-calendar
 
-### First launch
-
-Right-click the app in /Applications and choose **Open** once to bypass
-Gatekeeper (the binary is ad-hoc signed; a Developer ID build is coming).
+The cask clears the Gatekeeper quarantine flag automatically and launches
+the app right after install. On the next reboot, the app auto-starts via
+the SMAppService login-item API (toggleable from the popover footer or
+System Settings → General → Login Items).
 NOTES
 /usr/bin/sed -i '' "s/__VERSION__/$VERSION/g" "$NOTES_FILE"
 /usr/bin/sed -i '' "s|__GH_USER__|$GH_USER|g" "$NOTES_FILE"

@@ -44,8 +44,12 @@ final class StatusBarController: NSObject {
     func refreshTitle() {
         guard let button = statusItem.button else { return }
         if let today = CalendarStore.shared.bsDate(forAD: Date()) {
-            let info = CalendarStore.shared.byBs[today.bsYear]?[today.bsMonth]?[today.bsDay]
-            let isHoliday = info?.isHoliday == true
+            // "Effective" holiday = explicit isHoliday flag OR weekend (Sat/Sun).
+            let isHoliday = CalendarStore.shared.isEffectiveHoliday(
+                bsYear: today.bsYear,
+                bsMonth: today.bsMonth,
+                bsDay: today.bsDay
+            )
             let text = "\(NepaliNumerals.devanagari(today.bsDay)) "
                      + "\(NepaliMonth.name(today.bsMonth)), "
                      + NepaliNumerals.devanagari(today.bsYear)

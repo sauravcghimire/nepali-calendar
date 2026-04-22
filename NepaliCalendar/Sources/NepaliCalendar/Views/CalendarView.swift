@@ -131,11 +131,14 @@ private struct EventsPanel: View {
 
     var body: some View {
         let info = CalendarStore.shared.byBs[bsYear]?[bsMonth]?[bsDay]
+        // Weekends (Sun/Sat) count as holidays alongside the JSON flag.
+        let isHoliday = CalendarStore.shared.isEffectiveHoliday(
+            bsYear: bsYear, bsMonth: bsMonth, bsDay: bsDay)
         HStack(alignment: .top, spacing: 12) {
             VStack(alignment: .center, spacing: 2) {
                 Text(NepaliNumerals.devanagari(bsDay))
                     .font(.system(size: 32, weight: .bold))
-                    .foregroundStyle(info?.isHoliday == true ? Color.red : .primary)
+                    .foregroundStyle(isHoliday ? Color.red : .primary)
                 Text(NepaliMonth.name(bsMonth))
                     .font(.caption)
                     .foregroundStyle(.secondary)

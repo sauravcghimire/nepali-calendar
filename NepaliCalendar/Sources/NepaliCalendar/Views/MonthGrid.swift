@@ -16,12 +16,13 @@ struct MonthGrid: View {
         let columns = Array(repeating: GridItem(.flexible(), spacing: 6), count: 7)
 
         VStack(spacing: 8) {
-            // Weekday header
+            // Weekday header — Sundays (0) and Saturdays (6) shown in red as
+            // weekend-holiday columns.
             HStack(spacing: 6) {
                 ForEach(0..<7, id: \.self) { i in
                     Text(NepaliWeekday.shortAll[i])
                         .font(.caption)
-                        .foregroundStyle(i == 6 ? Color.red.opacity(0.9) : .secondary)
+                        .foregroundStyle((i == 0 || i == 6) ? Color.red.opacity(0.9) : .secondary)
                         .frame(maxWidth: .infinity)
                 }
             }
@@ -57,19 +58,20 @@ private struct DayCell: View {
     let weekdayIndex: Int // 0=Sun ... 6=Sat
 
     var body: some View {
-        let isSaturday = weekdayIndex == 6
-        let isRed = info.isHoliday || isSaturday
+        // Weekends (Sun/Sat) and explicit isHoliday entries get red treatment.
+        let isWeekend = weekdayIndex == 0 || weekdayIndex == 6
+        let isHolidayLike = info.isHoliday || isWeekend
 
         VStack(spacing: 1) {
             Text(NepaliNumerals.devanagari(day))
                 .font(.system(size: 15, weight: .semibold))
-                .foregroundStyle(textColor(isRed: isRed))
+                .foregroundStyle(textColor(isRed: isHolidayLike))
             Text("\(info.adDay)")
                 .font(.system(size: 9))
                 .foregroundStyle(.secondary.opacity(0.7))
         }
         .frame(maxWidth: .infinity, minHeight: 42)
-        .background(background)
+        .background(background(isHolidayLike: isHolidayLike))
         .overlay(
             RoundedRectangle(cornerRadius: 6)
                 .stroke(isToday ? Color.accentColor : Color.clear, lineWidth: 1.5)
@@ -78,11 +80,11 @@ private struct DayCell: View {
         .help(tooltip)
     }
 
-    private var background: some View {
+    private func background(isHolidayLike: Bool) -> some View {
         RoundedRectangle(cornerRadius: 6)
             .fill(isSelected
                   ? Color.accentColor.opacity(0.20)
-                  : (info.isHoliday ? Color.red.opacity(0.08) : Color.clear))
+                  : (isHolidayLike ? Color.red.opacity(0.08) : Color.clear))
     }
 
     private func textColor(isRed: Bool) -> Color {
