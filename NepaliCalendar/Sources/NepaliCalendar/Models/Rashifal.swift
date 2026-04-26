@@ -142,13 +142,11 @@ struct RashifalStore {
     private static var externalRoots: [URL] {
         var roots: [URL] = []
         let fm = FileManager.default
-        let home = fm.homeDirectoryForCurrentUser
 
         if let override = UserDefaults.standard.string(forKey: "rashifalPath") {
             roots.append(URL(fileURLWithPath: (override as NSString).expandingTildeInPath,
                              isDirectory: true))
         }
-        roots.append(home.appendingPathComponent("Desktop/Calendar/rashifal", isDirectory: true))
         if let appSupport = try? fm.url(for: .applicationSupportDirectory,
                                         in: .userDomainMask,
                                         appropriateFor: nil,
