@@ -1,41 +1,46 @@
 import AppKit
 import SwiftUI
 
-/// Owns the NSStatusItem (the menu-bar icon) and the popover that shows the
+/// Owns the NSStatusItem (the menu-bar icon) and a panel that shows the
 /// full calendar. The title text is refreshed on launch and every 10 minutes
 /// so it always reflects today's Nepali date.
 final class StatusBarController: NSObject {
     private let statusItem: NSStatusItem
-    private let popover: NSPopover
+    private let panel: NSPanel
+    private let hostingView: NSHostingView<CalendarView>
     private var refreshTimer: Timer?
     private var eventMonitor: Any?
-
-    /// Popover frame — must match the `.frame(width:height:)` on CalendarView.
-    private static let popoverSize = NSSize(width: 480, height: 620)
 
     override init() {
         self.statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
-        let popover = NSPopover()
-        popover.behavior = .transient
-        popover.animates = true
-        let hosting = NSHostingController(rootView: CalendarView())
-        // Pin the hosting controller to the popover frame so SwiftUI lays out
-        // the full view — otherwise NSPopover collapses to the intrinsic size.
-        hosting.view.frame = NSRect(origin: .zero, size: Self.popoverSize)
-        hosting.preferredContentSize = Self.popoverSize
-        popover.contentViewController = hosting
-        popover.contentSize = Self.popoverSize
-        self.popover = popover
+        let hostingView = NSHostingView(rootView: CalendarView())
+        self.hostingView = hostingView
+
+        let panel = NSPanel(
+            contentRect: .zero,
+            styleMask: [.nonactivatingPanel, .titled, .fullSizeContentView],
+            backing: .buffered,
+            defer: true
+        )
+        panel.isFloatingPanel = true
+        panel.level = .mainMenu + 1
+        panel.titleVisibility = .hidden
+        panel.titlebarAppearsTransparent = true
+        panel.isMovable = false
+        panel.isOpaque = false
+        panel.backgroundColor = .windowBackgroundColor
+        panel.hasShadow = true
+        panel.contentView = hostingView
+        self.panel = panel
 
         super.init()
 
         if let button = statusItem.button {
             button.target = self
-            button.action = #selector(togglePopover(_:))
+            button.action = #selector(togglePanel(_:))
         }
         refreshTitle()
-        // Every 10 minutes covers the midnight Kathmandu rollover without thrashing.
         refreshTimer = Timer.scheduledTimer(withTimeInterval: 600, repeats: true) { [weak self] _ in
             self?.refreshTitle()
         }
@@ -44,7 +49,6 @@ final class StatusBarController: NSObject {
     func refreshTitle() {
         guard let button = statusItem.button else { return }
         if let today = CalendarStore.shared.bsDate(forAD: Date()) {
-            // "Effective" holiday = explicit isHoliday flag OR weekend (Sat/Sun).
             let isHoliday = CalendarStore.shared.isEffectiveHoliday(
                 bsYear: today.bsYear,
                 bsMonth: today.bsMonth,
@@ -53,7 +57,6 @@ final class StatusBarController: NSObject {
             let text = "\(NepaliNumerals.devanagari(today.bsDay)) "
                      + "\(NepaliMonth.name(today.bsMonth)), "
                      + NepaliNumerals.devanagari(today.bsYear)
-            // Colored pill: blue on normal days, red on holidays, white text.
             button.image = Self.renderPill(text: text, isHoliday: isHoliday)
             button.imagePosition = .imageOnly
             button.title = ""
@@ -64,8 +67,6 @@ final class StatusBarController: NSObject {
         }
     }
 
-    /// Render a small rounded-rectangle image (pill) with a colored background
-    /// and white text. `isTemplate = false` so AppKit keeps the colors.
     private static func renderPill(text: String, isHoliday: Bool) -> NSImage {
         let font = NSFont.systemFont(ofSize: 12, weight: .semibold)
         let attrs: [NSAttributedString.Key: Any] = [
@@ -95,35 +96,49 @@ final class StatusBarController: NSObject {
         let ty = (h - textSize.height) / 2
         ns.draw(at: NSPoint(x: tx, y: ty), withAttributes: attrs)
 
-        image.isTemplate = false  // preserve the blue/red color
+        image.isTemplate = false
         return image
     }
 
-    @objc private func togglePopover(_ sender: Any?) {
-        guard let button = statusItem.button else { return }
-        if popover.isShown {
-            popover.performClose(sender)
+    @objc private func togglePanel(_ sender: Any?) {
+        if panel.isVisible {
+            panel.orderOut(nil)
             stopMonitoringOutsideClicks()
         } else {
-            // Re-assert the size in case SwiftUI recomputed intrinsic content size
-            // while the popover was hidden. This keeps the "full view" from
-            // collapsing to a smaller rect when reopening.
-            popover.contentSize = Self.popoverSize
             refreshTitle()
-            // `.minY` anchors the arrow to the bottom edge of the status item,
-            // so the popover drops down directly below the menu-bar pill.
-            popover.show(relativeTo: button.bounds,
-                         of: button,
-                         preferredEdge: .minY)
+            positionPanel()
+            panel.makeKeyAndOrderFront(nil)
             NSApp.activate(ignoringOtherApps: true)
             startMonitoringOutsideClicks()
         }
     }
 
+    private func positionPanel() {
+        guard let button = statusItem.button,
+              let buttonWindow = button.window,
+              let screen = buttonWindow.screen ?? NSScreen.main else { return }
+
+        let buttonRect = buttonWindow.convertToScreen(
+            button.convert(button.bounds, to: nil))
+        let size = hostingView.fittingSize
+        let screenFrame = screen.frame
+
+        let x = max(screenFrame.minX + 4,
+                    min(buttonRect.midX - size.width / 2,
+                        screenFrame.maxX - size.width - 4))
+        // Vertically: directly below the menu bar
+        let y = buttonRect.minY - size.height
+
+        panel.setFrame(NSRect(x: x, y: y, width: size.width, height: size.height),
+                       display: true)
+    }
+
     private func startMonitoringOutsideClicks() {
-        eventMonitor = NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] _ in
+        eventMonitor = NSEvent.addGlobalMonitorForEvents(
+            matching: [.leftMouseDown, .rightMouseDown]
+        ) { [weak self] _ in
             guard let self else { return }
-            if self.popover.isShown { self.popover.performClose(nil) }
+            if self.panel.isVisible { self.panel.orderOut(nil) }
             self.stopMonitoringOutsideClicks()
         }
     }

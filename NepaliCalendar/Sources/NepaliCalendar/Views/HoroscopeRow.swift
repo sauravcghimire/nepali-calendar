@@ -29,18 +29,11 @@ struct HoroscopeRow: View {
                 }
             }
 
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 8) {
-                    ForEach(predictions, id: \.sign) { item in
-                        SignChip(sign: item.sign,
-                                 isSelected: item.sign == resolvedSelection,
-                                 isDefault: settings.defaultSign == item.sign,
-                                 onTap: { selected = item.sign },
-                                 onSetDefault: { settings.defaultSign = item.sign })
-                    }
-                }
-                .padding(.vertical, 2)
-            }
+            SignScrollRow(predictions: predictions,
+                          resolvedSelection: resolvedSelection,
+                          defaultSign: settings.defaultSign,
+                          onSelect: { selected = $0 },
+                          onSetDefault: { settings.defaultSign = $0 })
 
             PredictionBlock(sign: resolvedSelection,
                             text: predictions.first(where: { $0.sign == resolvedSelection })?.text ?? "",
@@ -131,5 +124,66 @@ private struct PredictionBlock: View {
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color.secondary.opacity(0.06))
         )
+    }
+}
+
+private struct SignScrollRow: View {
+    let predictions: [(sign: ZodiacSign, text: String)]
+    let resolvedSelection: ZodiacSign
+    let defaultSign: ZodiacSign?
+    let onSelect: (ZodiacSign) -> Void
+    let onSetDefault: (ZodiacSign) -> Void
+
+    @State private var visibleIndex: Int = 0
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Button {
+                scroll(by: -3)
+            } label: {
+                Image(systemName: "chevron.left")
+                    .font(.caption.weight(.semibold))
+                    .frame(width: 16, height: 44)
+            }
+            .buttonStyle(.plain)
+            .foregroundStyle(visibleIndex > 0 ? .primary : .quaternary)
+            .disabled(visibleIndex <= 0)
+
+            ScrollViewReader { proxy in
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(Array(predictions.enumerated()), id: \.element.sign) { idx, item in
+                            SignChip(sign: item.sign,
+                                     isSelected: item.sign == resolvedSelection,
+                                     isDefault: defaultSign == item.sign,
+                                     onTap: { onSelect(item.sign) },
+                                     onSetDefault: { onSetDefault(item.sign) })
+                                .id(idx)
+                        }
+                    }
+                    .padding(.vertical, 2)
+                }
+                .onChange(of: visibleIndex) { newValue in
+                    withAnimation(.easeInOut(duration: 0.2)) {
+                        proxy.scrollTo(newValue, anchor: .leading)
+                    }
+                }
+            }
+
+            Button {
+                scroll(by: 3)
+            } label: {
+                Image(systemName: "chevron.right")
+                    .font(.caption.weight(.semibold))
+                    .frame(width: 16, height: 44)
+            }
+            .buttonStyle(.plain)
+            .foregroundStyle(visibleIndex < predictions.count - 1 ? .primary : .quaternary)
+            .disabled(visibleIndex >= predictions.count - 1)
+        }
+    }
+
+    private func scroll(by delta: Int) {
+        visibleIndex = max(0, min(predictions.count - 1, visibleIndex + delta))
     }
 }

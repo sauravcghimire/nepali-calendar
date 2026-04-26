@@ -10,65 +10,104 @@ struct CalendarView: View {
     @ObservedObject private var settings = Settings.shared
     @ObservedObject private var loginItem = LoginItem.shared
     @State private var showPicker = false
+    @State private var calendarHeight: CGFloat = 0
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            header
-
-            MonthGrid(bsYear: model.bsYear,
-                      bsMonth: model.bsMonth,
-                      selectedDay: $model.selectedDay,
-                      todayAD: model.today)
-                .frame(minHeight: 240)
-
-            Divider()
-
-            EventsPanel(bsYear: model.bsYear,
-                        bsMonth: model.bsMonth,
-                        bsDay: model.selectedDay)
-
-            Divider()
-
-            HoroscopeRow(bsYear: model.bsYear,
-                         bsMonth: model.bsMonth,
-                         bsDay: model.selectedDay)
-                .environmentObject(settings)
-
-            HStack {
-                Button {
-                    model.jumpToToday()
-                } label: {
-                    Label("Today", systemImage: "calendar.badge.clock")
-                        .font(.caption)
-                }
-                .buttonStyle(.bordered)
-                .controlSize(.small)
-
-                Toggle(isOn: Binding(
-                    get: { loginItem.isEnabled },
-                    set: { loginItem.setEnabled($0) }
-                )) {
-                    Text("Open at login").font(.caption)
-                }
-                .toggleStyle(.switch)
-                .controlSize(.small)
-                .help("Start Nepali Calendar automatically when you log in to your Mac")
-
-                Spacer()
-                Button {
-                    NSApplication.shared.terminate(nil)
-                } label: {
-                    Label("Quit", systemImage: "power")
-                        .font(.caption)
-                }
-                .buttonStyle(.borderless)
-                .controlSize(.small)
+        HStack(alignment: .top, spacing: 0) {
+            // Left: stocks
+            VStack {
+                StockPanel()
+                Spacer(minLength: 0)
             }
+            .frame(width: 390, height: calendarHeight)
+            .padding(14)
+
+            Divider()
+
+            // Center: calendar — drives the overall height
+            VStack(alignment: .leading, spacing: 12) {
+                header
+
+                MonthGrid(bsYear: model.bsYear,
+                          bsMonth: model.bsMonth,
+                          selectedDay: $model.selectedDay,
+                          todayAD: model.today)
+
+                Divider()
+
+                EventsPanel(bsYear: model.bsYear,
+                            bsMonth: model.bsMonth,
+                            bsDay: model.selectedDay)
+
+                Divider()
+
+                HoroscopeRow(bsYear: model.bsYear,
+                             bsMonth: model.bsMonth,
+                             bsDay: model.selectedDay)
+                    .environmentObject(settings)
+
+                Divider()
+
+                DateConverterPanel()
+
+                HStack {
+                    Button {
+                        model.jumpToToday()
+                    } label: {
+                        Label("Today", systemImage: "calendar.badge.clock")
+                            .font(.caption)
+                    }
+                    .buttonStyle(.bordered)
+                    .controlSize(.small)
+
+                    Toggle(isOn: Binding(
+                        get: { loginItem.isEnabled },
+                        set: { loginItem.setEnabled($0) }
+                    )) {
+                        Text("Open at login").font(.caption)
+                    }
+                    .toggleStyle(.switch)
+                    .controlSize(.small)
+                    .help("Start Nepali Calendar automatically when you log in to your Mac")
+
+                    Spacer()
+                    Button {
+                        NSApplication.shared.terminate(nil)
+                    } label: {
+                        Label("Quit", systemImage: "power")
+                            .font(.caption)
+                    }
+                    .buttonStyle(.borderless)
+                    .controlSize(.small)
+                }
+            }
+            .frame(width: 480)
+            .padding(14)
+            .background(
+                GeometryReader { geo in
+                    Color.clear.preference(key: CalendarHeightKey.self, value: geo.size.height)
+                }
+            )
+            .onPreferenceChange(CalendarHeightKey.self) { calendarHeight = $0 }
+
+            Divider()
+
+            // Right: forex
+            VStack {
+                ForexPanel()
+                Spacer(minLength: 0)
+            }
+            .frame(width: 260, height: calendarHeight)
+            .padding(14)
         }
-        .padding(14)
-        // Fixed frame so NSHostingController reports a stable intrinsicContentSize
-        // and the NSPopover doesn't collapse when anchoring below the status bar.
-        .frame(width: 480, height: 620)
+        .fixedSize(horizontal: false, vertical: true)
+    }
+
+    private struct CalendarHeightKey: PreferenceKey {
+        static var defaultValue: CGFloat = 0
+        static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+            value = max(value, nextValue())
+        }
     }
 
     private var header: some View {

@@ -27,9 +27,13 @@ struct MonthGrid: View {
                 }
             }
 
+            // 6 rows × 42pt + 5 gaps × 6pt = 282pt
+            let gridHeight: CGFloat = 6 * 42 + 5 * 6
+
             LazyVGrid(columns: columns, spacing: 6) {
-                // Empty leading cells so day 1 lands on the correct weekday column
-                ForEach(0..<firstWeekday, id: \.self) { _ in
+                // Leading empty cells — IDs offset to 100+ so they never collide
+                // with day IDs (1-32)
+                ForEach(100..<(100 + firstWeekday), id: \.self) { _ in
                     Color.clear.frame(height: 42)
                 }
                 ForEach(days, id: \.day) { entry in
@@ -41,6 +45,7 @@ struct MonthGrid: View {
                         .onTapGesture { selectedDay = entry.day }
                 }
             }
+            .frame(height: gridHeight, alignment: .top)
         }
     }
 
