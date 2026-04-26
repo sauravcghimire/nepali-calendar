@@ -84,6 +84,7 @@ if [ -f "$ROOT/assets/AppIcon.icns" ]; then
 fi
 
 echo "==> Code signing (ad-hoc)"
+xattr -cr "$APP_DIR"
 codesign --force --deep --sign - "$APP_DIR"
 
 echo "==> Zipping bundle for distribution"
