@@ -9,6 +9,7 @@ struct CalendarView: View {
     // @ObservedObject avoids pretending this view owns their lifecycle.
     @ObservedObject private var settings = Settings.shared
     @ObservedObject private var loginItem = LoginItem.shared
+    @ObservedObject private var updater = AppUpdater.shared
     @State private var showPicker = false
     @State private var calendarHeight: CGFloat = 0
 
@@ -26,6 +27,7 @@ struct CalendarView: View {
 
             // Center: calendar — drives the overall height
             VStack(alignment: .leading, spacing: 12) {
+                versionBar
                 header
 
                 MonthGrid(bsYear: model.bsYear,
@@ -107,6 +109,53 @@ struct CalendarView: View {
         static var defaultValue: CGFloat = 0
         static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
             value = max(value, nextValue())
+        }
+    }
+
+    private var versionBar: some View {
+        HStack(spacing: 6) {
+            Text("v\(updater.currentVersion)")
+                .font(.system(size: 10, weight: .medium, design: .monospaced))
+                .foregroundStyle(.tertiary)
+
+            if updater.isChecking {
+                ProgressView()
+                    .controlSize(.mini)
+            } else if updater.updateAvailable, let latest = updater.latestVersion {
+                if updater.isUpgrading {
+                    HStack(spacing: 4) {
+                        ProgressView().controlSize(.mini)
+                        Text("Upgrading to v\(latest)…")
+                            .font(.system(size: 10))
+                            .foregroundStyle(.secondary)
+                    }
+                } else {
+                    Button {
+                        updater.upgrade()
+                    } label: {
+                        HStack(spacing: 3) {
+                            Image(systemName: "arrow.up.circle.fill")
+                                .font(.system(size: 10))
+                            Text("Update to v\(latest)")
+                                .font(.system(size: 10, weight: .medium))
+                        }
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(Capsule().fill(Color.accentColor))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+
+            if let error = updater.upgradeError {
+                Text(error)
+                    .font(.system(size: 9))
+                    .foregroundStyle(.red)
+                    .lineLimit(1)
+            }
+
+            Spacer()
         }
     }
 
