@@ -12,6 +12,7 @@ struct DateConverterPanel: View {
     @State private var dayText = ""
     @State private var result: String?
     @State private var errorMsg: String?
+    @State private var isHovering = false
 
     private static let bsMonthNames = [
         "बैशाख", "जेठ", "असार", "साउन", "भदौ", "असोज",
@@ -23,10 +24,15 @@ struct DateConverterPanel: View {
     ]
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack {
-                Text("मिति रूपान्तरण")
-                    .font(.system(size: 13, weight: .semibold))
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 8) {
+                HStack(spacing: 5) {
+                    Image(systemName: "arrow.left.arrow.right.circle.fill")
+                        .font(.system(size: 14, weight: .medium))
+                        .foregroundStyle(.indigo)
+                    Text("मिति रूपान्तरण")
+                        .font(.system(size: 13, weight: .semibold))
+                }
                 Spacer()
                 Picker("", selection: $mode) {
                     ForEach(Mode.allCases, id: \.self) { m in
@@ -39,88 +45,111 @@ struct DateConverterPanel: View {
             }
 
             HStack(spacing: 8) {
-                // Year
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Year")
-                        .font(.system(size: 9, weight: .medium))
-                        .foregroundStyle(.secondary)
-                    TextField(mode == .bsToAD ? "2082" : "2025", text: $yearText)
-                        .textFieldStyle(.roundedBorder)
-                        .font(.system(size: 12))
-                        .frame(width: 64)
-                        .onChange(of: yearText) { _ in clearResult() }
-                }
+                inputField(label: "Year",
+                           placeholder: mode == .bsToAD ? "2082" : "2025",
+                           text: $yearText,
+                           width: 68)
 
-                // Month
-                VStack(alignment: .leading, spacing: 2) {
+                VStack(alignment: .leading, spacing: 3) {
                     Text("Month")
-                        .font(.system(size: 9, weight: .medium))
+                        .font(.system(size: 9, weight: .semibold))
                         .foregroundStyle(.secondary)
+                        .textCase(.uppercase)
                     Picker("", selection: $monthSelection) {
                         ForEach(1...12, id: \.self) { m in
                             Text(monthLabel(m)).tag(m)
                         }
                     }
-                    .frame(width: 110)
+                    .frame(width: 120)
                     .onChange(of: monthSelection) { _ in clearResult() }
                 }
 
-                // Day
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Day")
-                        .font(.system(size: 9, weight: .medium))
-                        .foregroundStyle(.secondary)
-                    TextField("15", text: $dayText)
-                        .textFieldStyle(.roundedBorder)
-                        .font(.system(size: 12))
-                        .frame(width: 44)
-                        .onChange(of: dayText) { _ in clearResult() }
-                }
+                inputField(label: "Day",
+                           placeholder: "15",
+                           text: $dayText,
+                           width: 50)
 
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(" ")
-                        .font(.system(size: 9))
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(" ").font(.system(size: 9))
                     Button(action: convert) {
                         Image(systemName: "arrow.right.circle.fill")
-                            .font(.system(size: 18))
+                            .font(.system(size: 20))
+                            .foregroundStyle(.indigo)
+                            .scaleEffect(isHovering ? 1.15 : 1.0)
+                            .animation(.easeInOut(duration: 0.15), value: isHovering)
                     }
                     .buttonStyle(.borderless)
+                    .onHover { isHovering = $0 }
                     .help("Convert")
                 }
             }
 
             if let result {
-                HStack(spacing: 6) {
-                    Image(systemName: "checkmark.circle.fill")
-                        .foregroundStyle(.green)
-                        .font(.system(size: 12))
-                    Text(result)
-                        .font(.system(size: 12, weight: .medium))
-                        .textSelection(.enabled)
-                }
-                .padding(8)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    RoundedRectangle(cornerRadius: 6)
-                        .fill(Color.green.opacity(0.08))
-                )
+                resultCard(text: result, isError: false)
             } else if let errorMsg {
-                HStack(spacing: 6) {
-                    Image(systemName: "exclamationmark.triangle.fill")
-                        .foregroundStyle(.orange)
-                        .font(.system(size: 12))
-                    Text(errorMsg)
-                        .font(.system(size: 11))
-                        .foregroundStyle(.secondary)
-                }
-                .padding(8)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    RoundedRectangle(cornerRadius: 6)
-                        .fill(Color.orange.opacity(0.08))
-                )
+                resultCard(text: errorMsg, isError: true)
             }
         }
+    }
+
+    private func inputField(label: String, placeholder: String,
+                            text: Binding<String>, width: CGFloat) -> some View {
+        VStack(alignment: .leading, spacing: 3) {
+            Text(label)
+                .font(.system(size: 9, weight: .semibold))
+                .foregroundStyle(.secondary)
+                .textCase(.uppercase)
+            TextField(placeholder, text: text)
+                .textFieldStyle(.plain)
+                .font(.system(size: 12, weight: .medium, design: .monospaced))
+                .padding(.horizontal, 8)
+                .padding(.vertical, 5)
+                .background(
+                    RoundedRectangle(cornerRadius: 6)
+                        .fill(Color.secondary.opacity(0.06))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 6)
+                        .stroke(Color.secondary.opacity(0.15), lineWidth: 1)
+                )
+                .frame(width: width)
+                .onChange(of: text.wrappedValue) { _ in clearResult() }
+        }
+    }
+
+    private func resultCard(text: String, isError: Bool) -> some View {
+        HStack(spacing: 8) {
+            Image(systemName: isError ? "exclamationmark.triangle.fill" : "checkmark.seal.fill")
+                .font(.system(size: 14))
+                .foregroundStyle(isError ? .orange : .green)
+
+            if isError {
+                Text(text)
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundStyle(.secondary)
+            } else {
+                Text(text)
+                    .font(.system(size: 13, weight: .semibold, design: .rounded))
+                    .textSelection(.enabled)
+            }
+
+            Spacer()
+        }
+        .padding(10)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(
+            RoundedRectangle(cornerRadius: 8)
+                .fill(isError
+                      ? Color.orange.opacity(0.06)
+                      : Color.green.opacity(0.06))
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 8)
+                .stroke(isError
+                        ? Color.orange.opacity(0.15)
+                        : Color.green.opacity(0.15),
+                        lineWidth: 1)
+        )
     }
 
     private func monthLabel(_ m: Int) -> String {
