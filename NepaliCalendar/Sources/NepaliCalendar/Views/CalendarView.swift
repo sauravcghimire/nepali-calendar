@@ -16,14 +16,16 @@ struct CalendarView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 0) {
             // Left: stocks
-            VStack {
-                StockPanel()
-                Spacer(minLength: 0)
-            }
-            .frame(width: 390, height: calendarHeight)
-            .padding(14)
+            if settings.showStocks {
+                VStack {
+                    StockPanel()
+                    Spacer(minLength: 0)
+                }
+                .frame(width: 390, height: calendarHeight)
+                .padding(14)
 
-            Divider()
+                Divider()
+            }
 
             // Center: calendar — drives the overall height
             VStack(alignment: .leading, spacing: 12) {
@@ -41,18 +43,21 @@ struct CalendarView: View {
                             bsMonth: model.bsMonth,
                             bsDay: model.selectedDay)
 
-                Divider()
+                if settings.showHoroscope {
+                    Divider()
 
-                HoroscopeRow(bsYear: model.bsYear,
-                             bsMonth: model.bsMonth,
-                             bsDay: model.selectedDay)
-                    .environmentObject(settings)
+                    HoroscopeRow(bsYear: model.bsYear,
+                                 bsMonth: model.bsMonth,
+                                 bsDay: model.selectedDay)
+                        .environmentObject(settings)
+                }
 
                 Divider()
 
                 DateConverterPanel()
 
-                HStack {
+                // Footer
+                HStack(spacing: 6) {
                     Button {
                         model.jumpToToday()
                     } label: {
@@ -73,6 +78,9 @@ struct CalendarView: View {
                     .help("Start Nepali Calendar automatically when you log in to your Mac")
 
                     Spacer()
+
+                    panelToggleBar
+
                     Button {
                         NSApplication.shared.terminate(nil)
                     } label: {
@@ -92,17 +100,22 @@ struct CalendarView: View {
             )
             .onPreferenceChange(CalendarHeightKey.self) { calendarHeight = $0 }
 
-            Divider()
-
             // Right: forex
-            VStack {
-                ForexPanel()
-                Spacer(minLength: 0)
+            if settings.showForex {
+                Divider()
+
+                VStack {
+                    ForexPanel()
+                    Spacer(minLength: 0)
+                }
+                .frame(width: 260, height: calendarHeight)
+                .padding(14)
             }
-            .frame(width: 260, height: calendarHeight)
-            .padding(14)
         }
         .fixedSize(horizontal: false, vertical: true)
+        .animation(.easeInOut(duration: 0.2), value: settings.showStocks)
+        .animation(.easeInOut(duration: 0.2), value: settings.showHoroscope)
+        .animation(.easeInOut(duration: 0.2), value: settings.showForex)
     }
 
     private struct CalendarHeightKey: PreferenceKey {
@@ -110,6 +123,51 @@ struct CalendarView: View {
         static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
             value = max(value, nextValue())
         }
+    }
+
+    private var panelToggleBar: some View {
+        HStack(spacing: 2) {
+            panelToggle(icon: "chart.line.uptrend.xyaxis",
+                        label: "Stocks",
+                        isOn: $settings.showStocks,
+                        color: .cyan)
+            panelToggle(icon: "sparkles",
+                        label: "Rashifal",
+                        isOn: $settings.showHoroscope,
+                        color: .purple)
+            panelToggle(icon: "dollarsign.arrow.circlepath",
+                        label: "Forex",
+                        isOn: $settings.showForex,
+                        color: .orange)
+        }
+        .padding(2)
+        .background(
+            RoundedRectangle(cornerRadius: 7)
+                .fill(Color.secondary.opacity(0.06))
+        )
+    }
+
+    private func panelToggle(icon: String, label: String,
+                             isOn: Binding<Bool>, color: Color) -> some View {
+        Button {
+            isOn.wrappedValue.toggle()
+        } label: {
+            HStack(spacing: 3) {
+                Image(systemName: icon)
+                    .font(.system(size: 8, weight: .semibold))
+                Text(label)
+                    .font(.system(size: 9, weight: .medium))
+            }
+            .foregroundStyle(isOn.wrappedValue ? color : .secondary.opacity(0.4))
+            .padding(.horizontal, 7)
+            .padding(.vertical, 4)
+            .background(
+                RoundedRectangle(cornerRadius: 5)
+                    .fill(isOn.wrappedValue ? color.opacity(0.12) : Color.clear)
+            )
+        }
+        .buttonStyle(.plain)
+        .help("\(isOn.wrappedValue ? "Hide" : "Show") \(label)")
     }
 
     private var versionBar: some View {

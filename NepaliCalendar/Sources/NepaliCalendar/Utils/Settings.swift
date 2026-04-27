@@ -7,6 +7,9 @@ final class Settings: ObservableObject {
 
     private let defaultsKey = "defaultZodiacSign"
     private let favStocksKey = "favoriteStocks"
+    private let showStocksKey = "showStocks"
+    private let showHoroscopeKey = "showHoroscope"
+    private let showForexKey = "showForex"
 
     @Published var defaultSign: ZodiacSign? {
         didSet {
@@ -22,6 +25,18 @@ final class Settings: ObservableObject {
         didSet {
             UserDefaults.standard.set(Array(favoriteStocks), forKey: favStocksKey)
         }
+    }
+
+    @Published var showStocks: Bool {
+        didSet { UserDefaults.standard.set(showStocks, forKey: showStocksKey) }
+    }
+
+    @Published var showHoroscope: Bool {
+        didSet { UserDefaults.standard.set(showHoroscope, forKey: showHoroscopeKey) }
+    }
+
+    @Published var showForex: Bool {
+        didSet { UserDefaults.standard.set(showForex, forKey: showForexKey) }
     }
 
     func toggleFavoriteStock(_ symbol: String) {
@@ -48,5 +63,9 @@ final class Settings: ObservableObject {
         } else {
             self.favoriteStocks = []
         }
+        let ud = UserDefaults.standard
+        self.showStocks = ud.object(forKey: showStocksKey) as? Bool ?? true
+        self.showHoroscope = ud.object(forKey: showHoroscopeKey) as? Bool ?? true
+        self.showForex = ud.object(forKey: showForexKey) as? Bool ?? true
     }
 }
