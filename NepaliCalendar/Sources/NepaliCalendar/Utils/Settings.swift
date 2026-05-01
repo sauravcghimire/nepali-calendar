@@ -10,6 +10,8 @@ final class Settings: ObservableObject {
     private let showStocksKey = "showStocks"
     private let showHoroscopeKey = "showHoroscope"
     private let showForexKey = "showForex"
+    private let selectedCurrenciesKey = "selectedCurrencies"
+    static let defaultCurrencies: Set<String> = ["USD", "EUR", "GBP", "AUD", "INR", "JPY"]
 
     @Published var defaultSign: ZodiacSign? {
         didSet {
@@ -37,6 +39,22 @@ final class Settings: ObservableObject {
 
     @Published var showForex: Bool {
         didSet { UserDefaults.standard.set(showForex, forKey: showForexKey) }
+    }
+
+    @Published var selectedCurrencies: Set<String> {
+        didSet { UserDefaults.standard.set(Array(selectedCurrencies), forKey: selectedCurrenciesKey) }
+    }
+
+    func toggleCurrency(_ iso: String) {
+        if selectedCurrencies.contains(iso) {
+            selectedCurrencies.remove(iso)
+        } else {
+            selectedCurrencies.insert(iso)
+        }
+    }
+
+    func isCurrencySelected(_ iso: String) -> Bool {
+        selectedCurrencies.contains(iso)
     }
 
     func toggleFavoriteStock(_ symbol: String) {
@@ -67,5 +85,10 @@ final class Settings: ObservableObject {
         self.showStocks = ud.object(forKey: showStocksKey) as? Bool ?? true
         self.showHoroscope = ud.object(forKey: showHoroscopeKey) as? Bool ?? true
         self.showForex = ud.object(forKey: showForexKey) as? Bool ?? true
+        if let arr = ud.array(forKey: selectedCurrenciesKey) as? [String] {
+            self.selectedCurrencies = Set(arr)
+        } else {
+            self.selectedCurrencies = Self.defaultCurrencies
+        }
     }
 }

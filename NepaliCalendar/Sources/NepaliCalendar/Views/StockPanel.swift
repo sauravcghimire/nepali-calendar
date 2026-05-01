@@ -3,10 +3,12 @@ import SwiftUI
 struct StockPanel: View {
     @ObservedObject private var store = StockStore.shared
     @ObservedObject private var settings = Settings.shared
+    @ObservedObject private var alertStore = StockAlertStore.shared
     @State private var searchText = ""
     @State private var hoveredSymbol: String?
     @State private var sortKey: SortKey = .symbol
     @State private var sortAscending = true
+    @State private var alertSymbol: String?
 
     enum SortKey: String {
         case symbol, ltp, change, percent, volume
@@ -200,29 +202,177 @@ struct StockPanel: View {
 
     // MARK: - Stock List
 
+    private var favoriteStocks: [StockQuote] {
+        filteredStocks.filter { settings.isStockFavorite($0.symbol) }
+    }
+
+    private var regularStocks: [StockQuote] {
+        filteredStocks.filter { !settings.isStockFavorite($0.symbol) }
+    }
+
     private var stockList: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            LazyVStack(spacing: 1) {
-                ForEach(Array(filteredStocks.enumerated()), id: \.element.id) { idx, stock in
-                    let isFav = settings.isStockFavorite(stock.symbol)
-                    if idx > 0 && !isFav && settings.isStockFavorite(filteredStocks[idx - 1].symbol) {
-                        Divider().padding(.vertical, 1)
+            LazyVStack(spacing: 2) {
+                if !favoriteStocks.isEmpty {
+                    ForEach(favoriteStocks) { stock in
+                        favoriteCard(stock)
                     }
-                    stockRow(stock, isEven: idx.isMultiple(of: 2), isFavorite: isFav)
+                    if !regularStocks.isEmpty {
+                        Divider().padding(.vertical, 4)
+                    }
+                }
+                ForEach(Array(regularStocks.enumerated()), id: \.element.id) { idx, stock in
+                    stockRow(stock, isEven: idx.isMultiple(of: 2))
                 }
             }
         }
     }
 
-    private func stockRow(_ stock: StockQuote, isEven: Bool, isFavorite: Bool) -> some View {
+    // MARK: - Favorite Card
+
+    private func favoriteCard(_ stock: StockQuote) -> some View {
         let isHovered = hoveredSymbol == stock.symbol
         let dir = stock.direction
+        let color = directionColor(dir)
+        let hasAlert = alertStore.hasAlert(for: stock.symbol)
+
+        return VStack(alignment: .leading, spacing: 0) {
+            // Top row: symbol + LTP
+            HStack(alignment: .top) {
+                HStack(spacing: 6) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 6)
+                            .fill(color.opacity(0.15))
+                            .frame(width: 28, height: 28)
+                        Text(String(stock.symbol.prefix(2)))
+                            .font(.system(size: 11, weight: .black, design: .rounded))
+                            .foregroundStyle(color)
+                    }
+                    VStack(alignment: .leading, spacing: 1) {
+                        HStack(spacing: 4) {
+                            Text(stock.symbol)
+                                .font(.system(size: 13, weight: .bold))
+                            if hasAlert {
+                                Image(systemName: "bell.fill")
+                                    .font(.system(size: 8))
+                                    .foregroundStyle(.orange)
+                            }
+                        }
+                        HStack(spacing: 3) {
+                            Circle().fill(color).frame(width: 5, height: 5)
+                            Text(dir == .up ? "Gaining" : dir == .down ? "Losing" : "Unchanged")
+                                .font(.system(size: 9))
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                }
+
+                Spacer()
+
+                VStack(alignment: .trailing, spacing: 2) {
+                    Text("Rs \(formatPrice(stock.ltp))")
+                        .font(.system(size: 15, weight: .bold, design: .monospaced))
+                    changePill(stock)
+                }
+            }
+
+            // Stats grid
+            HStack(spacing: 0) {
+                statCell(label: "Change", value: formatChange(stock.pointChange), color: color)
+                statCell(label: "% Change", value: formatChange(stock.percentChange) + "%", color: color)
+                statCell(label: "Volume", value: formatVolume(stock.volume), color: .secondary)
+                statCell(label: "Prev Close", value: formatPrice(stock.prevClose), color: .secondary)
+            }
+            .padding(.top, 8)
+
+            // OHLC bar
+            HStack(spacing: 0) {
+                ohlcCell(label: "Open", value: stock.open)
+                ohlcCell(label: "High", value: stock.high)
+                ohlcCell(label: "Low", value: stock.low)
+            }
+            .padding(.top, 6)
+
+            // Action row
+            HStack(spacing: 8) {
+                Button { settings.toggleFavoriteStock(stock.symbol) } label: {
+                    HStack(spacing: 3) {
+                        Image(systemName: "star.slash.fill")
+                            .font(.system(size: 8))
+                        Text("Unfavorite")
+                            .font(.system(size: 9, weight: .medium))
+                    }
+                    .foregroundStyle(.yellow)
+                }
+                .buttonStyle(.plain)
+
+                Spacer()
+            }
+            .padding(.top, 8)
+        }
+        .padding(10)
+        .contentShape(Rectangle())
+        .onTapGesture { alertSymbol = stock.symbol }
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(
+                    LinearGradient(
+                        colors: [color.opacity(isHovered ? 0.10 : 0.06),
+                                 color.opacity(isHovered ? 0.04 : 0.02)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing)
+                )
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(color.opacity(0.15), lineWidth: 1)
+        )
+        .onHover { hoveredSymbol = $0 ? stock.symbol : nil }
+        .popover(isPresented: Binding(
+            get: { alertSymbol == stock.symbol },
+            set: { if !$0 { alertSymbol = nil } }
+        ), arrowEdge: .trailing) {
+            StockAlertPopover(stock: stock) { alertSymbol = nil }
+        }
+    }
+
+    private func statCell(label: String, value: String, color: Color) -> some View {
+        VStack(spacing: 2) {
+            Text(label)
+                .font(.system(size: 8, weight: .semibold))
+                .foregroundStyle(.tertiary)
+                .textCase(.uppercase)
+            Text(value)
+                .font(.system(size: 11, weight: .semibold, design: .monospaced))
+                .foregroundStyle(color)
+        }
+        .frame(maxWidth: .infinity)
+    }
+
+    private func ohlcCell(label: String, value: Double) -> some View {
+        HStack(spacing: 3) {
+            Text(label)
+                .font(.system(size: 8, weight: .medium))
+                .foregroundStyle(.tertiary)
+            Text(formatPrice(value))
+                .font(.system(size: 9, weight: .medium, design: .monospaced))
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+    }
+
+    // MARK: - Regular Row
+
+    private func stockRow(_ stock: StockQuote, isEven: Bool) -> some View {
+        let isHovered = hoveredSymbol == stock.symbol
+        let dir = stock.direction
+        let hasAlert = alertStore.hasAlert(for: stock.symbol)
 
         return HStack(spacing: 0) {
             Button { settings.toggleFavoriteStock(stock.symbol) } label: {
-                Image(systemName: isFavorite ? "star.fill" : "star")
+                Image(systemName: "star")
                     .font(.system(size: 9))
-                    .foregroundStyle(isFavorite ? .yellow : .secondary.opacity(0.25))
+                    .foregroundStyle(.secondary.opacity(0.25))
             }
             .buttonStyle(.plain)
             .frame(width: 20)
@@ -234,6 +384,11 @@ struct StockPanel: View {
                 Text(stock.symbol)
                     .font(.system(size: 11, weight: .semibold))
                     .lineLimit(1)
+                if hasAlert {
+                    Image(systemName: "bell.fill")
+                        .font(.system(size: 7))
+                        .foregroundStyle(.orange)
+                }
                 Spacer()
             }
             .frame(maxWidth: .infinity)
@@ -257,16 +412,21 @@ struct StockPanel: View {
         }
         .padding(.horizontal, 4)
         .padding(.vertical, 5)
+        .contentShape(Rectangle())
+        .onTapGesture { alertSymbol = stock.symbol }
         .background(
             RoundedRectangle(cornerRadius: 4)
-                .fill(isFavorite
-                    ? Color.yellow.opacity(isHovered ? 0.10 : 0.04)
-                    : (isHovered
-                        ? Color.accentColor.opacity(0.10)
-                        : (isEven ? Color.secondary.opacity(0.03) : Color.clear)))
+                .fill(isHovered
+                    ? Color.accentColor.opacity(0.10)
+                    : (isEven ? Color.secondary.opacity(0.03) : Color.clear))
         )
         .onHover { hoveredSymbol = $0 ? stock.symbol : nil }
-        .help("O: \(formatPrice(stock.open))  H: \(formatPrice(stock.high))  L: \(formatPrice(stock.low))  PC: \(formatPrice(stock.prevClose))")
+        .popover(isPresented: Binding(
+            get: { alertSymbol == stock.symbol },
+            set: { if !$0 { alertSymbol = nil } }
+        ), arrowEdge: .trailing) {
+            StockAlertPopover(stock: stock) { alertSymbol = nil }
+        }
     }
 
     private func changePill(_ stock: StockQuote) -> some View {
@@ -312,13 +472,33 @@ struct StockPanel: View {
     // MARK: - State Views
 
     private var loadingView: some View {
-        VStack(spacing: 8) {
-            Spacer()
-            ProgressView().controlSize(.small)
-            Text("Loading market data…").font(.caption).foregroundStyle(.secondary)
-            Spacer()
+        VStack(spacing: 2) {
+            ForEach(0..<8, id: \.self) { i in
+                skeletonStockRow(isEven: i.isMultiple(of: 2))
+            }
         }
-        .frame(maxWidth: .infinity)
+    }
+
+    private func skeletonStockRow(isEven: Bool) -> some View {
+        HStack(spacing: 0) {
+            SkeletonBox(width: 12, height: 12).frame(width: 20)
+            HStack(spacing: 4) {
+                SkeletonBox(width: 5, height: 5, radius: 2.5)
+                SkeletonBox(width: .random(in: 40...70), height: 10)
+                Spacer()
+            }
+            .frame(maxWidth: .infinity)
+            SkeletonBox(width: 55, height: 10).frame(maxWidth: .infinity, alignment: .trailing)
+            SkeletonBox(width: 40, height: 16, radius: 8).frame(maxWidth: .infinity, alignment: .trailing)
+            SkeletonBox(width: 35, height: 10).frame(maxWidth: .infinity, alignment: .trailing)
+            SkeletonBox(width: 30, height: 10).frame(maxWidth: .infinity, alignment: .trailing)
+        }
+        .padding(.horizontal, 4)
+        .padding(.vertical, 5)
+        .background(
+            RoundedRectangle(cornerRadius: 4)
+                .fill(isEven ? Color.secondary.opacity(0.03) : Color.clear)
+        )
     }
 
     private func errorView(_ error: String) -> some View {
@@ -356,5 +536,201 @@ struct StockPanel: View {
         if value >= 1_000_000 { return String(format: "%.1fM", value / 1_000_000) }
         if value >= 1_000 { return String(format: "%.1fK", value / 1_000) }
         return String(format: "%.0f", value)
+    }
+}
+
+// MARK: - Alert Popover
+
+private struct StockAlertPopover: View {
+    let stock: StockQuote
+    var onDismiss: () -> Void
+    @ObservedObject private var alertStore = StockAlertStore.shared
+    @ObservedObject private var tms = TMSStore.shared
+    @State private var upperText = ""
+    @State private var lowerText = ""
+    @State private var enabled = true
+    @State private var showTMS = false
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(spacing: 6) {
+                Image(systemName: "bell.badge.fill")
+                    .font(.system(size: 13))
+                    .foregroundStyle(.orange)
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(stock.symbol)
+                        .font(.system(size: 13, weight: .bold))
+                    Text("LTP: Rs \(String(format: "%.2f", stock.ltp))")
+                        .font(.system(size: 10, design: .monospaced))
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                if alertStore.hasAlert(for: stock.symbol) {
+                    Button {
+                        alertStore.removeAlert(for: stock.symbol)
+                        onDismiss()
+                    } label: {
+                        Image(systemName: "trash")
+                            .font(.system(size: 10))
+                            .foregroundStyle(.red)
+                    }
+                    .buttonStyle(.plain)
+                    .help("Remove alert")
+                }
+            }
+
+            Divider()
+
+            HStack(spacing: 6) {
+                Image(systemName: "arrow.up.circle.fill")
+                    .font(.system(size: 12))
+                    .foregroundStyle(.green)
+                Text("Notify if above")
+                    .font(.system(size: 11))
+                Spacer()
+                TextField("Price", text: $upperText)
+                    .textFieldStyle(.plain)
+                    .font(.system(size: 12, weight: .medium, design: .monospaced))
+                    .multilineTextAlignment(.trailing)
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 4)
+                    .background(
+                        RoundedRectangle(cornerRadius: 5)
+                            .fill(Color.green.opacity(0.06))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 5)
+                            .stroke(Color.green.opacity(0.2), lineWidth: 1)
+                    )
+                    .frame(width: 90)
+            }
+
+            HStack(spacing: 6) {
+                Image(systemName: "arrow.down.circle.fill")
+                    .font(.system(size: 12))
+                    .foregroundStyle(.red)
+                Text("Notify if below")
+                    .font(.system(size: 11))
+                Spacer()
+                TextField("Price", text: $lowerText)
+                    .textFieldStyle(.plain)
+                    .font(.system(size: 12, weight: .medium, design: .monospaced))
+                    .multilineTextAlignment(.trailing)
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 4)
+                    .background(
+                        RoundedRectangle(cornerRadius: 5)
+                            .fill(Color.red.opacity(0.06))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 5)
+                            .stroke(Color.red.opacity(0.2), lineWidth: 1)
+                    )
+                    .frame(width: 90)
+            }
+
+            HStack {
+                Toggle("Enabled", isOn: $enabled)
+                    .toggleStyle(.switch)
+                    .controlSize(.mini)
+                    .font(.system(size: 10))
+
+                Spacer()
+
+                Button {
+                    let alert = StockAlert(
+                        symbol: stock.symbol,
+                        upperBound: Double(upperText),
+                        lowerBound: Double(lowerText),
+                        enabled: enabled
+                    )
+                    alertStore.setAlert(alert)
+                    onDismiss()
+                } label: {
+                    Text("Save")
+                        .font(.system(size: 11, weight: .semibold))
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 14)
+                        .padding(.vertical, 4)
+                        .background(Capsule().fill(Color.orange))
+                }
+                .buttonStyle(.plain)
+            }
+
+            Divider()
+
+            // TMS Order
+            Button { showTMS = true } label: {
+                HStack(spacing: 6) {
+                    Image(systemName: "building.columns.fill")
+                        .font(.system(size: 11))
+                        .foregroundStyle(.indigo)
+                    Text(tms.isConnected ? "Place Buy/Sell Order" : "Connect TMS to Trade")
+                        .font(.system(size: 11, weight: .semibold))
+                        .foregroundStyle(.indigo)
+                    Spacer()
+                    if tms.isConnected {
+                        Circle().fill(.green).frame(width: 6, height: 6)
+                    }
+                    Image(systemName: "chevron.right")
+                        .font(.system(size: 8, weight: .bold))
+                        .foregroundStyle(.tertiary)
+                }
+                .padding(8)
+                .background(
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color.indigo.opacity(0.06))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(Color.indigo.opacity(0.15), lineWidth: 1)
+                )
+            }
+            .buttonStyle(.plain)
+            .sheet(isPresented: $showTMS) {
+                TMSLoginView()
+            }
+        }
+        .padding(12)
+        .frame(width: 280)
+        .onAppear {
+            if let existing = alertStore.alert(for: stock.symbol) {
+                upperText = existing.upperBound.map { String(format: "%.2f", $0) } ?? ""
+                lowerText = existing.lowerBound.map { String(format: "%.2f", $0) } ?? ""
+                enabled = existing.enabled
+            }
+        }
+    }
+}
+
+// MARK: - Skeleton Shimmer
+
+struct SkeletonBox: View {
+    var width: CGFloat
+    var height: CGFloat
+    var radius: CGFloat = 4
+    @State private var shimmer = false
+
+    var body: some View {
+        RoundedRectangle(cornerRadius: radius)
+            .fill(Color.secondary.opacity(0.12))
+            .frame(width: width, height: height)
+            .overlay(
+                RoundedRectangle(cornerRadius: radius)
+                    .fill(
+                        LinearGradient(
+                            colors: [.clear, Color.white.opacity(0.2), .clear],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
+                    )
+                    .offset(x: shimmer ? width : -width)
+            )
+            .clipShape(RoundedRectangle(cornerRadius: radius))
+            .onAppear {
+                withAnimation(.linear(duration: 1.2).repeatForever(autoreverses: false)) {
+                    shimmer = true
+                }
+            }
     }
 }

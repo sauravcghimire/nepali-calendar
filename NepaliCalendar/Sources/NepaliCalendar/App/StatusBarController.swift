@@ -1,15 +1,15 @@
 import AppKit
+import Combine
 import SwiftUI
 
-/// Owns the NSStatusItem (the menu-bar icon) and a panel that shows the
-/// full calendar. The title text is refreshed on launch and every 10 minutes
-/// so it always reflects today's Nepali date.
 final class StatusBarController: NSObject {
     private let statusItem: NSStatusItem
     private let panel: NSPanel
     private let hostingView: NSHostingView<CalendarView>
     private var refreshTimer: Timer?
-    private var eventMonitor: Any?
+
+    private var bannerPanels: [NSPanel] = []
+    private var bannerSub: AnyCancellable?
 
     override init() {
         self.statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
@@ -19,7 +19,7 @@ final class StatusBarController: NSObject {
 
         let panel = NSPanel(
             contentRect: .zero,
-            styleMask: [.nonactivatingPanel, .titled, .fullSizeContentView],
+            styleMask: [.nonactivatingPanel, .titled, .closable, .fullSizeContentView],
             backing: .buffered,
             defer: true
         )
@@ -27,7 +27,8 @@ final class StatusBarController: NSObject {
         panel.level = .mainMenu + 1
         panel.titleVisibility = .hidden
         panel.titlebarAppearsTransparent = true
-        panel.isMovable = false
+        panel.isMovableByWindowBackground = true
+        panel.isMovable = true
         panel.isOpaque = false
         panel.backgroundColor = .windowBackgroundColor
         panel.hasShadow = true
@@ -44,6 +45,83 @@ final class StatusBarController: NSObject {
         refreshTimer = Timer.scheduledTimer(withTimeInterval: 600, repeats: true) { [weak self] _ in
             self?.refreshTitle()
         }
+
+        bannerSub = StockAlertStore.shared.$pendingNotifications
+            .receive(on: RunLoop.main)
+            .sink { [weak self] notifs in
+                if notifs.isEmpty {
+                    self?.hideBanners()
+                } else {
+                    self?.showBannersOnAllScreens()
+                }
+            }
+    }
+
+    // MARK: - Banner Management
+
+    private func makeBannerPanel() -> NSPanel {
+        let bp = NSPanel(
+            contentRect: .zero,
+            styleMask: [.nonactivatingPanel, .fullSizeContentView],
+            backing: .buffered,
+            defer: true
+        )
+        bp.isFloatingPanel = true
+        bp.level = .screenSaver
+        bp.titleVisibility = .hidden
+        bp.titlebarAppearsTransparent = true
+        bp.isMovable = false
+        bp.isOpaque = false
+        bp.backgroundColor = .clear
+        bp.hasShadow = false
+
+        let bannerView = NSHostingView(rootView:
+            StockBannerView { [weak self] in
+                self?.showMainPanel()
+            }
+            .frame(width: 340)
+        )
+        bp.contentView = bannerView
+        return bp
+    }
+
+    private func showBannersOnAllScreens() {
+        let screens = NSScreen.screens
+        // Add panels if we need more
+        while bannerPanels.count < screens.count {
+            bannerPanels.append(makeBannerPanel())
+        }
+
+        for (i, screen) in screens.enumerated() {
+            let bp = bannerPanels[i]
+            let visible = screen.visibleFrame
+            let w: CGFloat = 360
+            let h: CGFloat = 260
+            let x = visible.maxX - w - 12
+            let y = visible.maxY - h - 8
+            bp.setFrame(NSRect(x: x, y: y, width: w, height: h), display: true)
+            bp.orderFrontRegardless()
+        }
+
+        // Hide extra panels if screens were removed
+        for i in screens.count..<bannerPanels.count {
+            bannerPanels[i].orderOut(nil)
+        }
+    }
+
+    private func hideBanners() {
+        for bp in bannerPanels {
+            bp.orderOut(nil)
+        }
+    }
+
+    // MARK: - Main Panel
+
+    private func showMainPanel() {
+        refreshTitle()
+        positionPanel()
+        panel.makeKeyAndOrderFront(nil)
+        NSApp.activate(ignoringOtherApps: true)
     }
 
     func refreshTitle() {
@@ -103,13 +181,8 @@ final class StatusBarController: NSObject {
     @objc private func togglePanel(_ sender: Any?) {
         if panel.isVisible {
             panel.orderOut(nil)
-            stopMonitoringOutsideClicks()
         } else {
-            refreshTitle()
-            positionPanel()
-            panel.makeKeyAndOrderFront(nil)
-            NSApp.activate(ignoringOtherApps: true)
-            startMonitoringOutsideClicks()
+            showMainPanel()
         }
     }
 
@@ -120,33 +193,22 @@ final class StatusBarController: NSObject {
 
         let buttonRect = buttonWindow.convertToScreen(
             button.convert(button.bounds, to: nil))
-        let size = hostingView.fittingSize
-        let screenFrame = screen.frame
+        let fittingSize = hostingView.fittingSize
+        let visible = screen.visibleFrame
+        let padding: CGFloat = 4
 
-        let x = max(screenFrame.minX + 4,
-                    min(buttonRect.midX - size.width / 2,
-                        screenFrame.maxX - size.width - 4))
-        // Vertically: directly below the menu bar
-        let y = buttonRect.minY - size.height
+        let maxW = visible.width - padding * 2
+        let maxH = visible.height - padding * 2
+        let w = min(fittingSize.width, maxW)
+        let h = min(fittingSize.height, maxH)
 
-        panel.setFrame(NSRect(x: x, y: y, width: size.width, height: size.height),
+        let x = max(visible.minX + padding,
+                    min(buttonRect.midX - w / 2,
+                        visible.maxX - w - padding))
+        let y = max(visible.minY + padding,
+                    buttonRect.minY - h)
+
+        panel.setFrame(NSRect(x: x, y: y, width: w, height: h),
                        display: true)
-    }
-
-    private func startMonitoringOutsideClicks() {
-        eventMonitor = NSEvent.addGlobalMonitorForEvents(
-            matching: [.leftMouseDown, .rightMouseDown]
-        ) { [weak self] _ in
-            guard let self else { return }
-            if self.panel.isVisible { self.panel.orderOut(nil) }
-            self.stopMonitoringOutsideClicks()
-        }
-    }
-
-    private func stopMonitoringOutsideClicks() {
-        if let m = eventMonitor {
-            NSEvent.removeMonitor(m)
-            eventMonitor = nil
-        }
     }
 }

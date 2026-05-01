@@ -17,9 +17,8 @@ struct CalendarView: View {
         HStack(alignment: .top, spacing: 0) {
             // Left: stocks
             if settings.showStocks {
-                VStack {
+                ScrollView(.vertical, showsIndicators: false) {
                     StockPanel()
-                    Spacer(minLength: 0)
                 }
                 .frame(width: 390, height: calendarHeight)
                 .padding(14)
@@ -37,19 +36,21 @@ struct CalendarView: View {
                           selectedDay: $model.selectedDay,
                           todayAD: model.today)
 
-                Divider()
-
-                EventsPanel(bsYear: model.bsYear,
-                            bsMonth: model.bsMonth,
-                            bsDay: model.selectedDay)
-
-                if settings.showHoroscope {
+                if let day = model.selectedDay {
                     Divider()
 
-                    HoroscopeRow(bsYear: model.bsYear,
-                                 bsMonth: model.bsMonth,
-                                 bsDay: model.selectedDay)
-                        .environmentObject(settings)
+                    EventsPanel(bsYear: model.bsYear,
+                                bsMonth: model.bsMonth,
+                                bsDay: day)
+
+                    if settings.showHoroscope {
+                        Divider()
+
+                        HoroscopeRow(bsYear: model.bsYear,
+                                     bsMonth: model.bsMonth,
+                                     bsDay: day)
+                            .environmentObject(settings)
+                    }
                 }
 
                 Divider()
@@ -58,15 +59,6 @@ struct CalendarView: View {
 
                 // Footer
                 HStack(spacing: 6) {
-                    Button {
-                        model.jumpToToday()
-                    } label: {
-                        Label("Today", systemImage: "calendar.badge.clock")
-                            .font(.caption)
-                    }
-                    .buttonStyle(.bordered)
-                    .controlSize(.small)
-
                     Toggle(isOn: Binding(
                         get: { loginItem.isEnabled },
                         set: { loginItem.setEnabled($0) }
@@ -104,9 +96,8 @@ struct CalendarView: View {
             if settings.showForex {
                 Divider()
 
-                VStack {
+                ScrollView(.vertical, showsIndicators: false) {
                     ForexPanel()
-                    Spacer(minLength: 0)
                 }
                 .frame(width: 260, height: calendarHeight)
                 .padding(14)
@@ -214,6 +205,15 @@ struct CalendarView: View {
             }
 
             Spacer()
+
+            Button {
+                model.jumpToToday()
+            } label: {
+                Label("Today", systemImage: "calendar.badge.clock")
+                    .font(.caption)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.small)
         }
     }
 
@@ -327,9 +327,14 @@ private struct EventsPanel: View {
 final class CalendarViewModel: ObservableObject {
     @Published var bsYear: Int
     @Published var bsMonth: Int
-    @Published var selectedDay: Int
+    @Published var selectedDay: Int?
 
     let today: (bsYear: Int, bsMonth: Int, bsDay: Int)?
+
+    var isCurrentMonth: Bool {
+        guard let t = today else { return false }
+        return t.bsYear == bsYear && t.bsMonth == bsMonth
+    }
 
     init() {
         let store = CalendarStore.shared
@@ -340,11 +345,10 @@ final class CalendarViewModel: ObservableObject {
             self.selectedDay = t.bsDay
         } else {
             self.today = nil
-            // Fallback to the first available (year, month) in the bundle
             let y = store.availableYears.first ?? 2082
             self.bsYear = y
             self.bsMonth = 1
-            self.selectedDay = 1
+            self.selectedDay = nil
         }
     }
 
@@ -368,8 +372,11 @@ final class CalendarViewModel: ObservableObject {
     func step(by delta: Int) {
         if let (y, m) = CalendarStore.shared.step(bsYear: bsYear, bsMonth: bsMonth, by: delta) {
             bsYear = y; bsMonth = m
-            selectedDay = min(selectedDay, CalendarStore.shared.days(bsYear: y, bsMonth: m).count)
-            if selectedDay < 1 { selectedDay = 1 }
+            if let t = today, t.bsYear == y, t.bsMonth == m {
+                selectedDay = t.bsDay
+            } else {
+                selectedDay = nil
+            }
         }
     }
 

@@ -4,8 +4,7 @@ import SwiftUI
 struct MonthGrid: View {
     let bsYear: Int
     let bsMonth: Int
-    /// Selected day in this month (1-based). Binding so the parent can react to taps.
-    @Binding var selectedDay: Int
+    @Binding var selectedDay: Int?
 
     /// AD date of "today" in Kathmandu — used to draw the "today" indicator.
     let todayAD: (bsYear: Int, bsMonth: Int, bsDay: Int)?

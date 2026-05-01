@@ -78,6 +78,8 @@ final class StockStore: ObservableObject {
                 self.lastFetched = Date()
                 if self.stocks.isEmpty {
                     self.error = "No trading data found"
+                } else {
+                    StockAlertStore.shared.checkAlerts(stocks: self.stocks)
                 }
             }
         }.resume()
